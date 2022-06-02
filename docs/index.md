@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Welcome to the Biomedical Data Translator - Developer Documentation Site
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the primary "developer" software development documentation site for the [Biomedical Data Translator](https://ncats.nih.gov/translator) project [("Translator"; Fecho _et al,_ 2022)](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301) of the [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov).
 
-## Commands
+## Mission of the Biomedical Knowledge Translator 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Introduction ...
 
-## Project layout
+* (link out to NCATS, etc.) - link to the manuscripts, and the figures in the paper (Kara)
+* with link outs to project materials
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Overview of the documentation
+
+* [Architecture](architecture/index.md)
+* [Guide for Developers](guide-for-developers)
+* [About Translator](about/index.md)
+
+## Other Developer Resources
+
+* [Frequently Asked Questions (FAQ)](faq.md)

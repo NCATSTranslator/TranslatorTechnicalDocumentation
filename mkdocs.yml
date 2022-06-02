@@ -1,1 +1,17 @@
-site_name: My Docs
+site_name: Translator Developer Documentation
+#site_url: https://developers.translator.ncats.io
+
+nav:
+    - Home: index.md
+    - Architecture:
+        - architecture/index.md
+    - 'User Guide':
+        - guide-for-developers/index.md
+        - Quick Start: guide-for-developers/quickstart.md
+        - Tutorial: guide-for-developers/tutorial.md
+    - About:
+        - about/index.md
+        - License: about/license.md
+        - 'Frequently Asked Questions': faq.md
+
+theme: readthedocs
