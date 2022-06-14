@@ -16,4 +16,8 @@
 
 ## Shared libraries, tools and services
 
-T.B.A.
+We should link out to the existing documentation.
+
+* Node Normalizer
+* Ontology graph
+* etc.
