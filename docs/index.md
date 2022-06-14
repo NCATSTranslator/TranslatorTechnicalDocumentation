@@ -9,6 +9,9 @@ Introduction ... (Nomi)
 * (link out to NCATS, etc.) - link to the manuscripts, and the figures in the paper (Kara)
 * with link outs to project materials (everyone)
 
+1. Global scientific use cases  (Kara)
+2. Example uses
+
 ## Overview of the documentation
 
 * [Architecture](architecture/index.md)
