@@ -10,7 +10,7 @@ The whole point behind knowledge graphs and their manipulation (Sierra)
 
 T.B.A. (Tim)
 
-## Components
+## Components (Richard)
 
 We should link out directly to the teams for every KP and ARA,  etc. ([see inventory on Google sheet](https://docs.google.com/spreadsheets/d/1qG9RDJ64pHBoRxAOL3B1OGuQ8GxU2KIicnXE2hpe4_s/edit#gid=0))
 
