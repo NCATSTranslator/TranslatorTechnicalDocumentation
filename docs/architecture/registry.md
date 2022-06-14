@@ -1,6 +1,6 @@
 # Translator SmartAPI Registry
 
-Ask Chunlei for ??
+Ask Chunlei to help with more Translator-specific docs or link outs for the registry
 
 * [Translator SmartAPI Registry Portal](https://smart-api.info/portal/translator)
 
