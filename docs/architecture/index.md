@@ -4,12 +4,11 @@
 
 ## Core Knowledge Graph principles
 
-1. Global scientific use cases
-2. Example uses
+The whole point behind knowledge graphs and their manipulation (Sierra)
 
 ## System design (overview)
 
-T.B.A.
+T.B.A. (Tim)
 
 ## Components
 
