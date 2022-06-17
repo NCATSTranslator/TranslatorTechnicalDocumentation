@@ -9,11 +9,21 @@ Introduction ... (Nomi)
 * (link out to NCATS, etc.) - link to the manuscripts, and the figures in the paper (Kara)
 * with link outs to project materials (everyone)
 
+1. Global scientific use cases  (Kara)
+2. Example uses
+
 ## Overview of the documentation
 
 * [Architecture](architecture/index.md)
 * [Guide for Developers](guide-for-developers)
 * [About Translator](about/index.md)
+
+
+## Joining the Community as a Developer
+
+* What are the mandatory technical requirements of having your stuff in Translator (Minimal standards; QA)
+* How do keep quality assurance / gatekeeping in place; rubber stamping; governance; vetting process for new internal KP's etc.  - Governance issues?
+
 
 ## Other Developer Resources
 
