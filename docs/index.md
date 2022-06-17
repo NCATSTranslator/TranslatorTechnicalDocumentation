@@ -27,4 +27,4 @@ Introduction ... (Nomi)
 
 ## Other Developer Resources
 
-* [Frequently Asked Questions (FAQ)](faq.md)  (everyone)
+* [Frequently Asked Questions (FAQ)](faq.md) (everyone)
