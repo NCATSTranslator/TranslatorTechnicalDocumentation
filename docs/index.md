@@ -4,9 +4,9 @@ This is the primary "developer" software development documentation site for the 
 
 ## Background and History
 
-The Biomedical Data Translator (‘Translator’) program was launched by the National Center for Advancing Translational Sciences (NCATS) in Fall of 2016. The vision of the Translator program is to accelerate translational science “through an informatics platform that enables interrogation of relationships across the full spectrum of data types” (Fecho et al. 2022). The goal is to build the infrastructure required to support and facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by translational researchers. A fundamental tenet of the Translator program is open data, including open patient data, and open team science.
+The Biomedical Data Translator (‘Translator’) program was launched by the National Center for Advancing Translational Sciences (NCATS) in Fall of 2016. The vision of the Translator program is to accelerate translational science “through an informatics platform that enables interrogation of relationships across the full spectrum of data types” (Fecho et al. 2022). The goal is to build the infrastructure required to support and facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by translational researchers. A fundamental tenet of the Translator program is open data, including open (de-identified) patient data, and open team science.
 
-The Biomedical Data Translator Consortium was established roughly one year after launch and is working collaboratively to realize the vision of the Translator program. The Translator consortium is currently comprised of ~215 team members and 27 institutions. Of note, the program is funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism, although an NIH contract was awarded recently to support development of a Translator user interface (UI).
+The Biomedical Data Translator Consortium is working collaboratively to realize the vision of the Translator program. The Translator Consortium is currently comprised of ~215 team members and 27 institutions. The program is funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism. In addition, an NIH contract was awarded recently to support development of a Translator user interface (UI).
 
 An overview of the Translator timeline, in the context of key milestones and award funding, is depicted below.
 
@@ -24,7 +24,7 @@ In brief, the Translator system is comprised of five main components, shown in t
 
 ## Example Use Case Application
 
-This example use case application is intended to provide a high-level overview of how to translate a user question into a Translator Reasoner Standard API (TRAPI) query, execute a TRAPI query, and evaluate results. The specific use case question is what drugs treat chronic pain?
+This example use case application is intended to provide a high-level overview of how to translate a user question into a Translator Reasoner Standard API (TRAPI) query, execute a TRAPI query, and evaluate results. The specific use case question is: what drugs treat chronic pain?
 
 Shown below is the translation of that user question into a TRAPI query.
 
@@ -42,7 +42,7 @@ This sort of serendipitous discovery, or unexpected insight, represents the type
 
 Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, and drug-induced liver injury.
 
-## Summary of Key Technical Achievements
+## Key Technical Achievements
 
 - **Common Queries**: TRAPI has been adopted as an API standard to support query across Translator components
 - **Common Semantics**: Biolink Model (Unni et al. 2022) has been adopted as a standard upper-level ontology to support semantic harmonization across disparate ontologies and data/knowledge sources
@@ -62,8 +62,8 @@ Translator is currently being used to promote serendipitous discovery and augmen
 1.	Austin CP, Colvis, CM, Southall NT. Deconstructing the translational tower of babel. Clin Transl Sci 2019;12(2):85. doi: 10.1111/cts.12595. https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.12595 
 2.	The Biomedical Data Translator Consortium. Toward a universal biomedical data translator. Clin Transl Sci 2019a;12(2):91–94. doi: 10.1111/cts.12592. https://pubmed.ncbi.nlm.nih.gov/30412337/ 
 3.	The Biomedical Data Translator Consortium. The Biomedical Data Translator program: conception, culture, and community. Clin Transl Sci 2019b;12(2):86–90. doi: 10.1111/cts.13021. https://pubmed.ncbi.nlm.nih.gov/30412340/ 
-4.	Fecho K, Thessen AE, Baranzini SE, et al. and The Biomedical Data Translator Consortium. Progress toward a universal biomedical data translator. Clin Transl Sci, in press. doi: 10.1111/cts.13301. https://pubmed.ncbi.nlm.nih.gov/35611543/ 
-5.	Unni DR, Moxon SAT, Bada M, et al. and the Biomedical Data Translator Consortium. Biolink model: a universal schema for knowledge graphs in clinical, biomedical, and translational science. Clin Transl Sci, in press. doi: 10.1111/cts.13302. https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.13302 
+4.	Fecho K, Thessen AE, Baranzini SE, et al. and The Biomedical Data Translator Consortium. Progress toward a universal biomedical data translator. Clin Transl Sci, 2022 Jun 6. doi: 10.1111/cts.13301. https://pubmed.ncbi.nlm.nih.gov/35611543/ 
+5.	Unni DR, Moxon SAT, Bada M, et al. and the Biomedical Data Translator Consortium. Biolink model: a universal schema for knowledge graphs in clinical, biomedical, and translational science. Clin Transl Sci, 2022 Jun 6;. doi: 10.1111/cts.13302. https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.13302 
 
 ## Overview of Technical Documentation
 
@@ -72,7 +72,7 @@ Translator is currently being used to promote serendipitous discovery and augmen
 * [About Translator](about/index.md)
 
 
-## Joining the Translator Community as a Developer
+## Joining the Translator Community as a Developer [draft]
 
 * What are the mandatory technical requirements of having your stuff in Translator (Minimal standards; QA)
 * How do keep quality assurance / gatekeeping in place; rubber stamping; governance; vetting process for new internal KP's etc.  - Governance issues?
