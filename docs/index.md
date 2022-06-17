@@ -1,4 +1,4 @@
-![image](../img/translator-banner.jpg)
+![image](img/translator-banner.jpg)
 
 # Welcome to Developer Documentation for the Biomedical Data Translator
 
