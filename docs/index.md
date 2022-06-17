@@ -40,14 +40,16 @@ This sort of serendipitous discovery, or unexpected insight, represents the type
 
 *Taken from Fecho et al. 2022, Figure 3*
 
-Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, and drug-induced liver injury.
+While the query provided here is simple and intended to be illustrative, more complex queries are possible using TRAPI and a variety of Translator operations and workflows. 
+
+In terms of impact, Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, and drug-induced liver injury.
 
 ## Summary of Key Technical Achievements
 
-- **Common Queries**: TRAPI has been adopted as an API standard to support query across Translator components
 - **Common Semantics**: Biolink Model (Unni et al. 2022) has been adopted as a standard upper-level ontology to support semantic harmonization across disparate ontologies and data/knowledge sources
 - **Entity Resolution**: SRI Name Resolution and Node Normalization services provide entity resolution to harmonize across disparate vocabularies and identifier systems
-- **Discoverability**: SmartAPI Registry provides a platform for discovering Translator tools and components, including metadata to explain what functionalities those services support
+- **Common Queries**: TRAPI has been adopted as an API standard to support query across Translator components
+- **Discoverability**: SmartAPI Registry provides a platform for discovering Translator tools and components, including metadata to explain what functionalities those components or services support
 
 ## Key Programmatic Priorities
 
