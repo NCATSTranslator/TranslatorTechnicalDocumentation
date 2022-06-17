@@ -17,7 +17,8 @@ nav:
     - 'User Guide':
         - Introduction: guide-for-developers/index.md
         - Quick Start: guide-for-developers/quickstart.md
-        - Tutorial: guide-for-developers/tutorial.md
+        - Tutorials:
+            - Overview: guide-for-developers/tutorials/index.md
         - The Full Monty...: guide-for-developers/details.md
     - About:
         - About Translator: about/index.md

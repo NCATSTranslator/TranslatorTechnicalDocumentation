@@ -3,7 +3,7 @@
 # Guide for Developers
 
 * [Quick Start](quickstart.md)
-* [Tutorial](tutorial.md)
+* [Tutorials](tutorials/index.md)
 * [The Full Monty...](details.md)
 
 ## Joining the Translator Community as a Developer

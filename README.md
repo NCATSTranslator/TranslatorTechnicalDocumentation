@@ -22,8 +22,22 @@ The following `mkdocs` commands are useful for the work:
 
 ### Project layout
 
+The Translator `mkdocs` documentation is hierarchically structured as follows:
+
     mkdocs.yml    # The configuration file.
     docs/
-        index.md  # The documentation homepage.
-        img/      # images
-        ...       # Other markdown pages, images and other files.
+        index.md  # the documentation homepage.
+        faq.md
+        img/      # shared images
+        architecture/  # overview of the Translator architecture
+            index.md
+            ...
+        guide-for-developers/
+            index.md   # specific hands-on developer documentation, tutorials directory
+            ...
+            tutorials/
+                index.md   # tutorials/cookbook pages
+                ...
+        about/
+            index.md  # project details about Translator
+            ...

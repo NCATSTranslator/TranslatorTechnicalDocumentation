@@ -1,3 +1,5 @@
+![image](../../img/translator-banner.jpg)
+
 # Tutorial / Cookbook / How to's
 
 * Brainstorm outline all of  the specific necessary technical and sociological steps requried to "plug into" the Translator ecosystem?
