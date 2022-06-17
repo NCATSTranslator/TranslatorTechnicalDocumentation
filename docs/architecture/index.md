@@ -1,6 +1,49 @@
+![image](../img/translator-banner.jpg)
+
 # Translator Architecture
 
+In brief, the Translator system is comprised of five main components, shown in the diagram below 
+([Fecho et al. 2022](../about/index.md#references)). Knowledge Providers (KPs) contribute domain-specific, high-value
+information abstracted from one or more underlying ‘knowledge sources’. Autonomous Relay Agents (ARAs) build upon the 
+knowledge contributed by KPs by way of reasoning and inference across KPs. The Autonomous Relay System (ARS) functions
+as a central relay station, is managed by NCATS, and is intended to broadcast user queries to the broader Translator
+ecosystem. A UI is under development but intended to serve as a public user interface to the Translator system.
+Finally, a Standards and Reference Implementation (SRI) Component provides services and community-based collaboration
+guidance related to the development, adoption, and implementation of the standards needed to achieve the overall
+implementation goals of the Translator system.
+
+![image](https://user-images.githubusercontent.com/26254388/174347804-0412fbd2-f61f-4573-8073-2408c3c41e15.png)
+
+**Figure 1**  ([Fecho _et al._ 2022](../about/index.md#references)).
+
 * https://github.com/NCATSTranslator/TranslatorArchitecture
+
+## Example Use Case Application
+
+This example use case application is intended to provide a high-level overview of how to translate a user question
+into a Translator Reasoner Standard API (TRAPI) query, execute a TRAPI query, and evaluate results.
+The specific use case question is what drugs treat chronic pain?
+
+Shown below is the translation of that user question into a TRAPI query.
+
+![image](https://user-images.githubusercontent.com/26254388/174348079-4bf2ff96-db8e-432e-ba5d-7c82475ec821.png)
+
+**Figure 2** ([Fecho _et al._ 2022](../about/index.md#references))
+
+In response to the query, Translator provided answers that are known to be treatments for chronic pain such as
+ibuprofen. Translator also provided answers that are correct but not terribly interesting or necessarily aligned with
+user intent such as caffeine (an adjuvant included in certain pain medication). Also included among Translator answers
+to the example query are answers such as naltrexone, an opioid antagonist. In support of naltrexone, Translator
+provided evidence and provenance indicating that naltrexone indeed may be used to treat chronic pain, as highlighted
+below. Translator evidence and provenance included ranked answers with scores, primary and secondary data sources
+behind any assertions, PMIDs and links to abstracts, etc. 
+
+This sort of serendipitous discovery, or unexpected insight, represents the type of scientific discovery that
+Translator aims to foster.
+
+![image](https://user-images.githubusercontent.com/26254388/174348255-2ba2d8d3-8f0e-4678-a4d1-997e299b4a1b.png)
+
+**Figure 3** ([Fecho _et al._ 2022](../about/index.md#references))
 
 ## Core Knowledge Graph principles
 
@@ -21,4 +64,6 @@ We should link out directly to the teams for every KP and ARA,  etc. ([see inven
 5. [KP](kp.md)
 6. [Translator SmartAPI Registry](registry.md)
 
-Tying together the above components are the activities and outputs of the Translator [Standards and Reference Implementation ("SRI")](sri.md) project team.
+Tying together the above components are the activities and outputs of the Translator
+[Standards and Reference Implementation ("SRI")](sri.md) project team.
+

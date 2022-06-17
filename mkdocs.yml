@@ -2,16 +2,26 @@ site_name: Translator Developer Documentation
 #site_url: https://developers.translator.ncats.io
 
 nav:
-    - Home: index.md
+    - Home:
+        - Overview: index.md
+        - Frequently Asked Questions: faq.md
     - Architecture:
-        - architecture/index.md
+        - Introduction: architecture/index.md
+        - User Interface: architecture/ui.md
+        - Autonomous Relay System: architecture/ars.md
+        - Workflow Runner: architecture/workflows.md
+        - Translator Registry: architecture/registry.md
+        - Autonomous Relay Agents: architecture/ara.md
+        - Knowledge Providers: architecture/kp.md
+        - Shared Standards and Tools: architecture/sri.md
     - 'User Guide':
-        - guide-for-developers/index.md
+        - Introduction: guide-for-developers/index.md
         - Quick Start: guide-for-developers/quickstart.md
         - Tutorial: guide-for-developers/tutorial.md
+        - The Full Monty...: guide-for-developers/details.md
     - About:
-        - about/index.md
+        - About Translator: about/index.md
         - License: about/license.md
-        - 'Frequently Asked Questions': faq.md
+        - Frequently Asked Questions: faq.md
 
 theme: readthedocs
