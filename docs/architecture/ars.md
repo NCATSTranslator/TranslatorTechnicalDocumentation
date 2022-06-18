@@ -74,3 +74,6 @@ You can also directly access your query result by providing the run ID with the 
 # Additional Resources
 
 * [Walk-through to query the ARS and retrieve results using the ARAX web interface](https://docs.google.com/document/d/1_a4gE_lY-2oZTrdFMtaZ_pxqNgd-x_1ZYI7hRGfFjng)
+* [Testing Repo & NCATS standup queries/issues](https://github.com/NCATSTranslator/testing)
+* [NCATS Translator GitHub Organization](https://github.com/NCATSTranslator)
+* [Data Gaps](https://github.com/NCATSTranslator/DataGaps)
