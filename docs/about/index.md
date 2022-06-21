@@ -49,9 +49,9 @@ Translator is intended to evolve into a global public good through open source a
 
 ## Consortium Teams & Funding (June 2022)
 
-- **NCATS Project Management:** Link Brokers
+- [**Autonomous Relay System, Link Brokers Team**](../architecture/ars.md) ( NCATS Intramural Funding ZIA TR000276-05)
 
-- [**User Interface Team**](../architecture/ui.md) (OTR2?)
+- [**Biomedical Data Translator User Interface Development**](../architecture/ui.md) (NCATS Contract #75N95021P00636)
 
 - [**Knowledge Providers:**](../architecture/kp.md)
 
@@ -79,4 +79,4 @@ Translator is intended to evolve into a global public good through open source a
 
 - [**Standards & Reference Implementation Team**](../architecture/sri.md) (OT2TR003449) 
 
-**Translator Phase 1 'Feasibility' funding:** OT3TR002026, OT3TR002020, OT3TR002025, OT3TR002019, OT3TR002027, OT2TR002517, OT2TR002514, OT2TR002515, OT2TR002584, OT2TR002520; Contract number 75N95021P00636). Additional funding was provided by the Intramural Research Program at NCATS (ZIA TR000276-05).
+**Translator Phase 1 'Feasibility' funding:** OT3TR002026, OT3TR002020, OT3TR002025, OT3TR002019, OT3TR002027, OT2TR002517, OT2TR002514, OT2TR002515, OT2TR002584, OT2TR002520.
