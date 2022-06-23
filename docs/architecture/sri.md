@@ -12,7 +12,7 @@
 
 ### TRAPI
 
-* [Translator Application Programming Interface (TRAPI)](https://github.com/NCATSTranslator/ReasonerAPI) - (Eric Deutsch)
+* [Translator Application Programming Interface (TRAPI)](trapi.md)
 
 ## Shared libraries, tools and services
 
