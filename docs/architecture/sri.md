@@ -9,12 +9,15 @@
 2. Evidence, Provenance and Confidence metadata (Matt Brush)
    1. Association provenance model
    2. Information Resource ("infores") CURIE identifying the Translator Resource (see the [current inventory of Infores CURIEs](https://docs.google.com/spreadsheets/d/1Ak1hRqlTLr1qa-7O0s5bqeTHukj9gSLQML1-lg6xIHM) and general information about them [here](https://docs.google.com/document/d/177sOmjTueIK4XKJ0GjxsARg909CaU71tReIehAp5DDo/edit#bookmark=id.8sdy3vk2umkd)).
+3. [Biolink Model tutorials](../guide-for-developers/tutorials/index.md)**
 
 ### TRAPI
 
 * [Translator Application Programming Interface (TRAPI)](trapi.md)
 
 ## Shared libraries, tools and services
+
+* [Shared Tool usage tutorials](../guide-for-developers/tutorials/index.md)
 
 _**Revision required! First table copies [Wiki](from https://github.com/NCATSTranslator/Translator-All/wiki); second, from Tursynay inventory; merge the two tables**_
 

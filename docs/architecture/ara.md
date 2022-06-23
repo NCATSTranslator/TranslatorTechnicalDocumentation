@@ -4,6 +4,10 @@
 
 TBA  - description of what an ARA is and what it does (Chris B)
 
+## Tutorials
+
+* [Autonomous Relay Agent usage tutorials](../guide-for-developers/tutorials/index.md)
+
 ## Existing Translator ARA's
 
 | Contact Team       | Name                                                               | Github Repository                                                           |

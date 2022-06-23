@@ -4,6 +4,10 @@
 
 TBA  - description of what an KP is and what it does (Chris B)
 
+## Tutorials
+
+* [Knowledge Provider tutorials](../guide-for-developers/tutorials/index.md)
+* 
 ## Existing Translator KP's
 
 | Contact Team            | Name                               | Github Repository                                     |
@@ -14,3 +18,5 @@ TBA  - description of what an KP is and what it does (Chris B)
 | Clinical Data Provider  | Columbia Open Health Data ('COHD') | [WengLab-InformaticsResearch/cohd_api](https://github.com/WengLab-InformaticsResearch/cohd_api) |
 | Clinical Data Provider  | OpenPredict                        | [MaastrichtU-IDS/translator-openpredict](https://github.com/MaastrichtU-IDS/translator-openpredict) |
 | Clinical Data Provider  | Knowledge Collaboratory            | [MaastrichtU-IDS/knowledge-collaboratory-api](https://github.com/MaastrichtU-IDS/knowledge-collaboratory-api)|
+
+

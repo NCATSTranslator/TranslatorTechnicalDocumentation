@@ -1,3 +1,7 @@
 # Translator User Interface
 
- * can we ask Andy Crouse? to throw in a few bullet points here?
+ * Andy Crouse et al to elaborate.
+
+## Tutorials
+
+* [Translator User Interface tutorials](../guide-for-developers/tutorials/index.md)

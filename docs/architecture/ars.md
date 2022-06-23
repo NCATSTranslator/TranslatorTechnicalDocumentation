@@ -71,6 +71,10 @@ The ARAX web interface can also be used to consult the result of your query:
 
 You can also directly access your query result by providing the run ID with the `id=` URL param: `https://arax.ncats.io/?source=ARS&id=YOUR_RUN_ID`
 
+## Tutorials
+
+* [ARS Usage tutorials](../guide-for-developers/tutorials/index.md)
+
 # Additional Resources
 
 * [Walk-through to query the ARS and retrieve results using the ARAX web interface](https://docs.google.com/document/d/1_a4gE_lY-2oZTrdFMtaZ_pxqNgd-x_1ZYI7hRGfFjng)
