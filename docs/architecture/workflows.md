@@ -107,6 +107,8 @@ to implement new operations.
 The workflow runner is a component that is responsible for identifying which Translator components can execute the 
 specified operations in a workflow, sending the TRAPI message to those components, and then combining and returning the results.
 
+<img width="841" alt="Screen Shot 2022-06-24 at 3 58 12 PM" src="https://user-images.githubusercontent.com/6362936/175659052-4b0b12c3-1e03-4715-ac0e-540dd6d2144a.png">
+
 
 # Additional links
 * [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner)
