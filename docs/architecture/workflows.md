@@ -13,7 +13,7 @@ querying specific knowledge providers, etc. A list of currently implemented oper
 
 ## How is an operation structured?
 Operations are structured JSON objects that are inserted into the `Workflow` section of a TRAPI message. Operations 
-are organized into a hierarchical fashion, with most Translator components capable of executing leaf-node operations. 
+are organized into a hierarchical fashion, with most Translator components capable of executing some leaf-node operations. 
 For example, consider the `Overlay` operation: as specified in the 
 [description](https://github.com/NCATSTranslator/OperationsAndWorkflows/blob/main/operations/overlay.yml#L3) this 
 defines an "overlay" operation as something that adds additional edges in the knowledge graph and/or query graph. The 
@@ -87,11 +87,25 @@ More complicated workflows can be created by mixing and matching the above typic
 
 In this fashion, a user can precisely specify what sort of workflow they desire.
 
+# Operation policies
+In the current architecture, Translator components are expected to perform the operations in the order they are 
+specified in the `workflow` section of a TRAPI message. This is a strict requirement, and if a component encounters 
+an operation it has not implemented, it must throw an error. No additional operations or actions are to be performed 
+besides that which is specified in the `workflow` section.
+
+# Advertising operations
+Each Translator component is expected to implement a set of operations that it can perform. This is done via 
+the OpenAPI specification utilizing the `x-trapi` extension. Directions on how to implement this can be found
+[here](https://github.com/NCATSTranslator/OperationsAndWorkflows/wiki/How-to-%22do%22-operations#advertising-operations)
+ with a real-world example [here](https://arax.ncats.io/test/api/arax/v1.2/openapi.json).
+
 # Implementing operations
 Please see the [Guide for developers](../guide-for-developers/tutorials/workflows.md) for developer details about how 
 to implement new operations.
 
 # Workflow Runner
+The workflow runner is a component that is responsible for identifying which Translator components can execute the 
+specified operations in a workflow, sending the TRAPI message to those components, and then combining and returning the results.
 
 
 # Additional links
