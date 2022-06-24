@@ -87,12 +87,6 @@ More complicated workflows can be created by mixing and matching the above typic
 
 In this fashion, a user can precisely specify what sort of workflow they desire.
 
-# Operation policies
-In the current architecture, Translator components are expected to perform the operations in the order they are 
-specified in the `workflow` section of a TRAPI message. This is a strict requirement, and if a component encounters 
-an operation it has not implemented, it must throw an error. No additional operations or actions are to be performed 
-besides that which is specified in the `workflow` section.
-
 # Advertising operations
 Each Translator component is expected to implement a set of operations that it can perform. This is done via 
 the OpenAPI specification utilizing the `x-trapi` extension. Directions on how to implement this can be found
@@ -103,14 +97,36 @@ the OpenAPI specification utilizing the `x-trapi` extension. Directions on how t
 Please see the [Guide for developers](../guide-for-developers/tutorials/workflows.md) for developer details about how 
 to implement new operations.
 
+# Operations and workflow policies
+In the current architecture, Translator components are expected to perform the operations in the order they are 
+specified in the `workflow` section of a TRAPI message. This is a strict requirement, and if a component encounters 
+an operation it has not implemented, it must throw an error. No additional operations or actions are to be performed 
+besides that which is specified in the `workflow` section.
+
+Each Translator ARA is required to at minimum implement the `lookup` and/or `lookup_and_score` operations. These are 
+equivalent to a standard TRAPI query without the `workflow` section. KP's can optionally implement these operations.
+
+Translator components are encouraged to create PRs to implement additional operations. This is a mechanism 
+by which components can expose additional functionality that may not currently fit in the "non-workflow" TRAPI paradigm.
+
 # Workflow Runner
 The workflow runner is a component that is responsible for identifying which Translator components can execute the 
-specified operations in a workflow, sending the TRAPI message to those components, and then combining and returning the results.
+specified operations in a workflow, sending the TRAPI message to those components, and then combining and returning the results. 
+The figure below depicts the architecture of the workflow runner and how it is related to the ARS and ARAs. Note 
+that the workflow runner is a component that is not a part of the ARS or ARAs, but is instead a component that is that sits 
+between the ARS and ARAs/KPs. Thought it is not shown here, any KP can also advertise operations it can perform (as described 
+above) and the workflow runner will query these KPs if given a workflow with the relevant operation.
 
 <img width="841" alt="Screen Shot 2022-06-24 at 3 58 12 PM" src="https://user-images.githubusercontent.com/6362936/175659052-4b0b12c3-1e03-4715-ac0e-540dd6d2144a.png">
 
+If the workflow runner is unable to find a component that can perform the operation, it will throw an error. 
+When the workflow runner is given a workflow, it will iterate through the operations in the workflow and:
+- If the operations is marked as `unique: true`, it will send the TRAPI message to all component(s) that implements that operation
+- If the operations is marked as `unique: false`, it will send the TRAPI message to a single component that implement that operation
+
+After each operation is executed, the results are combined before executing subsequent operations.
 
 # Additional links
 * [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner)
-* [Operation and Workflow Standards](https://github.com/NCATSTranslator/OperationsAndWorkflows)
-* [List of implemented operations](http://standards.ncats.io/operation.json).
+* [Operation and Workflow Repo](https://github.com/NCATSTranslator/OperationsAndWorkflows)
+* [List of implemented operations](http://standards.ncats.io/operation.json)
