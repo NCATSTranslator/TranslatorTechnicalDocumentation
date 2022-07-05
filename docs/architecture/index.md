@@ -60,16 +60,15 @@ The whole point behind knowledge graphs and their manipulation (Sierra)
 
 T.B.A. (Tim)
 
-## Components (Richard)
-
-We should link out directly to the teams for every KP and ARA,  etc. ([see inventory on Google sheet](https://docs.google.com/spreadsheets/d/1qG9RDJ64pHBoRxAOL3B1OGuQ8GxU2KIicnXE2hpe4_s/edit#gid=0))
+## Components
 
 1. [User Interface](ui.md)
 2. [ARS](ars.md)
-3. [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner)
-4. [ARA](ara.md)
-5. [KP](kp.md)
-6. [Translator SmartAPI Registry](registry.md)
+3. [Workflow Runner](workflows.md)
+4. [TRAPI](trapi.md)
+5. [Translator SmartAPI Registry](registry.md)
+6. [ARA](ara.md)
+7. [KP](kp.md)
 
 Tying together the above components are the activities and outputs of the Translator
 [Standards and Reference Implementation ("SRI")](sri.md) project team.
