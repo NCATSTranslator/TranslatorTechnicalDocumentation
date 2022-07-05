@@ -22,7 +22,7 @@ implementation goals of the Translator system.
 
 This example use case application is intended to provide a high-level overview of how to translate a user question
 into a Translator Reasoner Standard API (TRAPI) query, execute a TRAPI query, and evaluate results.
-The specific use case question is what drugs treat chronic pain?
+The specific use case question is: _what drugs treat chronic pain_?
 
 Shown below is the translation of that user question into a TRAPI query.
 
@@ -44,6 +44,13 @@ Translator aims to foster.
 ![image](https://user-images.githubusercontent.com/26254388/174348255-2ba2d8d3-8f0e-4678-a4d1-997e299b4a1b.png)
 
 **Figure 3** ([Fecho _et al._ 2022](../about/index.md#references))
+
+While the query provided here is simple and intended to be illustrative, more complex queries are possible using TRAPI 
+and a variety of Translator operations and workflows.
+
+In terms of impact, Translator is currently being used to promote serendipitous discovery and augment human reasoning 
+in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, 
+and drug-induced liver injury.
 
 ## Core Knowledge Graph principles
 
