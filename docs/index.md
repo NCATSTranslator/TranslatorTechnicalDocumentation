@@ -10,8 +10,8 @@ enables interrogation of relationships across the full spectrum of data types”
 Fecho _et al._ 2022](about/index.md#references)). The goal is to build the infrastructure required to support and 
 facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets
 as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by
-translational researchers. A fundamental tenet of the Translator program is open data, including open patient data,
-and open team science. [_**Learn more...**_](about/index.md).
+translational researchers. A fundamental tenet of the Translator program is open data, including open (de-identified) 
+patient data, and open team science. [_**Learn more...**_](about/index.md).
 
 This site hosts the official software development documentation for Translator. The contents of this site are:
 

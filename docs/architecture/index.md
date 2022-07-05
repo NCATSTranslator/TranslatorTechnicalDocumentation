@@ -22,7 +22,7 @@ implementation goals of the Translator system.
 
 This example use case application is intended to provide a high-level overview of how to translate a user question
 into a Translator Reasoner Standard API (TRAPI) query, execute a TRAPI query, and evaluate results.
-The specific use case question is what drugs treat chronic pain?
+The specific use case question is: _what drugs treat chronic pain_?
 
 Shown below is the translation of that user question into a TRAPI query.
 
