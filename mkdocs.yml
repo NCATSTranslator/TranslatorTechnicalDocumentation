@@ -13,6 +13,7 @@ nav:
         - Translator Registry: architecture/registry.md
         - Autonomous Relay Agents: architecture/ara.md
         - Knowledge Providers: architecture/kp.md
+        - Translator Reasoner API ('TRAPI'): architecture/trapi.md
         - Shared Standards and Tools: architecture/sri.md
     - 'User Guide':
         - Introduction: guide-for-developers/index.md
