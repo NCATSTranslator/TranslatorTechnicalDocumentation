@@ -22,10 +22,10 @@ and drug-induced liver injury.
 
 ## Summary of Key Technical Achievements
 
-- **Common Queries**: TRAPI has been adopted as an API standard to support query across Translator components
 - **Common Semantics**: Biolink Model (Unni _et al._ 2022) has been adopted as a standard upper-level ontology to support semantic harmonization across disparate ontologies and data/knowledge sources
 - **Entity Resolution**: SRI Name Resolution and Node Normalization services provide entity resolution to harmonize across disparate vocabularies and identifier systems
-- **Discoverability**: SmartAPI Registry provides a platform for discovering Translator tools and components, including metadata to explain what functionalities those services support
+- **Common Queries**: TRAPI has been adopted as an API standard to support query across Translator components
+- **Discoverability**: SmartAPI Registry provides a platform for discovering Translator tools and components, including metadata to explain what functionalities those components or services support
 
 ## Key Programmatic Priorities
 

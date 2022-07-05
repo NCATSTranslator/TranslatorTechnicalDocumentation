@@ -45,6 +45,13 @@ Translator aims to foster.
 
 **Figure 3** ([Fecho _et al._ 2022](../about/index.md#references))
 
+While the query provided here is simple and intended to be illustrative, more complex queries are possible using TRAPI 
+and a variety of Translator operations and workflows.
+
+In terms of impact, Translator is currently being used to promote serendipitous discovery and augment human reasoning 
+in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, 
+and drug-induced liver injury.
+
 ## Core Knowledge Graph principles
 
 The whole point behind knowledge graphs and their manipulation (Sierra)
