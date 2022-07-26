@@ -14,7 +14,8 @@ nav:
         - Autonomous Relay Agents: architecture/ara.md
         - Knowledge Providers: architecture/kp.md
         - Translator Reasoner API ('TRAPI'): architecture/trapi.md
-        - Shared Standards and Tools: architecture/sri.md
+        - Shared Standards and Tools:
+          - Introduction: architecture/sri.md
           - Biolink Model: architecture/biolink_model.md
           - Evidence, Provenance & Confidence Metadata: architecture/epc.md
     - 'User Guide':
