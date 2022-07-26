@@ -3,6 +3,7 @@
 # Guide for Developers
 
 * [Quick Start](quickstart.md)
+* [Developer Cookbook](cookbook.md)
 * [Tutorials](tutorials/index.md)
 * [The Full Monty...](details.md)
 

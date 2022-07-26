@@ -18,9 +18,10 @@ nav:
           - Introduction: architecture/sri.md
           - Biolink Model: architecture/biolink_model.md
           - Evidence, Provenance & Confidence Metadata: architecture/epc.md
-    - 'User Guide':
+    - Developer Guide:
         - Introduction: guide-for-developers/index.md
         - Quick Start: guide-for-developers/quickstart.md
+        - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
         - The Full Monty...: guide-for-developers/details.md
