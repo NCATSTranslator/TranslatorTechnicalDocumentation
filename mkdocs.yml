@@ -24,6 +24,9 @@ nav:
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
+        - Testing:
+            - Overview: guide-for-developers/testing.md
+            - SRI Testing: guide-for-developers/sri_testing.md
         - The Full Monty...: guide-for-developers/details.md
     - About:
         - About Translator: about/index.md
