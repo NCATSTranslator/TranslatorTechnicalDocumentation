@@ -11,8 +11,12 @@ nav:
         - Autonomous Relay System: architecture/ars.md
         - Workflow Runner: architecture/workflows.md
         - Translator Registry: architecture/registry.md
-        - Autonomous Relay Agents: architecture/ara.md
-        - Knowledge Providers: architecture/kp.md
+        - Autonomous Relay Agents:
+          - Overview: architecture/ara.md
+          - Biothings Explorer: architecture/ara/bte.md
+        - Knowledge Providers:
+          - Overview: architecture/kp.md
+          - Service Provider: architecture/kp/service_provider.md
         - Translator Reasoner API ('TRAPI'): architecture/trapi.md
         - Shared Standards and Tools:
           - Introduction: architecture/sri.md
