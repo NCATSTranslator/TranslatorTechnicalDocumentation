@@ -1,35 +1,6 @@
-# TRANSLATOR & SmartAPI
+# The Translator Smart-API Registry
 
-### What is the Translator program
-
-The Translator program focuses on building tools for massive knowledge integration in support of biomedical and translational science. 
-
-The Translator program is funded through the [Cures Acceleration Network](https://ncats.nih.gov/funding/review/can "Cures Acceleration Network | National Center for Advancing Translational Sciences") (CAN). CAN is designed to advance the development of high-need cures and reduce significant barriers between research discovery and clinical trials. ℹ️ [Learn more about the Translator program here.](https://ncats.nih.gov/translator)
-
-### Creating your Translator Tool
-
-To create a Knowledge Provider (KP) API that's ready to be integrated into the Translator ecosystem, you can:
-
--  ✅ Build a REST API with JSON output (use your own preferred structure).
--  ✅ Build a ReasonerStdAPI, follow the instructions  [here](https://github.com/NCATS-Tangerine/NCATS-ReasonerStdAPI) .
-
-Regardless of what your choice is we recommend you follow these ✅ [API best-practices.](https://github.com/SmartAPI/smartAPI/edit/master/docs/CREATE_API.md)
-
-**⭐ Tip:** You may consider using [BioThings SDK](https://docs.biothings.io/en/latest/) to build your KP APIs. BioThings SDK will create a high-quality APIs following all these best-practices by default. If you need the help, please ✉️ [contact BioThings team](mailto:biothings@googlegroups.com)  (aka "Service Provider" KP team in Translator).
-
-### Translator Required Extensions
-
-Each translator tool has to adhere to a few requirements in order to recognized by the program and possibly to be integrated or ingested by other projects. 
-ℹ️ [To learn more about the Translator-specific metadata extensions used in the SmartAPI registry click here.](https://github.com/NCATSTranslator/translator_extensions)
-
-### Documenting your Translator Tool
-
-To take full advantage of SmartAPI and make your KP API compatible with Meta-KG you will need to:
-
--    Create your API metadata following the latest  ✅ [OpenAPI v3 API specification](http://spec.openapis.org/oas/v3.0.3)
--   Add semantics of your API's inputs and outputs using the SmartAPI extensions.  Learn more.
-
-**⭐ Tip:** [SmartAPI](https://smart-api.info/) provides an easy-to-use ✅ [API Metadata Editor](https://smart-api.info/editor) to quickly get started documenting your API to the latest OpenAPI v3 specification.
+A central resource of the Translator platform is an online registry of knowledge provider and graph integration web service components ('tools'). This resource is the Translator Registry, based on the SmartAPI framework (the "Translator Smart-API Registry").
 
 ### What is SmartAPI
 
@@ -37,15 +8,37 @@ The SmartAPI project aims to maximize the **FAIRness** *(Findability, Accessibil
 
 ### SmartAPI & Translator
 
-SmartAPI serves as an online registry for Translator tools.  This registry includes monitoring of each tool's source and endpoints to help researches like you rest assured you are working with working reliable APIs.  ℹ️ [Learn more about how SmartAPI monitors Uptime and Source Statuses.](https://github.com/SmartAPI/smartAPI/wiki/SmartAPI-Uptime-Monitoring) The ✨[Translator portal](https://smart-api.info/portal/translator) on SmartAPI also includes:
-
- - A ✨[registry of Translator tools](https://smart-api.info/registry/translator?tags=translator).
+Following assessments during its feasibility phase, the Biomedical Data Translator Consortium endorsed the SmartAPI as their standard online registry for Translator web service based components ('tools').  The resulting ✨[Translator SmartAPI Registry portal](https://smart-api.info/portal/translator) provides access to:
+ - The ✨[official registry of Translator tools](https://smart-api.info/registry/translator?tags=translator).
+ - Realtime monitoring and compliance to SmartAPI standards, of each tool's source and endpoints, to ensure that researchers have access to reliable APIs.  ℹ️ [Learn more about how SmartAPI monitors Uptime and Source Statuses.](https://github.com/SmartAPI/smartAPI/wiki/SmartAPI-Uptime-Monitoring) 
  - A ✨[summary dashboard](https://smart-api.info/portal/translator/summary) to quickly visualize overall statuses, sources, teams, and more.
- - A ✨[knowledge graph visualizer (MetaKG)](https://smart-api.info/portal/translator/metakg) to browse and find tools based on a desired connection or relationship between biomedical entities.
+ - A ✨[Translator knowledge graph visualizer (MetaKG)](https://smart-api.info/portal/translator/metakg) to browse and find tools based on a desired connection or relationship between biomedical entities.
+
+### Adding a Knowledge Provider to Translator
+
+To publish a Knowledge Provider (KP) API that's ready to be integrated into the Translator ecosystem, you can:
+
+1.  ✅ Directly register your own OpenAPI web service implementation (with its own custome endpoints and JSON output data models) in the SmartAPI Registry, to be generically accessed by the [BioThings Explorer (BTE)](ara/bte.md).
+2.  ✅ Directly wrap your knowledge source with a standard Translator Reasoner Application Programming Interface (TRAPI), follow the instructions [here](trapi.md) .
+
+Regardless of what your choice is we recommend you follow these ✅ [API best-practices.](https://github.com/SmartAPI/smartAPI/edit/master/docs/CREATE_API.md)
+
+**⭐ Tip:** If you wish to have the benefits of option 2 above, by leveraging your existing investment in custom OpenAPI web service design, you may consider using [BioThings 'Service Provider' SDK](https://docs.biothings.io/en/latest/) wrap your custom KP API with TRAPI. BioThings SDK will create a high-quality APIs following all these best-practices by default. If you need the help, please ✉️ [contact BioThings team](mailto:biothings@googlegroups.com)  (aka the "Service Provider" KP team in Translator).
+
+### Documenting your Translator Tool
+
+To take full advantage of SmartAPI and make your KP API compatible with Translator Meta-KG, you will generally need to:
+
+-   Create your API metadata following the latest  ✅ [OpenAPI v3 API specification](http://spec.openapis.org/oas/v3.0.3)
+-   Document the semantics of your API's inputs and outputs by implementing a Biolink Model compliance knowledge map of your tool (generally by implementing the [TRAPI **`/meta_knowledge_graph`** endpoint](https://github.com/NCATSTranslator/ReasonerAPI/blob/master/TranslatorReasonerAPI.yaml#L73) or by curating the equivalent metadata for BTE or the Service Provider using the SmartAPI extensions)
+
+Note that SmartAPI registration of a web service application specifically for Translator also has to adhere to a few SmartAPI extension requirements in order to recognized by the Translator platform, for possible integration with other Translator components. ℹ️ [To learn more about the Translator-specific metadata extensions used in the SmartAPI registry click here.](https://github.com/NCATSTranslator/translator_extensions).
+
+**⭐ Tip:** [SmartAPI](https://smart-api.info/) provides an easy-to-use ✅ [API Metadata Editor](https://smart-api.info/editor) to quickly get started documenting your API to the latest OpenAPI v3 specification.
 
 ### Registering your Translator Tool on SmartAPI
 
-To make registering a new tool easier SmartAPI provides a helpful ✨[registration guide](https://smart-api.info/guide). This guide provides helpful links to examples, tools and resources to help you document your API.  
+To make registering a new tool easier SmartAPI provides a helpful ✨[registration guide](https://smart-api.info/guide). This guide provides helpful links to examples, tools and resources to help you document your API.
 
 Once done you can head over to [SmartAPI](https://smart-api.info/) and login using your **GitHub** account.  Then simply head over to the [Add an API](https://smart-api.info/add-api) page to register your tool.  After successfully adding your tool, it will appear on your [user dashboard](https://smart-api.info/dashboard) where you can manage anything related to your tool. 
 
@@ -75,8 +68,6 @@ To see a more detailed description of how SmartAPI tracks and monitors these sta
 ### Getting Help
 
   The SmartAPI team is available and ready to help you with any issue. If you need to contact us please [open an issue here](https://github.com/SmartAPI/smartAPI/issues) and someone will help you ASAP! 
-
-
 
 * [Translator Extensions](https://github.com/NCATSTranslator/translator_extensions)
   * **x-translator**: global metadata for Translator project resources
