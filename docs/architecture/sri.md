@@ -4,7 +4,7 @@
 
 ### Metadata and Semantic Standards
 
-* [Biolink Model](biolink_model.md) (Sierra)
+* [Biolink Model](https://biolink.github.io/biolink-model/) (Sierra)
 * [Evidence, Provenance and Confidence metadata](epc.md) (Matt Brush)
 
 
