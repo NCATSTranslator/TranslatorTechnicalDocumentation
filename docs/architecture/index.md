@@ -52,9 +52,12 @@ In terms of impact, Translator is currently being used to promote serendipitous 
 in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, 
 and drug-induced liver injury.
 
-## Core Knowledge Graph principles
+## Modeling Paradigms 
 
-The whole point behind knowledge graphs and their manipulation (Sierra)
+* [Core knowledge graph principles](../biolink/core-knowledge-graph-principles.md)
+* [Key Biolink Model components](https://biolink.github.io/biolink-model/guidelines/understanding-the-model.html)
+* [Getting started with Biolink](https://biolink.github.io/biolink-model/guidelines/using-the-modeling-language.html)
+* [Working with the model (tutorial)](https://biolink.github.io/biolink-model/guidelines/working-with-the-model.html)
 
 ## System design (overview)
 

@@ -7,7 +7,7 @@
 * Add linkouts to videos (existing?) for various stuff
 
 
-1. (Biolink Model-compliant) Knowledge graph examples
+1. [Biolink Model](https://biolink.github.io/biolink-model/guidelines/working-with-the-model.html)
 2. TRAPI examples
 3. KP-starter kit
 4. Registering a TRAPI service
