@@ -10,11 +10,14 @@ A “schema” is used to constrain the KG by specifying how knowledge can be re
 as such, it provides a framework for validating specific instances of knowledge representation through rules that dictate the syntax and semantics.
 KGs allow users to pose questions that can then be translated into query graphs and applied to identify subgraphs within the KG that match the general structure of the query graph, thereby producing answers to user queries and generating new knowledge.
 
+For a general introduction to knowledge graphs and their use in biomedical informations, please see [Callahan et al., 2021](https://www.annualreviews.org/doi/10.1146/annurev-biodatasci-010820-091627) (reference 1 below).
+
 ## Why does Translator use knowledge graphs?
 The Translator Consortium has adopted a federated KG-based approach for biomedical knowledge representation and discovery.
 Using KGs enables Translator to integrate a wide range of heterogeneous data sets and translate them into insights intended to augment human reasoning
 and accelerate translational science.
-For more about Translator and how it uses KGs, please see the [2022 Translator paper](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301), reference 1 below).
+
+For more about Translator and how it uses KGs, please see the [2022 Translator paper](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301) (reference 2 below).
 
 ## What is Biolink Model?
 [Biolink Model](https://github.com/biolink/biolink-model) is an open source data model that can be used to formalize
@@ -23,7 +26,8 @@ It incorporates object-oriented classification and graph-oriented features.
 The core of the model is a set of hierarchical, interconnected classes (or categories) and relationships between them (or predicates),
 representing biomedical entities such as gene, disease, chemical, anatomical structure, and phenotype.
 The model provides class and edge attributes and associations that guide how entities should relate to one another.
-For more info about Biolink Model, please see the [Biolink Model paper](https://onlinelibrary.wiley.com/doi/10.1111/cts.13302) and [Biolink documentation](https://biolink.github.io/biolink-model/) (references 2 and 3 below).
+
+For more info about Biolink Model, please see the [Biolink Model paper](https://onlinelibrary.wiley.com/doi/10.1111/cts.13302) and [Biolink documentation](https://biolink.github.io/biolink-model/) (references 3 and 4 below).
 
 ## What role does Biolink Model play in Translator?
 The Translator Consortium uses Biolink Model as an upper-level graph-oriented universal schema that supports semantic harmonization and reasoning
@@ -34,12 +38,14 @@ despite incompatibilities in the underlying data sources.
 The result is a federated, harmonized ecosystem that supports advanced reasoning and inference to derive biomedical insights based on user queries.
 
 References:
-1. Fecho K, Thessen AT, et al. and The Biomedical Data Translator Consortium.
+1. Callahan TJ, Tripodi IJ, Pielke-Lombardo H, Hunter LE. Knowledge-Based Biomedical Data Science. Annu Rev Biomed Data Sci. ncbi.nlm.nih.gov; 2020 Jul;3:23–41. [http://dx.doi.org/10.1146/annurev-biodatasci-010820-091627](http://dx.doi.org/10.1146/annurev-biodatasci-010820-091627).
+
+2. Fecho K, Thessen AT, et al. and The Biomedical Data Translator Consortium.
 Progress Toward a Universal Biomedical Data Translator. Clin Transl Sci. Wiley Online Library; 2022 May 25;
 [http://dx.doi.org/10.1111/cts.13301](http://dx.doi.org/10.1111/cts.13301)
 
-2. Unni DR, Moxon SAT, et al. and The Biomedical Data Translator Consortium.
+3. Unni DR, Moxon SAT, et al. and The Biomedical Data Translator Consortium.
 Biolink Model: A universal schema for knowledge graphs in clinical, biomedical, and translational science.
 Clin Transl Sci. Wiley; 2022 Jun 6; [https://onlinelibrary.wiley.com/doi/10.1111/cts.13302](https://onlinelibrary.wiley.com/doi/10.1111/cts.13302)
 
-3. [Biolink Model documentation](https://biolink.github.io/biolink-model/)
+4. [Biolink Model documentation](https://biolink.github.io/biolink-model/)
