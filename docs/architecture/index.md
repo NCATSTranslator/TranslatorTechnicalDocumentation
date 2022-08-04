@@ -54,7 +54,7 @@ and drug-induced liver injury.
 
 ## Modeling Paradigms 
 
-* [Core knowledge graph principles](../biolink/core-knowledge-graph-principles.md)
+* [Core knowledge graph principles](./biolink/core_knowledge_graph_principles.md)
 * [Key Biolink Model components](https://biolink.github.io/biolink-model/guidelines/understanding-the-model.html)
 * [Getting started with Biolink](https://biolink.github.io/biolink-model/guidelines/using-the-modeling-language.html)
 * [Working with the model (tutorial)](https://biolink.github.io/biolink-model/guidelines/working-with-the-model.html)
