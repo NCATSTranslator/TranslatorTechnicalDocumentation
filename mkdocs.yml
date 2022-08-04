@@ -7,6 +7,7 @@ nav:
         - Frequently Asked Questions: faq.md
     - Architecture:
         - Introduction: architecture/index.md
+        - Knowledge Graph Principles: architecture/biolink/core_knowledge_graph_principles.md
         - User Interface: architecture/ui.md
         - Autonomous Relay System: architecture/ars.md
         - Workflow Runner: architecture/workflows.md
