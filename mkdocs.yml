@@ -20,7 +20,7 @@ nav:
         - Translator Reasoner API ('TRAPI'): architecture/trapi.md
         - Shared Standards and Tools:
           - Introduction: architecture/sri.md
-          - Biolink Model:
+          - Biolink Model: "https://biolink.github.io/biolink-model/"
           - Evidence, Provenance & Confidence Metadata: architecture/epc.md
     - Developer Guide:
         - Introduction: guide-for-developers/index.md
