@@ -14,7 +14,7 @@ nav:
         - Translator Registry: architecture/registry.md
         - Autonomous Relay Agents:
           - Overview: architecture/ara.md
-          - Biothings Explorer: architecture/ara/bte.md
+          - Biothings Explorer: "https://biothings.io/explorer/"
         - Knowledge Providers:
           - Overview: architecture/kp.md
           - Service Provider: architecture/kp/service_provider.md
