@@ -29,6 +29,7 @@ nav:
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
+            - Workflows and Operations: guide-for-developers/tutorials/workflows.md
         - Testing:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
