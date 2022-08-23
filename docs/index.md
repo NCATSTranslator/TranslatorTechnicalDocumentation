@@ -15,6 +15,7 @@ patient data, and open team science. [_**Learn more...**_](about/index.md).
 
 This site hosts the official software development documentation for Translator. The contents of this site are:
 
+- [About Translator](about/index.md)
 - [Translator Architecture](architecture/index.md): overview of the Translator knowledge integration platform.
 - [Guide for Developers](guide-for-developers): guidelines for Translator software development, including tutorials.
     - [Quick Start](guide-for-developers/quickstart.md)

@@ -3,8 +3,12 @@ site_name: Translator Developer Documentation
 
 nav:
     - Home:
-        - Overview: index.md
-        - Frequently Asked Questions: faq.md
+        - Welcome: index.md
+    - About:
+        - About Translator: about/index.md
+        - License: about/license.md
+    - Frequently Asked Questions:
+          - faq.md
     - Architecture:
         - Introduction: architecture/index.md
         - Knowledge Graph Principles: architecture/biolink/core_knowledge_graph_principles.md
@@ -34,9 +38,5 @@ nav:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
         - The Full Monty...: guide-for-developers/details.md
-    - About:
-        - About Translator: about/index.md
-        - License: about/license.md
-        - Frequently Asked Questions: faq.md
 
 theme: readthedocs
