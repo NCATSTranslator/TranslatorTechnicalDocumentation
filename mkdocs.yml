@@ -30,7 +30,7 @@ nav:
     - Developer Guide:
         - Introduction: guide-for-developers/index.md
         - Quick Start:
-           - guide-for-developers/quickstart.md
+           - Overview: guide-for-developers/quickstart.md
            - "Hello Translator Jupyter Notebook": guide-for-developers/HelloTranslator.ipynb
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
