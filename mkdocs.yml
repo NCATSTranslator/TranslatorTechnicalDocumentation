@@ -29,7 +29,9 @@ nav:
           - Evidence, Provenance & Confidence Metadata: architecture/epc.md
     - Developer Guide:
         - Introduction: guide-for-developers/index.md
-        - Quick Start: guide-for-developers/quickstart.md
+        - Quick Start:
+           - guide-for-developers/quickstart.md
+           - "Hello Translator Jupyter Notebook": guide-for-developers/HelloTranslator.ipynb
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
