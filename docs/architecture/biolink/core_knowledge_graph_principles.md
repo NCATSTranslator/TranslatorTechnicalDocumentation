@@ -20,7 +20,7 @@ and accelerate translational science.
 For more about Translator and how it uses KGs, please see the [2022 Translator paper](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301) (reference 2 below).
 
 ## What is Biolink Model?
-[Biolink Model](https://github.com/biolink/biolink-model) is an open source data model that can be used to formalize
+[Biolink Model](https://github.com/biolink/biolink-model) is an open-source data model that can be used to formalize
 the relationships between data structures in translational science.
 It incorporates object-oriented classification and graph-oriented features.
 The core of the model is a set of hierarchical, interconnected classes (or categories) and relationships between them (or predicates),
@@ -30,10 +30,10 @@ The model provides class and edge attributes and associations that guide how ent
 For more info about Biolink Model, please see the [Biolink Model paper](https://onlinelibrary.wiley.com/doi/10.1111/cts.13302) and [Biolink documentation](https://biolink.github.io/biolink-model/) (references 3 and 4 below).
 
 ## What role does Biolink Model play in Translator?
-The Translator Consortium uses Biolink Model as an upper-level graph-oriented universal schema that supports semantic harmonization and reasoning
+The Translator Consortium has adopted Biolink Model as an upper-level graph-oriented universal schema that supports semantic harmonization and reasoning
 across diverse Translator knowledge sources.
-In order to interoperate between knowledge sources and reason across KGs, Biolink Model was adopted by Translator as the common dialect
-to provide rich annotation metadata to the nodes and edges in disparate graphs, thus enabling queries over the entire Translator KG ecosystem,
+Biolink Model was adopted by Translator as the common dialect
+to provide rich annotation metadata to the nodes and edges in disparate graphs, thus enabling queries across the entire Translator KG ecosystem,
 despite incompatibilities in the underlying data sources.
 The result is a federated, harmonized ecosystem that supports advanced reasoning and inference to derive biomedical insights based on user queries.
 
