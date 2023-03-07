@@ -2,7 +2,7 @@
 
 ## Overview
 
-TBA  - description of what an KP is and what it does (Chris B)
+Knowledge Providers (KPs) contribute domain-specific, high-value information abstracted from one or more underlying “knowledge sources,” which may be “raw” data or information that has been abstracted from the data
 
 ## Tutorials
 
@@ -18,5 +18,6 @@ TBA  - description of what an KP is and what it does (Chris B)
 | Clinical Data Provider  | Columbia Open Health Data ('COHD') | [WengLab-InformaticsResearch/cohd_api](https://github.com/WengLab-InformaticsResearch/cohd_api) |
 | Clinical Data Provider  | OpenPredict                        | [MaastrichtU-IDS/translator-openpredict](https://github.com/MaastrichtU-IDS/translator-openpredict) |
 | Clinical Data Provider  | Knowledge Collaboratory            | [MaastrichtU-IDS/knowledge-collaboratory-api](https://github.com/MaastrichtU-IDS/knowledge-collaboratory-api)|
-
+| Exposures Provider      | Integrated Clinical and Environmental Exposures Service (ICEES KG) | [ICEES+ and ICEES KG wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/Exposures-Provider-ICEES)
+| Exposures Provider      | Causal Activity Model (CAM) KP     | [CAM KP wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/Exposures-Provider-CAM-AOP)
 
