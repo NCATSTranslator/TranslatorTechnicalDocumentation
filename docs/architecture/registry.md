@@ -2,7 +2,7 @@
 
 ## Overview
 
-The members of the Translator consortium have created many web-based Application Programming Interfaces (APIs) to share knowledgebases and tools.  Following its feasibility phase, the Biomedical Data Translator Consortium endorsed the SmartAPI Registry as the standard online registry for such APIs.  A dedicated ✨[Translator SmartAPI Registry portal](https://smart-api.info/portal/translator) now provides access to:
+Members of the Translator consortium have created many web-based Application Programming Interfaces (APIs) to share knowledgebases and tools.  Following its feasibility phase, the Translator Consortium endorsed the SmartAPI Registry as the standard online registry for such APIs.  A dedicated ✨[Translator SmartAPI Registry portal](https://smart-api.info/portal/translator) now provides access to:
 
 - The ✨[official registry of Translator APIs](https://smart-api.info/registry/translator?tags=translator).
 - [Facilities to monitor SmartAPI metadata files and API endpoints for changes and availability](#uptime-status-and-source-status-monitoring) to ensure that researcher access to reliable APIs.
@@ -15,7 +15,7 @@ The members of the Translator consortium have created many web-based Application
 
 ## About SmartAPI
 
-The SmartAPI project aims to maximize the **FAIRness** *(Findability, Accessibility, Interoperability, and Reusability)* of web-based APIs. Rich metadata is essential to properly describe an API so that it becomes discoverable, connected, and reusable. The SmartAPI metadata specification is an [OpenAPI](http://openapis.org/)-based [specification](https://github.com/SmartAPI/smartAPI-Specification/blob/OpenAPI.next/versions/3.0.0.md) that defines key API-metadata elements and value-sets. It also uses [JSON-LD](http://json-ld.org/) to provide semantically-annotated JSON content that can be treated as [Linked Data](http://linkeddata.org/). After writing a SmartAPI metadata file for an API, that file can be registered in the SmartAPI Registry to make the API discoverable and reusable for others.
+The SmartAPI project aims to maximize the **FAIRness** *(Findability, Accessibility, Interoperability, and Reusability)* of web-based APIs. Rich metadata is essential to properly describe an API so that it becomes discoverable, connected, and reusable. The SmartAPI metadata specification is an [OpenAPI](http://openapis.org/)-based [specification](https://github.com/SmartAPI/smartAPI-Specification/blob/OpenAPI.next/versions/3.0.0.md) that defines key API-metadata elements and value sets. It also uses [JSON-LD](http://json-ld.org/) to provide semantically-annotated JSON content that can be treated as [Linked Data](http://linkeddata.org/). After writing a SmartAPI metadata file for an API, that file can be registered in the SmartAPI Registry to make the API discoverable and reusable for others.
 
 **⭐ Tip:** [SmartAPI](https://smart-api.info/) provides an easy-to-use ✅ [API Metadata Editor](https://smart-api.info/editor) to quickly get started documenting your API to the latest OpenAPI v3 specification.
 
@@ -51,9 +51,9 @@ APIs in the Translator SmartAPI Registry must provide Translator-specific metada
 
 ### Registering your Translator API
 
-To make registering a new API easier, the SmartAPI Registry provides a helpful ✨[registration guide](https://smart-api.info/guide). This guide provides helpful links to examples, tools and resources to help you write SmartAPI metadata files to document your API.
+To make registering a new API easier, the SmartAPI Registry provides a helpful ✨[registration guide](https://smart-api.info/guide). This guide provides helpful links to examples, tools, and resources to help you write SmartAPI metadata files to document your API.
 
-Once the SmartAPI metadata file for your API is ready, you can head over to [SmartAPI](https://smart-api.info/) and login using your **GitHub** account.  Then head over to the [Add an API](https://smart-api.info/add-api) page to register your tool.  After successfully adding your tool, it will appear on your [user dashboard](https://smart-api.info/dashboard) where you can manage anything related to your tool.
+Once the SmartAPI metadata file for your API is ready, you can head over to [SmartAPI](https://smart-api.info/) and login using your **GitHub** account.  Then head over to the [Add an API](https://smart-api.info/add-api) page to register your tool.  After successfully adding your tool, it will appear on your [user dashboard](https://smart-api.info/dashboard), where you can manage anything related to your tool.
 
 ## Getting Help
 
