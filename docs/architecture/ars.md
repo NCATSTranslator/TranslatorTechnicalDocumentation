@@ -2,7 +2,7 @@
 
 _**Revision required! Initial copy lifted from https://github.com/NCATSTranslator/Translator-All/wiki**_ (Mark Williams)
 
-The Autonomous Relay System (ARS) by the Link Brokers team for NCATS Biomedical Data Translator
+The Autonomous Relay System (ARS) was developed by the Link Brokers team for NCATS Biomedical Data Translator
 
 The ARS is built by NCATS staff and relays translator queries from the user to the autonomous relay agents (ARAs) using an iterative process to generate results in the form of a knowledge graph that is then provided to the user.
 
