@@ -2,7 +2,7 @@
 
 ## Overview
 
-TBA  - description of what an ARA is and what it does (Chris B)
+Translator "Autonomous Relay Agents" (ARAs) build build upon the knowledge contributed by KPs by way of reasoning and inference and in response to user-defined queries. ARAs also apply scoring-and-ranking algorithms to query results in order to assist with user interpretation and evaluation of answers.
 
 ## Tutorials
 

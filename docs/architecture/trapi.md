@@ -1,14 +1,14 @@
-# Translator Application Programming Interface (TRAPI)
+# Translator Reasoner Application Programming Interface
 
-The Biomedical Data Translator ("Translator") strives to navigate, integrate and interpret statements of biomedical knowledge ("knowledge graphs") consisting of concepts ("nodes") linked by their predicate relationships ("edges"). Such knowledge is standardized and made visible by wrappers (Knowledge Providers ("KPs")) of 3rd party sources, for access by computational engines (Autonomous Relay Agents ("ARAs")) providing value added reasoning. 
+The Translator strives to navigate, integrate, and interpret statements of biomedical knowledge ("KGs") consisting of concepts ("nodes") linked by their predicate relationships ("edges"). Such knowledge is standardized and made visible by wrappers ("KPs") of third-party sources, for access by computational engines ("ARAs"), thus providing value-added reasoning. 
 
-Although some such components and knowledge graphs are amenable to centralized solutions, a more general solution to the task is the creation of a standardized network of commuication across distinct, distributed KPs and ARAs, with knowledge queries orchestrated within [workflows](workflows.md). In Translator, this is the goal of the Translator Reasoner API.
+Although some such components and knowledge graphs are amenable to centralized solutions, a more general solution to the task is the creation of a standardized network of commuication across distinct, distributed KPs and ARAs, with knowledge queries orchestrated within [workflows](workflows.md). In Translator, this is the goal of the Translator Reasoner Application Programming Interface (TRAPI).
 
-The Translator Reasoner API (TRAPI) defines a standard HTTP web service API for communicating biomedical questions and answers. It leverages the standards of the  [Biolink model](https://biolink.github.io/biolink-model/) to precisely describe the semantics of biological entities and relationships. TRAPI's graph-based query-knowledge-binding structure enables expressive yet concise description of biomedical questions and answers.
+TRAPI defines a standard HTTP web service API for communicating biomedical questions and answers. It leverages the standards of the  [Biolink model](https://biolink.github.io/biolink-model/) to precisely describe the semantics of biological entities and relationships. TRAPI's graph-based query-knowledge-binding structure enables expressive yet concise description of biomedical questions and answers.
 
 TRAPI is described primarily by an [OpenAPI](https://github.com/OAI/OpenAPI-Specification) document [here](https://github.com/NCATSTranslator/ReasonerAPI/blob/master/TranslatorReasonerAPI.yaml). The request/response structure is also documented in a more human-readable form [here](https://github.com/NCATSTranslator/ReasonerAPI/blob/master/docs/reference.md).
 
-The Translator Application Programming Interface consists of two endpoints off the main server url:
+TRAPI consists of two endpoints off the main server url:
 
 # The /meta_knowledge_graph Endpoint
 

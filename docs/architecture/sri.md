@@ -31,8 +31,7 @@ _**Revision required! First table copies [Wiki](from https://github.com/NCATSTra
 | Biolink Lookup Service | [TranslatorSRI/bl_lookup](https://github.com/TranslatorSRI/bl_lookup)                                                     |
 | Biolink Model Toolkit | [biolink/biolink-model-toolkit](https://github.com/biolink/biolink-model-toolkit)                                         |
 | Knowledge Graph Exchange Registry | [NCATSTranslator/Knowledge_Graph_Exchange_Registry](https://github.com/NCATSTranslator/Knowledge_Graph_Exchange_Registry) |
-| Knowledge Graph Exchange | [biolink/kgx](https://github.com/biolink/kgx)                                                                             |
-| Translator Mini-hackathon | [NCATSTranslator/minihackathons](https://github.com/NCATSTranslator/minihackathons)                                       |
+| Knowledge Graph Exchange | [biolink/kgx](https://github.com/biolink/kgx)                                                   |
 | Translator Name Resolution | [TranslatorSRI/NameResolution](https://github.com/TranslatorSRI/NameResolution)                                           |
 | Translator Node Normalization | [TranslatorSRI/NodeNormalization](https://github.com/TranslatorSRI/NodeNormalization)                                     |
 | SRI Plater | [TranslatorSRI/Plater](https://github.com/TranslatorSRI/Plater)                                                                               |
