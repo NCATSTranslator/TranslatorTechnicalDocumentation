@@ -20,4 +20,4 @@ Knowledge Providers (KPs) contribute domain-specific, high-value information abs
 | Clinical Data Provider  | Knowledge Collaboratory            | [MaastrichtU-IDS/knowledge-collaboratory-api](https://github.com/MaastrichtU-IDS/knowledge-collaboratory-api)|
 | Exposures Provider      | Integrated Clinical and Environmental Exposures Service (ICEES KG) | [ICEES+ and ICEES KG wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/Exposures-Provider-ICEES)
 | Exposures Provider      | Causal Activity Model (CAM) KP     | [CAM KP wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/Exposures-Provider-CAM-AOP)
-
+| Multiomics Provider      | Multiomics     | [Multiomics KP wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/Multiomics-Provider)
