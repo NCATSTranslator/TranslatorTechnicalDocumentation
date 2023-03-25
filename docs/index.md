@@ -6,7 +6,7 @@ The [**Biomedical Data Translator** ("Translator")](https://ncats.nih.gov/transl
 [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov) in Fall of 2016. 
 
 The vision of the Translator program is to accelerate translational science “through an informatics platform that 
-enables interrogation of relationships across the full spectrum of data types” ([Austin et al. 2019; BDTC 2919a/b;
+enables interrogation of relationships across the full spectrum of data types” ([Austin et al. 2019; BDTC 2019a/b;
 Fecho _et al._ 2022](about/index.md#references)). The goal is to build the infrastructure required to support and 
 facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets
 as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by
