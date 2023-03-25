@@ -2,7 +2,7 @@
 
 # Welcome to Developer Documentation for the Biomedical Data Translator
 
-The [**Biomedical Data Translator** ('Translator')](https://ncats.nih.gov/translator)  program was launched by the
+The [**Biomedical Data Translator** ("Translator")](https://ncats.nih.gov/translator)  program was launched by the
 [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov) in Fall of 2016. 
 
 The vision of the Translator program is to accelerate translational science “through an informatics platform that 
