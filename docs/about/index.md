@@ -40,8 +40,8 @@ drug-induced liver injury, and many others.
 1. Austin CP, Colvis, CM, Southall NT. **Deconstructing the Translational Tower of Babel.** _Clin Transl Sci_, 2019;12(2):85. [doi:10.1111/cts.12595](https://doi.org/10.1111/cts.12595). [PMID:30412342](https://pubmed.ncbi.nlm.nih.gov/30412342/).
 2. The Biomedical Data Translator Consortium. **Toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2019a. [doi:10.1111/cts.12591](https://doi.org/10.1111/cts.12591). [PMID:30412337](https://pubmed.ncbi.nlm.nih.gov/30412337/).
 3. The Biomedical Data Translator Consortium. **The Biomedical Data Translator program: conception, culture, and community.** _Clin Transl Sci_, 2019b. [doi:10.1111/cts.12592](https://doi.org/10.1111/cts.12592). [PMID:30412340](https://pubmed.ncbi.nlm.nih.gov/30412340/).
-4. Fecho K, Thessen AE, Baranzini SE, et al. and The Biomedical Data Translator Consortium. **Progress toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2022 May 25. [doi:10.1111/cts.13301](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.13301). [PMID:35611543](https://pubmed.ncbi.nlm.nih.gov/35611543/).
-5. Unni DR, Moxon SAT, Bada M, et al. and the Biomedical Data Translator Consortium. **Biolink Model: a universal schema for knowledge graphs in clinical, biomedical, and translational science.** _Clin Transl Sci_, 2022 June 6. [doi:10.1111/cts.13302](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.13302).
+4. Fecho K, Thessen AE, Baranzini SE, et al. and The Biomedical Data Translator Consortium. **Progress toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2022 May 25. [doi:10.1111/cts.13301](https://doi.org/10.1111/cts.13301). [PMID:35611543](https://pubmed.ncbi.nlm.nih.gov/35611543/).
+5. Unni DR, Moxon SAT, Bada M, et al. and the Biomedical Data Translator Consortium. **Biolink Model: a universal schema for knowledge graphs in clinical, biomedical, and translational science.** _Clin Transl Sci_, 2022 June 6. [doi:10.1111/cts.13302](https://doi.org/10.1111/cts.13302).
 
 ##  Licensing
 
