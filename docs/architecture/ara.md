@@ -13,7 +13,7 @@ Translator "Autonomous Relay Agents" (ARAs) build build upon the knowledge contr
 | Contact Team       | Name                                                               | Github Repository                                                           |
 |--------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | Ranking Agent      | Ranking Agent ('Aragorn')                                          | [ranking-agent/aragorn](https://github.com/ranking-agent/aragorn)           |
-| [Expander Agent](https://translator-developer-documentation.readthedocs.io/en/latest/about/expander-agent)     | ARAX                                                               | [RTXteam/RTX](https://github.com/RTXteam/RTX)                               |
+| [Expander Agent](../../teams/expander-agent)     | [ARAX](arax)                         | [RTXteam/RTX](https://github.com/RTXteam/RTX)                               |
 | Exposures Provider | ICEES                                                              | [NCATS-Tangerine/icees-api](https://github.com/NCATS-Tangerine/icees-api)   |
 | Exposures Provider | CAM-KP                                                             | [NCATS-Tangerine/cam-kp-api](https://github.com/NCATS-Tangerine/cam-kp-api) |
 | Genetics Provider  | Genetics Provider                                                  | [genetics-kp-dev](https://github.com/broadinstitute/genetics-kp-dev)        |
