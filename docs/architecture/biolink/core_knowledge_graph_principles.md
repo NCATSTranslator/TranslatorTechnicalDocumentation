@@ -38,6 +38,7 @@ despite incompatibilities in the underlying data sources.
 The result is a federated, harmonized ecosystem that supports advanced reasoning and inference to derive biomedical insights based on user queries.
 
 References:
+
 1. Callahan TJ, Tripodi IJ, Pielke-Lombardo H, Hunter LE. Knowledge-Based Biomedical Data Science. Annu Rev Biomed Data Sci. ncbi.nlm.nih.gov; 2020 Jul;3:23–41. [http://dx.doi.org/10.1146/annurev-biodatasci-010820-091627](http://dx.doi.org/10.1146/annurev-biodatasci-010820-091627).
 
 2. Fecho K, Thessen AT, et al. and The Biomedical Data Translator Consortium.
