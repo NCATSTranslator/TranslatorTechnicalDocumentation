@@ -25,3 +25,4 @@ Knowledge Providers (KPs) contribute domain-specific, high-value information abs
 | Multiomics Provider     | Multiomics Wellness                | [Multiomics Wellness wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/Wellness-KP)
 | Multiomics Provider     | EHR Clinical Risk                  | [EHR Clinical Risk wiki page](https://github.com/NCATSTranslator/Translator-All/wiki/EHR-Risk-KP)
 | Multiomics Provider     | Clinical Trials                    | [Clinical Trials github](https://github.com/Hadlock-Lab/Multiomics_ClinicalTrials_KP)
+| Expander Agent          | [RTX-KG2](rtx-kg2)                 | [RTXteam/RTX-KG2](https://github.com/RTXteam/RTX-KG2) |
