@@ -31,11 +31,11 @@ sub-operations define what exactly is "overlaid" on the graph. An example leaf-n
         }
     },
 "Workflow":[
-    "id":"lookup,
-    "id":"overlay_compute_ngd", "parameters":{"qnode_keys":["n0", "n1"], "virtual_relation_label":"NGD1"},
-    "id":"bind",
-    "id":"complete_results",
-    "Id":"filter_results_top_n", "parameters":{"max_results": 10}]
+    {"id":"lookup"},
+    {"id":"overlay_compute_ngd", "parameters":{"qnode_keys":["n0", "n1"], "virtual_relation_label":"NGD1"}},
+    {"id":"bind"},
+    {"id":"complete_results"},
+    {"id":"filter_results_top_n", "parameters":{"max_results": 10}]}
 }
 ```
 So here, the `overlay_compute_ngd` operation computes the 
