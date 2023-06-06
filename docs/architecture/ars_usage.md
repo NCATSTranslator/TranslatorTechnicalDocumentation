@@ -21,9 +21,9 @@ Mark Williams
 
 # Interface
 
-Access the public deployment at [https://ars.transltr.io](https://ars.transltr.io)
+Access the public deployment at [https://ars-prod.transltr.io](https://ars-prod.transltr.io)
 
-Example query to submit to the ARS at [https://ars.transltr.io/ars/api/submit](https://ars.transltr.io/ars/api/submit):
+Example query to submit to the ARS at [https://ars-prod.transltr.io/ars/api/submit](https://ars-prod.transltr.io/ars/api/submit):
 
 ```
 curl -X POST "https://ars.transltr.io/ars/api/submit" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{
@@ -60,7 +60,7 @@ The ARS should return your query run ID:
 }
 ```
 
-Results of the query can be found in the ARS messages: https://ars.transltr.io/ars/api/messages
+Results of the query can be found in the ARS messages: https://ars-prod.transltr.io/ars/api/messages
 
 The ARAX web interface can also be used to consult the result of your query: 
 
