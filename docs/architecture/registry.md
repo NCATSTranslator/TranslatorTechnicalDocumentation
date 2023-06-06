@@ -35,6 +35,8 @@ First, a web-based API must be built for the knowledgebase or tool.
 
 1. ✅ Build a REST API with JSON output (use your own preferred structure). Then work with the Service Provider team (see the [_Getting Help_](#getting-help) below) to write and register a SmartAPI file with the extensions needed for [BioThings Explorer (BTE)](https://biothings.io/explorer/) to query your API and process its output. In some cases, you may also work with BTE's team to get BTE to correctly process your API's output. This "wrapping" of your API with BTE will make your API compliant with various Translator standards (TRAPI formats and Biolink-Model semantics), which will make it usable within the Translator ecosystem of tools.
 2. ✅ Design an API compliant with the [Translator Reasoner Application Programming Interface (TRAPI) standard](trapi.md), add the required [SmartAPI (Translator) extensions](#translator-specific-smartapi-extensions) annotations to the resulting OpenAPI 3.0 yaml specification of your API, then [register it in the SmartAPI Registry](#registering-your-translator-api).
+3. ✅ Deploy your API into a [specified **`x-maturity`**-tagged server environment](https://github.com/NCATSTranslator/TranslatorArchitecture/blob/master/SmartAPIRegistration.md#environments) and add the endpoint to the servers block of the API.
+
 
 Regardless of what your choice is, we recommend that you follow these ✅ [API best-practices.](https://github.com/SmartAPI/smartAPI/edit/master/docs/CREATE_API.md)
 
