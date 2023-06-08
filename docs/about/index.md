@@ -10,7 +10,7 @@ comprised of ~215 team members and 27 institutions. The program is funded primar
 National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism and an NIH contract awarded 
 to support development of a Translator user interface (UI).
 
-An overview of the Translator timeline, in the context of key milestones and award funding, is depicted below.
+An overview of the Translator timeline, in the context of key milestones and award funding from program inception through September 2022, is depicted below.
 
 ![image](https://user-images.githubusercontent.com/26254388/174347625-c20cc7b1-134b-4a19-ab21-72c4ad4d2f89.png)
 
@@ -18,11 +18,11 @@ Taken from Fecho _et al._ 2022, Supplementary Figure 1
 
 Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
 disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease,
-and drug-induced liver injury.
+drug-induced liver injury, and many others.
 
 ## Key Technical Achievements
 
-- **Common Semantics**: Biolink Model (Unni _et al._ 2022) has been adopted as a standard upper-level ontology to support semantic harmonization across disparate ontologies and data/knowledge sources
+- **Common Semantics**: Biolink Model (Unni _et al._ 2022) has been adopted as a standard data model and upper-level ontology to support semantic harmonization across disparate ontologies and data/knowledge sources
 - **Entity Resolution**: SRI Name Resolution and Node Normalization services provide entity resolution to harmonize across disparate vocabularies and identifier systems
 - **Common Queries**: TRAPI has been adopted as an API standard to support query across Translator components
 - **Discoverability**: SmartAPI Registry provides a platform for discovering Translator tools and components, including metadata to explain what functionalities those components or services support
@@ -37,11 +37,11 @@ and drug-induced liver injury.
 
 ## References
 
-1. Austin CP, Colvis, CM, Southall NT. **Deconstructing the Translational Tower of Babel.** _Clin Transl Sci_, 2019;12(2):85. [doi:10.1111/cts.12595](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.12595). [PMID:30412342](https://pubmed.ncbi.nlm.nih.gov/30412342/).
-2. The Biomedical Data Translator Consortium (BDTC). **Toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2019a;12(2):91–94. [doi:10.1111/cts.12592](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.12592). [PMID:30412337](https://pubmed.ncbi.nlm.nih.gov/30412337/).
-3. BDTC. **The Biomedical Data Translator program: conception, culture, and community.** _Clin Transl Sci_, 2019b;12(2):86–90. doi: 10.1111/cts.13021. [PMID:30412340](https://pubmed.ncbi.nlm.nih.gov/30412340/).
-4. Fecho K, Thessen AE, Baranzini SE, et al. and The Biomedical Data Translator Consortium. **Progress toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2022 May 25. [doi:10.1111/cts.13301](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.13301). [PMID:35611543](https://pubmed.ncbi.nlm.nih.gov/35611543/).
-5. Unni DR, Moxon SAT, Bada M, et al. and the Biomedical Data Translator Consortium. **Biolink Model: a universal schema for knowledge graphs in clinical, biomedical, and translational science.** _Clin Transl Sci_, 2022 June 6. [doi:10.1111/cts.13302](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.13302).
+1. Austin CP, Colvis, CM, Southall NT. **Deconstructing the Translational Tower of Babel.** _Clin Transl Sci_, 2019;12(2):85. [doi:10.1111/cts.12595](https://doi.org/10.1111/cts.12595). [PMID:30412342](https://pubmed.ncbi.nlm.nih.gov/30412342/).
+2. The Biomedical Data Translator Consortium. **Toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2019a. [doi:10.1111/cts.12591](https://doi.org/10.1111/cts.12591). [PMID:30412337](https://pubmed.ncbi.nlm.nih.gov/30412337/).
+3. The Biomedical Data Translator Consortium. **The Biomedical Data Translator program: conception, culture, and community.** _Clin Transl Sci_, 2019b. [doi:10.1111/cts.12592](https://doi.org/10.1111/cts.12592). [PMID:30412340](https://pubmed.ncbi.nlm.nih.gov/30412340/).
+4. Fecho K, Thessen AE, Baranzini SE, et al. and The Biomedical Data Translator Consortium. **Progress toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2022 May 25. [doi:10.1111/cts.13301](https://doi.org/10.1111/cts.13301). [PMID:35611543](https://pubmed.ncbi.nlm.nih.gov/35611543/).
+5. Unni DR, Moxon SAT, Bada M, et al. and the Biomedical Data Translator Consortium. **Biolink Model: a universal schema for knowledge graphs in clinical, biomedical, and translational science.** _Clin Transl Sci_, 2022 June 6. [doi:10.1111/cts.13302](https://doi.org/10.1111/cts.13302).
 
 ##  Licensing
 

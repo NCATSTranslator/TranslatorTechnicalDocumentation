@@ -20,13 +20,15 @@ nav:
         - Autonomous Relay Agents:
           - Overview: architecture/ara.md
           - Biothings Explorer: "https://biothings.io/explorer/"
+          - ARAX: architecture/ara/arax.md
         - Knowledge Providers:
           - Overview: architecture/kp.md
           - Service Provider: architecture/kp/service_provider.md
-        - Translator Reasoner API ('TRAPI'): architecture/trapi.md
+          - RTX-KG2: architecture/kp/rtx-kg2.md
         - Shared Standards and Tools:
           - Introduction: architecture/sri.md
           - Biolink Model: "https://biolink.github.io/biolink-model/"
+          - Translator Reasoner API (TRAPI): architecture/trapi.md          
           - Evidence, Provenance & Confidence Metadata: architecture/epc.md
     - Developer Guide:
         - Introduction: guide-for-developers/index.md
@@ -41,6 +43,8 @@ nav:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
         - The Full Monty...: guide-for-developers/details.md
+    - Teams:
+        - Expander Agent: teams/expander-agent.md
 
 theme:
   name: readthedocs
@@ -48,3 +52,4 @@ theme:
     - navigation.footer
 
 copyright: Copyright &copy; 2017-2023 Biomedical Data Translator<br>National Center for Advancing Translational Science
+
