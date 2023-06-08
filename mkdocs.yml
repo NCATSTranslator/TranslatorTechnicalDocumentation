@@ -1,5 +1,6 @@
 site_name: Translator Developer Documentation
-#site_url: https://developers.translator.ncats.io
+site_url: https://ncatstranslator.github.io/translator-developer-documentation/
+repo_url: https://github.com/NCATSTranslator/translator-developer-documentation
 
 nav:
     - Home:
@@ -41,4 +42,9 @@ nav:
             - SRI Testing: guide-for-developers/sri_testing.md
         - The Full Monty...: guide-for-developers/details.md
 
-theme: readthedocs
+theme:
+  name: readthedocs
+  features:
+    - navigation.footer
+
+copyright: Copyright &copy; 2017-2023 Biomedical Data Translator<br>National Center for Advancing Translational Science
