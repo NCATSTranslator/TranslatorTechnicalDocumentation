@@ -1,5 +1,5 @@
 ## RTX-KG2 Knowledge Provider Page
-[Back to Home](..)
+[Back to KPs](../kp)
 
 RTX-KG2 is a Translator System Knowledge Provider created/supported/maintained
 by

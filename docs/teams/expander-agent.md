@@ -1,4 +1,4 @@
-[**Back to Home**](../..)
+[Back to Teams](../teams)
 
 # Team Expander Agent
 

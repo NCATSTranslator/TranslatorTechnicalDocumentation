@@ -65,7 +65,7 @@ T.B.A. (Tim)
 ## Components
 
 1. [User Interface (UI)](ui.md)
-2. [Autonomous Relay System (ARS)](ars.md)
+2. [Autonomous Relay System (ARS)](ars_usage.md)
 3. [Workflow Runner](workflows.md)
 4. [Translator Reasoner Application Programming Interface (TRAPI)](trapi.md)
 5. [Translator SmartAPI Registry](registry.md)

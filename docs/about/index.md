@@ -49,11 +49,11 @@ Translator is intended to evolve into a global public good through open source a
 
 ## Consortium Teams & Funding (June 2022)
 
-- [**Autonomous Relay System, Link Brokers Team**](../architecture/ars.md) ( NCATS Intramural Funding ZIA TR000276-05)
+- [**Autonomous Relay System, Link Brokers Team**]() ( NCATS Intramural Funding ZIA TR000276-05)
 
-- [**Biomedical Data Translator User Interface Development**](../architecture/ui.md) (NCATS Contract #75N95021P00636)
+- [**Biomedical Data Translator User Interface Development**](../architecture/ui) (NCATS Contract #75N95021P00636)
 
-- [**Knowledge Providers:**](../architecture/kp.md)
+- [**Knowledge Providers:**](../architecture/kp)
 
 | NIH Grant No.   | Team                                |
 |-----------------|-------------------------------------|

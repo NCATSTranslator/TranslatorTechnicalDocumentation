@@ -14,7 +14,7 @@ nav:
         - Introduction: architecture/index.md
         - Knowledge Graph Principles: architecture/biolink/core_knowledge_graph_principles.md
         - User Interface: architecture/ui.md
-        - Autonomous Relay System: architecture/ars.md
+        - Autonomous Relay System: architecture/ars_usage.md
         - Workflow Runner: architecture/workflows.md
         - Translator Registry: architecture/registry.md
         - Autonomous Relay Agents:
@@ -49,6 +49,7 @@ nav:
 theme:
   name: readthedocs
   features:
+    - navigation.indexes
     - navigation.footer
 
 copyright: Copyright &copy; 2017-2023 Biomedical Data Translator<br>National Center for Advancing Translational Science

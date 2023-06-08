@@ -1,4 +1,4 @@
-[Back to Home](..)
+[Back to ARAs](../ara)
 
 ## ARAX Autonomous Relay Agent Page
 
