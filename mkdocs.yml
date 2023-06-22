@@ -16,14 +16,8 @@ nav:
         - Autonomous Relay System: architecture/ars.md
         - Workflow Runner: architecture/workflows.md
         - Translator Registry: architecture/registry.md
-        - Autonomous Relay Agents:
-          - Overview: architecture/ara.md
-          - Biothings Explorer: "https://biothings.io/explorer/"
-          - ARAX: architecture/ara/arax.md
-        - Knowledge Providers:
-          - Overview: architecture/kp.md
-          - Service Provider: architecture/kp/service_provider.md
-          - RTX-KG2: architecture/kp/rtx-kg2.md
+        - Autonomous Relay Agents: architecture/ara/index.md
+        - Knowledge Providers: architecture/kp/index.md
         - Shared Standards and Tools:
           - Introduction: architecture/sri.md
           - Biolink Model: "https://biolink.github.io/biolink-model/"
@@ -41,7 +35,6 @@ nav:
         - Testing:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
-        - The Full Monty...: guide-for-developers/details.md
     - Teams:
         - Expander Agent: teams/expander-agent.md
 theme: readthedocs
