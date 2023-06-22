@@ -53,7 +53,7 @@ Translator is intended to evolve into a global public good through open source a
 
 - [**Biomedical Data Translator User Interface Development**](../architecture/ui) (NCATS Contract #75N95021P00636)
 
-- [**Knowledge Providers:**](../architecture/kp)
+- [**Knowledge Providers:**](../architecture/kp/index.md)
 
 | NIH Grant No.   | Team                                |
 |-----------------|-------------------------------------|
@@ -66,7 +66,7 @@ Translator is intended to evolve into a global public good through open source a
 | OT2TR003445     | [Service Provider]()                |
 | OT2TR003422     | [Text Mining Provider]()            |
 
-- [**Autonomous Relay Agents:**](../architecture/ara.md)
+- [**Autonomous Relay Agents:**](../architecture/ara/index.md)
 
 | NIH Grant No. | Team                  |
 |---------------|-----------------------|

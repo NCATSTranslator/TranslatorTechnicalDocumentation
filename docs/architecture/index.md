@@ -69,8 +69,8 @@ T.B.A. (Tim)
 3. [Workflow Runner](workflows.md)
 4. [Translator Reasoner Application Programming Interface (TRAPI)](trapi.md)
 5. [Translator SmartAPI Registry](registry.md)
-6. [Autonomous Relay Agents (ARAs)](ara.md)
-7. [Knowledge Providers (KPs)](kp.md)
+6. [Autonomous Relay Agents (ARAs)](ara/index.md)
+7. [Knowledge Providers (KPs)](kp/index.md)
 
 Tying together the above components are the activities and outputs of the Translator
 [Standards and Reference Implementation ("SRI")](sri.md) project team.
