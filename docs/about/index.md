@@ -47,36 +47,8 @@ drug-induced liver injury, and many others.
 
 Translator is intended to evolve into a global public good through open source and access licensing. In this spirit, this document repository is  published under the [CC0 1.0 Universal License](license.md)
 
-## Consortium Teams & Funding (June 2022)
+## Consortium Funding
 
-- [**Autonomous Relay System, Link Brokers Team**]() ( NCATS Intramural Funding ZIA TR000276-05)
-
-- [**Biomedical Data Translator User Interface Development**](../architecture/ui) (NCATS Contract #75N95021P00636)
-
-- [**Knowledge Providers:**](../architecture/kp/index.md)
-
-| NIH Grant No.   | Team                                |
-|-----------------|-------------------------------------|
-| OT2TR003434     | [Clinical Data Services Provider]() |
-| OT2TR003436     | [Connections Hypothesis Provider]() |
-| OT2TR003430     | [Exposures Provider]()              | 
-| OT2TR003433     | [Genetics Provider]()               |
-| OT2TR003437     | [Molecular Data Provider]()         |
-| OT2TR003443     | [Multiomics Provider]()             |
-| OT2TR003445     | [Service Provider]()                |
-| OT2TR003422     | [Text Mining Provider]()            |
-
-- [**Autonomous Relay Agents:**](../architecture/ara/index.md)
-
-| NIH Grant No. | Team                  |
-|---------------|-----------------------|
-| OT2TR003441   | [Ranking Agent]()     |
-| OT2TR003450   | [(im)Prove Agent]()   |
-| OT2TR003428   | [Expander Agent]()    |
-| OT2TR003448   | [Explanatory Agent]() |
-| OT2TR003427   | [Exploring Agent]()   |
-| OT2TR003435   | [Unsecret Agent]()    |
-
-- [**Standards & Reference Implementation Team**](../architecture/sri.md) (OT2TR003449) 
+**Translator Phase 2 'Development' funding:** NCATS Intramural Funding ZIA TR000276-05; NCATS Contract #75N95021P00636; Health & Human Services OT2TR003434; OT2TR003436; OT2TR003430; OT2TR003433; OT2TR003437; OT2TR003443; OT2TR003445; OT2TR003422; OT2TR003441; OT2TR003450; OT2TR003428; OT2TR003448; OT2TR003427; OT2TR003435; OT2TR003449
 
 **Translator Phase 1 'Feasibility' funding:** OT3TR002026, OT3TR002020, OT3TR002025, OT3TR002019, OT3TR002027, OT2TR002517, OT2TR002514, OT2TR002515, OT2TR002584, OT2TR002520.
