@@ -6,7 +6,7 @@ The [SRI Testing Harness](https://github.com/TranslatorSRI/SRI_testing) is a sof
 
 The framework uses Biolink Model compliant sample 'edge' test data hosted online (see ['Specifying the Tests'](#specifying-the-tests) below) as curated for each target KP, plus configuration information for associated Autonomous Relay Agents ("ARA") components, to formulate a [set of semantic queries](https://github.com/TranslatorSRI/SRI_testing/blob/main/tests/onehop/README.md#how-the-testing-harness-works) against these components, validating the request inputs and response outputs of the queries for compliance to specified releases of the TRAPI specification and the Biolink Model (both defaulting to '_latest_').
 
-The current implementation focuses on [unit testing of so-called 'one hop' queries of knowledge graph resources](https://github.com/TranslatorSRI/SRI_testing/blob/main/tests/onehop/README.md) using suitable permutations of the test data edge information into TRAPI **/query** endpoints of target components. 
+The current implementation focuses on [unit testing of so-called 'one hop' queries of knowledge graph resources](https://github.com/TranslatorSRI/SRI_testing/blob/main/tests/onehop/README.md) using suitable permutations of the test data edge information into TRAPI **/query** endpoints of target components.  For each test edge (see below), the software also checks if inputs to the query are recovered in the output knowledge graph.
 
 ## Specifying the Tests
 

@@ -2,7 +2,7 @@
 
 # Tutorial / Cookbook / How to's
 
-* Brainstorm outline all of  the specific necessary technical and sociological steps requried to "plug into" the Translator ecosystem?
+* Brainstorm outline all of the specific necessary technical and sociological steps required to "plug into" the Translator ecosystem?
 (Chris / everyone?)
 * Add linkouts to videos (existing?) for various stuff
 
