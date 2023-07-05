@@ -28,7 +28,7 @@ nav:
         - Introduction: guide-for-developers/index.md
         - Quick Start:
            - Overview: guide-for-developers/quickstart.md
-           - "Hello Translator Jupyter Notebook": guide-for-developers/HelloTranslator.ipynb
+           - "Hello Translator Jupyter Notebook": 'https://github.com/NCATSTranslator/translator-developer-documentation/blob/master/docs/guide-for-developers/HelloTranslator.ipynb'
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
