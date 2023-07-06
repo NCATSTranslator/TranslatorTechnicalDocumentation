@@ -13,11 +13,11 @@ The Translator project is first and foremost, an initiative to create a novel co
 
 ## Unit Testing
 
-Most software systems of useable scope under development today are complex.
+Most software systems under development today, of practical scope, are complex.
 
-To manage some of this complexity, a well known works available for a given computing language, e.g. [PyTest for Python](https://docs.pytest.org/) or [JUnit for Java](https://junit.org).  The general idea is to code a unit test for as many representative use case inputs and validating outputs for the functionality of a given module, usually, its public methods constituting its interface to other parts of the system or the external user. Generally, such tests are written prior to any code being written and initially fail. Writing the code (hopefully) results in the test passing. It is often important for test inputs to probe all sensible boundary cases of possible input, to ensure functional coverage of the code.
+To manage some of this complexity, a well known "best practice" is test driven development, using standard testing tools available for most computing languages, e.g. [PyTest for Python](https://docs.pytest.org/) or [JUnit for Java](https://junit.org).  
 
-Once such tests are written and passing, rerunning the tests after every significant revision of the application code allows for efficient detection of breaking changes including unintended secondary interactions between code sections, and provides helpful guidance for the repair of the code (or suggested revision of the unit tests themselves, if the use cases have evolved to require them).
+The general idea is to code a unit test for as many representative use case inputs and validating outputs for the functionality of a given module, usually, its public methods constituting its interface to other parts of the system or the external user. Generally, such tests are written prior to any code being written and initially fail. Writing the code (hopefully) results in the test passing. It is often important for test inputs to probe all sensible boundary cases of possible input, to ensure functional coverage of the code. Once such tests are written and passed, rerunning the tests after every significant revision of the application code allows for efficient detection of breaking changes including unintended secondary interactions between code sections, and provides helpful guidance for the repair of the code (or suggested revision of the unit tests themselves, if the use cases have evolved to require them).
 
 Core Translator software applications like include unit tests for functional validation of key programmatic facets of their modules, applications like the [Biolink Model Toolkit](https://github.com/biolink/biolink-model-toolkit/tree/master/tests/unit), [KGX](https://github.com/biolink/kgx/tree/master/tests) and [reasoner-validator](https://github.com/NCATSTranslator/reasoner-validator/tree/master/tests).
 
