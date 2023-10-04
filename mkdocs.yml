@@ -3,13 +3,11 @@ site_url: https://ncatstranslator.github.io/translator-developer-documentation/
 repo_url: https://github.com/NCATSTranslator/translator-developer-documentation
 
 nav:
-    - Home:
-        - Welcome: index.md
     - About:
-        - About Translator: about/index.md
+        - About: index.md
+        - The Translator program: about/index.md
         - License: about/license.md
-    - Frequently Asked Questions:
-          - faq.md
+        - Frequently Asked Questions: faq.md
     - Architecture:
         - Introduction: architecture/index.md
         - Knowledge Graph Principles: architecture/biolink/core_knowledge_graph_principles.md
@@ -18,37 +16,110 @@ nav:
         - Workflow Runner: architecture/workflows.md
         - Translator Registry: architecture/registry.md
         - Autonomous Relay Agents:
-          - Overview: architecture/ara/index.md
-          - ARAX: architecture/ara/arax.md
+            - Overview: architecture/ara/index.md
+            - ARAX: architecture/ara/arax.md
         - Knowledge Providers:
-          - Overview: architecture/kp/index.md
-          - RTX-KG2: architecture/kp/rtx-kg2.md
-          - Service Provider: architecture/kp/service_provider.md
+            - Overview: architecture/kp/index.md
+            - RGX-KG2: architecture/kp/rtx-kg2.md
+            - Service Provider: architecture/kp/service_provider.md
         - Shared Standards and Tools:
-          - Introduction: architecture/sri.md
-          - Biolink Model: "https://biolink.github.io/biolink-model/"
-          - Translator Reasoner API (TRAPI): architecture/trapi.md          
-          - Evidence, Provenance & Confidence Metadata: architecture/epc.md
+            - Introduction: architecture/sri.md
+            - Biolink Model: "https://biolink.github.io/biolink-model/"
+            - Translator Reasoner API (TRAPI): architecture/trapi.md
+            - Evidence, Provenance & Confidence Metadata: architecture/epc.md
         - Monitoring: architecture/monitoring.md
     - Developer Guide:
         - Introduction: guide-for-developers/index.md
         - Quick Start:
-           - Overview: guide-for-developers/quickstart.md
-           - "Hello Translator Jupyter Notebook": 'https://github.com/NCATSTranslator/translator-developer-documentation/blob/master/docs/guide-for-developers/HelloTranslator.ipynb'
+            - Overview: guide-for-developers/quickstart.md
+            - "Hello Translator Jupyter Notebook": 'https://github.com/NCATSTranslator/translator-developer-documentation/blob/master/docs/guide-for-developers/HelloTranslator.ipynb'
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
+            - Workflow Tutorial: guide-for-developers/tutorials/workflows.md
         - Testing:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
     - Teams:
+        - Overview: teams/index.md
         - Expander Agent: teams/expander-agent.md
 
 theme:
-  name: readthedocs
-  features:
-    - navigation.indexes
-    - navigation.footer
+    name: "material"
+    favicon: img/favicon.ico
+    logo: img/favicon.ico
+    icon:
+        admonition:
+        server: material/server
+    language: en
+    # Pick color: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: deep purple
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: deep purple
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light mode
+    features:
+        - navigation.indexes
+        - navigation.footer
+        - navigation.sections
+        - navigation.tabs
+        - content.code.copy
+        - content.code.annotate
+        - content.code.select
+        - navigation.top
+        - navigation.tracking
+        - search.highlight
+        - search.share
+        - search.suggest
+        - toc.follow
 
 copyright: Copyright &copy; 2017-2023 Biomedical Data Translator<br>National Center for Advancing Translational Science
 
+markdown_extensions:
+    - admonition # Supported types: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.details
+    - pymdownx.extra
+    - abbr
+    - pymdownx.snippets:
+        auto_append:
+            - docs/includes/abbreviations.md
+    - attr_list
+    - smarty
+
+plugins:
+    - search
+    - autorefs
+    - glightbox:
+        touchNavigation: true
+        loop: false
+        effect: zoom
+        slide_effect: slide
+        width: 100%
+        height: auto
+        zoomable: true
+        draggable: true
+        auto_caption: false
+        caption_position: bottom
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/NCATSTranslator
+
+watch:
+    - docs

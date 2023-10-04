@@ -1,9 +1,9 @@
 ## RTX-KG2 Knowledge Provider Page
-[Back to KPs](../kp)
+[Back to KPs](index.md)
 
 RTX-KG2 is a Translator System Knowledge Provider created/supported/maintained
 by
-[Team Expander Agent](../../../teams/expander-agent). It
+[Team Expander Agent](../../teams/expander-agent.md). It
 can answer Translator queries that are expressed in
 [TRAPI](https://github.com/NCATSTranslator/ReasonerAPI) format, with query
 graphs that contain one node or two nodes connected by an edge (i.e., a
@@ -16,7 +16,7 @@ more information about the PloverDB database, see the
 [PloverDB GitHub project area](https://github.com/RTXteam/PloverDB). RTX-KG2 is
 one of the KPs that is used by the Translator reasoning agent, **ARAX**. For
 more information about ARAX, see the
-[Expander Agent Page](../../../teams/expander-agent).
+[Expander Agent Page](../../teams/expander-agent.md).
 
 * _Modes of Access_ 
 

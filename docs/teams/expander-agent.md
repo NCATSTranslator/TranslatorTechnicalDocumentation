@@ -1,10 +1,10 @@
-[Back to Teams](../teams)
+[Back to Teams](index.md)
 
 # Team Expander Agent
 
 Expander Agent is the team responsible for the 
-["ARAX"](../../architecture/ara/arax) autonomous relay agent and the 
-["RTX-KG2"](../../architecture/kp/rtx-kg2) knowledge provider.
+["ARAX"](../architecture/ara/arax.md) autonomous relay agent and the 
+["RTX-KG2"](../architecture/kp/rtx-kg2.md) knowledge provider.
 
 ## Team Contact:
 
