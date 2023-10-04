@@ -15,8 +15,13 @@ nav:
         - Autonomous Relay System: architecture/ars_usage.md
         - Workflow Runner: architecture/workflows.md
         - Translator Registry: architecture/registry.md
-        - Autonomous Relay Agents: architecture/ara/index.md
-        - Knowledge Providers: architecture/kp/index.md
+        - Autonomous Relay Agents:
+            - Overview: architecture/ara/index.md
+            - ARAX: architecture/ara/arax.md
+        - Knowledge Providers:
+            - Overview: architecture/kp/index.md
+            - RGX-KG2: architecture/kp/rtx-kg2.md
+            - Service Provider: architecture/kp/service_provider.md
         - Shared Standards and Tools:
             - Introduction: architecture/sri.md
             - Biolink Model: "https://biolink.github.io/biolink-model/"
