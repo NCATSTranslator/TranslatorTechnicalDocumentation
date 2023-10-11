@@ -19,6 +19,6 @@ This site hosts the official software development documentation for Translator. 
 
 - [About Translator](about/index.md)
 - [Translator Architecture](architecture/index.md): overview of the Translator knowledge integration platform.
-- [Guide for Developers](guide-for-developers): guidelines for Translator software development, including tutorials.
+- [Guide for Developers](guide-for-developers/index.md): guidelines for Translator software development, including tutorials.
     - [Quick Start](guide-for-developers/quickstart.md)
 - [Frequently Asked Questions](faq.md)

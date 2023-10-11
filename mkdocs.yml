@@ -16,12 +16,12 @@ nav:
         - Workflow Runner: architecture/workflows.md
         - Translator Registry: architecture/registry.md
         - Autonomous Relay Agents:
-          - Overview: architecture/ara/index.md
-          - ARAX: architecture/ara/arax.md
+            - Overview: architecture/ara/index.md
+            - ARAX: architecture/ara/arax.md
         - Knowledge Providers:
-          - Overview: architecture/kp/index.md
-          - RTX-KG2: architecture/kp/rtx-kg2.md
-          - Service Provider: architecture/kp/service_provider.md
+            - Overview: architecture/kp/index.md
+            - RGX-KG2: architecture/kp/rtx-kg2.md
+            - Service Provider: architecture/kp/service_provider.md
         - Shared Standards and Tools:
             - Introduction: architecture/sri.md
             - Biolink Model: "https://biolink.github.io/biolink-model/"
@@ -36,10 +36,12 @@ nav:
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
+            - Workflow Tutorial: guide-for-developers/tutorials/workflows.md
         - Testing:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
     - Teams:
+        - Overview: teams/index.md
         - Expander Agent: teams/expander-agent.md
 
 theme:

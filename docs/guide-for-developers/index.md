@@ -6,7 +6,6 @@
 * [Developer Cookbook](cookbook.md)
 * [Tutorials](tutorials/index.md)
 * [Testing](testing.md)
-* [The Full Monty...](details.md)
 
 ## Joining the Translator Community as a Developer [draft]
 

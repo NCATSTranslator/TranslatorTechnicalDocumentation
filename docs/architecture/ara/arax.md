@@ -1,4 +1,4 @@
-[Back to ARAs](../ara)
+[Back to ARAs](index.md)
 
 ## ARAX Autonomous Relay Agent Page
 
@@ -23,7 +23,7 @@ Each of the query methods has a link to an example so a user can see what sort o
 
 ARAX is registered in Smart API [here](http://smart-api.info/registry?q=arax).
 
-If you would like to deploy your own instance, please see the dependencies listed [here](https://github.com/RTXteam/RTX#installation-and-dependencies), [here](https://github.com/RTXteam/RTX/tree/master/code/reasoningtool/kg-construction#instructions-on-how-to-build-a-new-kg-from-scratch) for how to build the Expander Agent portion of the Knowledge Graph [here](https://github.com/RTXteam/RTX/tree/master/code/reasoningtool/kg-construction#instructions-on-how-to-build-a-new-kg-from-scratch) (more info about this knowledge graph, called KG2, is available [here](../../kp/rtx-kg2)), and the [deployment wiki](https://github.com/RTXteam/RTX/wiki/Deployment-info). 
+If you would like to deploy your own instance, please see the dependencies listed [here](https://github.com/RTXteam/RTX#installation-and-dependencies), [here](https://github.com/RTXteam/RTX/tree/master/code/reasoningtool/kg-construction#instructions-on-how-to-build-a-new-kg-from-scratch) for how to build the Expander Agent portion of the Knowledge Graph [here](https://github.com/RTXteam/RTX/tree/master/code/reasoningtool/kg-construction#instructions-on-how-to-build-a-new-kg-from-scratch) (more info about this knowledge graph, called KG2, is available [here](../kp/rtx-kg2.md)), and the [deployment wiki](https://github.com/RTXteam/RTX/wiki/Deployment-info). 
 
 ## Use Cases 
 
