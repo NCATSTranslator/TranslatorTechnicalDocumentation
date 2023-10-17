@@ -1,6 +1,6 @@
 site_name: Translator Developer Documentation
-site_url: https://ncatstranslator.github.io/translator-developer-documentation/
-repo_url: https://github.com/NCATSTranslator/translator-developer-documentation
+site_url: https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/
+repo_url: https://github.com/NCATSTranslator/TranslatorTechnicalDocumentation
 
 nav:
     - About:
@@ -27,12 +27,11 @@ nav:
             - Biolink Model: "https://biolink.github.io/biolink-model/"
             - Translator Reasoner API (TRAPI): architecture/trapi.md
             - Evidence, Provenance & Confidence Metadata: architecture/epc.md
-        - Monitoring: architecture/monitoring.md
     - Developer Guide:
         - Introduction: guide-for-developers/index.md
         - Quick Start:
             - Overview: guide-for-developers/quickstart.md
-            - "Hello Translator Jupyter Notebook": 'https://github.com/NCATSTranslator/translator-developer-documentation/blob/master/docs/guide-for-developers/HelloTranslator.ipynb'
+            - "Hello Translator Jupyter Notebook": 'https://github.com/NCATSTranslator/TranslatorTechnicalDocumentation/blob/master/docs/guide-for-developers/HelloTranslator.ipynb'
         - Cookbook: guide-for-developers/cookbook.md
         - Tutorials:
             - Overview: guide-for-developers/tutorials/index.md
@@ -40,6 +39,11 @@ nav:
         - Testing:
             - Overview: guide-for-developers/testing.md
             - SRI Testing: guide-for-developers/sri_testing.md
+    - Administrator Guide:
+        - Introduction: guide-for-administrators/index.md
+        - Continuous Integration for Translator: guide-for-administrators/ci.md
+        - Production Deployment: guide-for-administrators/deployment.md
+        - Monitoring: guide-for-administrators/monitoring.md
     - Teams:
         - Overview: teams/index.md
         - Expander Agent: teams/expander-agent.md
