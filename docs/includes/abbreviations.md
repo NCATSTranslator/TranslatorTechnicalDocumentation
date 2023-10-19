@@ -1,5 +1,6 @@
 *[NIH]: National Institutes of Health
 *[NCATS]: National Center for Advancing Translational Sciences
+*[Biolink Model]: Open-source data model that can be used to formalize the relationships between data structures in translational science. 
 *[KP]: Knowledge Provider
 *[KPs]: Knowledge Providers
 *[ARA]: Autonomous Relay Agent
@@ -39,6 +40,7 @@
 *[ZSH]: The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell, and as a command interpreter for shell scripting.
 *[BASH]: The Bourne-Again SHell (BASH) is a Unix shell that can be used as an interactive login shell, and as a command interpreter for shell scripting.
 *[OpenAPI]: OpenAPI, formerly known as Swagger, is a specification language for HTTP APIs that defines structure and syntax in a way that is not wedded to the programming language the API is created in.
+*[SmartAPI]: SmartAPI: a standardized catalog of OpenAPI sites, with enhanced service metadata (https://smart-api.info/)
 *[JS]: JavaScript
 *[TS]: TypeScript
 *[CSS]: Cascading Style Sheets

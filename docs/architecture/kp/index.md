@@ -6,7 +6,7 @@ Knowledge Providers (KPs) contribute domain-specific, high-value information abs
 
 ## Tutorials
 
-* [Knowledge Provider tutorials](../../guide-for-developers/tutorials/index.md)
+* [Knowledge Provider tutorials](../../development-guide/tutorials/index.md)
 
 ## Existing Translator KPs
 

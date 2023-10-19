@@ -3,19 +3,21 @@
 # Translator Architecture
 
 The Translator system is comprised of five main components, shown in the diagram below 
-([Fecho et al. 2022](../about/index.md#references)). Knowledge Providers (KPs) contribute domain-specific, high-value
+([Fecho et al. 2022](../index.md#references)). Knowledge Providers (KPs) contribute domain-specific, high-value
 information abstracted from one or more underlying ‘knowledge sources’. Autonomous Relay Agents (ARAs) build upon the 
 knowledge contributed by KPs by way of reasoning and inference across KPs. The Autonomous Relay System (ARS) functions
 as a central relay station and broadcasts user queries to the broader Translator
 ecosystem and, in turn, compiles results. A user interface (UI) is under development and intended to serve as a public UI to the Translator system.
 Finally, a Standards and Reference Implementation (SRI) Component provides services and community-based collaboration
 guidance related to the development, adoption, and implementation of the standards needed to achieve the overall
-implementation goals of the Translator system. Architecture details are stored in the
-[Translator Architecture repository](https://github.com/NCATSTranslator/TranslatorArchitecture).
+implementation goals of the Translator system.
+
+Further details may be found in the 
+[**Translator Architecture repository**](https://github.com/NCATSTranslator/TranslatorArchitecture).
 
 ![image](https://user-images.githubusercontent.com/26254388/174347804-0412fbd2-f61f-4573-8073-2408c3c41e15.png)
 
-**Figure 1**  High-level overview of the Translator architecture ([Fecho _et al._ 2022](../about/index.md#references)).
+**Figure 1**  High-level overview of the Translator architecture ([Fecho _et al._ 2022](../index.md#references)).
 
 ## Example Use Case Application
 
@@ -27,7 +29,7 @@ Shown below is the translation of that user question into a TRAPI query.
 
 ![image](https://user-images.githubusercontent.com/26254388/174348079-4bf2ff96-db8e-432e-ba5d-7c82475ec821.png)
 
-**Figure 2** Step-by-step translation of a user question into a TRAPI query ([Fecho _et al._ 2022](../about/index.md#references))
+**Figure 2** Step-by-step translation of a user question into a TRAPI query ([Fecho _et al._ 2022](../index.md#references))
 
 In response to the query, Translator provided answers that are known to be treatments for chronic pain such as
 ibuprofen. Translator also provided answers that are correct but not terribly interesting or necessarily aligned with
@@ -42,7 +44,7 @@ Translator aims to foster.
 
 ![image](https://user-images.githubusercontent.com/26254388/174348255-2ba2d8d3-8f0e-4678-a4d1-997e299b4a1b.png)
 
-**Figure 3** ([Fecho _et al._ 2022](../about/index.md#references))
+**Figure 3** ([Fecho _et al._ 2022](../index.md#references))
 
 While the query provided here is simple and intended to be illustrative, more complex queries are possible using TRAPI 
 and a variety of Translator operations and workflows.
@@ -51,27 +53,4 @@ In terms of impact, Translator is currently being used to promote serendipitous 
 in a variety of disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, 
 and drug-induced liver injury.
 
-## Modeling Paradigms 
-
-* [Core knowledge graph principles](./biolink/core_knowledge_graph_principles.md)
-* [Key Biolink Model components](https://biolink.github.io/biolink-model/guidelines/understanding-the-model.html)
-* [Getting started with Biolink](https://biolink.github.io/biolink-model/guidelines/using-the-modeling-language.html)
-* [Working with the model (tutorial)](https://biolink.github.io/biolink-model/guidelines/working-with-the-model.html)
-
-## System design (overview)
-
-T.B.A. (Tim)
-
-## Components
-
-1. [User Interface (UI)](ui.md)
-2. [Autonomous Relay System (ARS)](ars_usage.md)
-3. [Workflow Runner](workflows.md)
-4. [Translator Reasoner Application Programming Interface (TRAPI)](trapi.md)
-5. [Translator SmartAPI Registry](registry.md)
-6. [Autonomous Relay Agents (ARAs)](ara/index.md)
-7. [Knowledge Providers (KPs)](kp/index.md)
-
-Tying together the above components are the activities and outputs of the Translator
-[Standards and Reference Implementation ("SRI")](sri.md) project team.
-
+Further technical details about the components of the Translator architecture are provided within the [**Development Guide**](../development-guide/index.md).

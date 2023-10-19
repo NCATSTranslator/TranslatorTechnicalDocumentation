@@ -14,7 +14,7 @@
 
 ## Shared libraries, tools and services
 
-* [Shared Tool usage tutorials](../guide-for-developers/tutorials/index.md)
+* [Shared Tool usage tutorials](../../development-guide/tutorials/index.md)
 
 | Name                                       | Documentation                | Github Repository              |
 |--------------------------------------------|------------------------------|--------------------------------|

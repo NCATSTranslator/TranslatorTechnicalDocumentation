@@ -93,7 +93,7 @@ the OpenAPI specification utilizing the `x-trapi` extension. Directions on how t
  with a real-world example [here](https://arax.ncats.io/test/api/arax/v1.2/openapi.json).
 
 # Implementing operations
-Please see the [Guide for developers](../guide-for-developers/tutorials/workflows.md) for developer details about how 
+Please see the [Guide for developers](../development-guide/tutorials/workflows.md) for developer details about how 
 to implement new operations.
 
 # Operations and workflow policies

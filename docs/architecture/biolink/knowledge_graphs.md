@@ -1,7 +1,13 @@
-# Knowledge graphs and why they're used in Translator
+# Knowledge Graphs
 
-## What are knowledge graphs?
+## Why does Translator use Knowledge Graphs?
+The Translator Consortium has adopted a federated Knowledge Graph based approach for biomedical knowledge representation and discovery.
+Using Knowledge Graph ("KG") data structures enables Translator to integrate a wide range of heterogeneous data sets and translate them into insights intended to augment human reasoning
+and accelerate translational science.
 
+For more about Translator and how it uses KGs, please see the [2022 Translator paper](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301) (reference 2 below).
+
+## What are Knowledge Graphs?
 Within clinical, biomedical, and translational science, an increasing number of projects are adopting graphs for knowledge representation.
 Graph-based data models such as knowledge graphs (KGs) elucidate the interconnectedness between core biomedical concepts, enable data structures to be easily updated,
 and support intuitive queries, visualizations, and inference algorithms.
@@ -12,16 +18,9 @@ KGs allow users to pose questions that can then be translated into query graphs 
 
 For a general introduction to knowledge graphs and their use in biomedical informations, please see [Callahan et al., 2021](https://www.annualreviews.org/doi/10.1146/annurev-biodatasci-010820-091627) (reference 1 below).
 
-## Why does Translator use knowledge graphs?
-The Translator Consortium has adopted a federated KG-based approach for biomedical knowledge representation and discovery.
-Using KGs enables Translator to integrate a wide range of heterogeneous data sets and translate them into insights intended to augment human reasoning
-and accelerate translational science.
-
-For more about Translator and how it uses KGs, please see the [2022 Translator paper](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301) (reference 2 below).
-
-## What is Biolink Model?
+## What is the Biolink Model?
 [Biolink Model](https://github.com/biolink/biolink-model) is an open-source data model that can be used to formalize
-the relationships between data structures in translational science.
+the relationships between core concepts in translational science.
 It incorporates object-oriented classification and graph-oriented features.
 The core of the model is a set of hierarchical, interconnected classes (or categories) and relationships between them (or predicates),
 representing biomedical entities such as gene, disease, chemical, anatomical structure, and phenotype.

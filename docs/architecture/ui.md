@@ -6,4 +6,4 @@ The Translator User Interface (UI) is under development as a Web interface to th
 
 ## Tutorials
 
-* [Translator User Interface tutorials](../guide-for-developers/tutorials/index.md)
+* [Translator User Interface tutorials](../development-guide/tutorials/index.md)
