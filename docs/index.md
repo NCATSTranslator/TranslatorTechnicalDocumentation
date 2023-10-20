@@ -22,7 +22,11 @@ This site hosts the official technical documentation for Translator. Key section
 
 ##  Licensing
 
-Translator is intended to evolve into a global public good through open source and access licensing. In this spirit, this document repository is  published under the [CC0 1.0 Universal License](license.md)
+Translator is intended to evolve into a global public good through open source and access licensing.
+
+In this spirit, **_this_** document repository is  published under the [Creative Commons CC0 1.0 Universal License](license.md)
+
+Note, however, that the system components developed by different Translator teams may have other distinct specific licensing. 
 
 ## References
 

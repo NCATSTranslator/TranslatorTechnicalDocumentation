@@ -1,5 +1,7 @@
 # Creative Commons Legal Code
 
+The License covering this documentation repository only (not all software components of the Translator system, which may each have their own applicable licensing) is the one here below.
+
 ## CC0 1.0 Universal
 
     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
