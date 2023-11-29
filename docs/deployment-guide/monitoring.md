@@ -17,6 +17,8 @@ Given the distributed nature of Biomedical Translator knowledge processing compo
 #### When I instrument my application should I trace incoming requests or outgoing ?
  In a microservices environment such as Translator system, tracing both incoming and outgoing requests is key. Incoming tracing reveals user journeys, while outgoing tracing uncovers dependencies between services—both are crucial for comprehensive visibility and issue diagnosis.
 
+ As an example ARAGORN, an ARA that recieves requests from the ARS and preforms subsequent requests to downstream components makes use of FastAPI instrumentation to trace incoming requests and httpx instrumentation for tracing outgoing requests. This [code snippet](https://github.com/ranking-agent/aragorn/blob/main/src/otel_config.py) shows how ARAGORN traces both incoming and outgoing requests.
+
 #### When tracing outgoing requests should it be logged if the request is bound to external services ?
 Logging outgoing requests bound to external services can be essential for capturing communication details, aiding in troubleshooting, performance monitoring, and understanding dependencies outside your system.
 
