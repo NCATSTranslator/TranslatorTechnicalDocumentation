@@ -11,18 +11,18 @@ T.B.A. (Tim Putnam to elaborate)
 
 # Telemetry
 
-Given the distributed nature of Biomedical Translator knowledge processing components, tracing the flow of queries through the system represents a challenge. Observability is the practice of measuring the state of a system by its various component outputs. [OpenTelemetry](https://opentelemetry.io/) is an open source observability framework. Applying elements of OpenTelemetry to Translator will help in the challenge of query auditing, for quality assurance or performance.  An overview of OpenTelemetry concepts is provided [here](https://docs.google.com/presentation/d/1OjcE1gVhx8u9EvvHGn6h50otBKmpd-9HidlTNppXXy0/edit#slide=id.g27ee40efb83_0_3) and a small Translator demo of the concept using the Jaeger telemetry collector, is [here](https://github.com/TranslatorSRI/Jaeger-demo).
+Given the distributed nature of Biomedical Translator knowledge processing components, tracing the flow of queries through the system represents a challenge. Observability is the practice of measuring the state of a system by its various component outputs. [OpenTelemetry](https://opentelemetry.io/) is an open-source observability framework. Applying elements of OpenTelemetry to Translator will help in the challenge of query auditing, for quality assurance or performance.  An overview of OpenTelemetry concepts is provided [here](https://docs.google.com/presentation/d/1OjcE1gVhx8u9EvvHGn6h50otBKmpd-9HidlTNppXXy0/edit#slide=id.g27ee40efb83_0_3) and a small Translator demo of the concept using the Jaeger telemetry collector, is [here](https://github.com/TranslatorSRI/Jaeger-demo).
 
-### Telemetery Frequently Asked Questions
-#### When I instrument my application should I trace incoming requests or outgoing ?
- In a microservices environment such as Translator system, tracing both incoming and outgoing requests is key. Incoming tracing reveals user journeys, while outgoing tracing uncovers dependencies between services—both are crucial for comprehensive visibility and issue diagnosis.
+### Telemetry Frequently Asked Questions
+#### When I instrument my application should I trace incoming requests or outgoing?
+ In a microservices environment such as the Translator system, tracing both incoming and outgoing requests is key. Incoming tracing reveals user journeys, while outgoing tracing uncovers dependencies between services—both are crucial for comprehensive visibility and issue diagnosis.
 
- As an example ARAGORN, an ARA that recieves requests from the ARS and performs subsequent requests to downstream components makes use of FastAPI instrumentation to trace incoming requests and httpx instrumentation for tracing outgoing requests. This [code snippet](https://github.com/ranking-agent/aragorn/blob/main/src/otel_config.py) shows how ARAGORN traces both incoming and outgoing requests.
+ As an example ARAGORN, an ARA that receives requests from the ARS and performs subsequent requests to downstream components makes use of FastAPI instrumentation to trace incoming requests and httpx instrumentation for tracing outgoing requests. This [code snippet](https://github.com/ranking-agent/aragorn/blob/main/src/otel_config.py) shows how ARAGORN traces both incoming and outgoing requests.
 
-#### When tracing outgoing requests should it be logged if the request is bound to external services ?
+#### When tracing outgoing requests should it be logged if the request is bound to external services?
 Logging outgoing requests bound to external services can be essential for capturing communication details, aiding in troubleshooting, performance monitoring, and understanding dependencies outside your system.
 
-#### In Development enviroment where there is no provisioned Jaeger instance , what is the best way to test my OTEL implementation?
+#### In a Development environment with no provisioned Jaeger instance, what is the best way to test my OTEL implementation?
 
 To use a local Jaeger instance for testing your OpenTelemetry implementation, you can follow these general steps:
 <ol>
@@ -34,7 +34,7 @@ This command pulls the latest Jaeger image and runs it, exposing the Jaeger UI o
 </li>
 <li> <strong>Configure OpenTelemetry SDK:</strong> Use the OpenTelemetry SDK in your application to send traces to your local Jaeger instance. Configure your OpenTelemetry instrumentation to send data to localhost on the relevant Jaeger ports (usually 6831 for UDP and 16686 for HTTP).
 </li>
-<li><strong>Instrument Your Code:</strong> Instrument your application using OpenTelemetry APIs to create traces. Ensure you've set up the instrumentation to export traces to your local Jaeger instance.
+<li><strong>Instrument Your Code:</strong> Instrument your application using OpenTelemetry APIs to create traces. Please make sure you've set up the instrumentation to export traces to your local Jaeger instance.
 </li>
 <li><strong>Verify Traces:</strong> Execute your application's workflows or requests that should generate traces. Then, access the Jaeger UI at http://localhost:16686 in your browser to view the traces generated by your application.</li>
 </ol>
@@ -43,9 +43,9 @@ Remember to adapt the OpenTelemetry SDK configuration in your code to use the ad
 
 This approach provides a local environment for testing OpenTelemetry traces with Jaeger without needing a remote Jaeger instance.
 
-Once ready for deployment, in the ITRB managed enviroments Jaeger can be found at `jaeger.sri:6831`. This stays the same in all ITRB managed enviroments, pointing to an instance in the enviroment your application is deployed to. 
+Once ready for deployment, in the ITRB-managed environments Jaeger can be found at `jaeger.sri:6831`. This stays the same in all ITRB-managed environments, pointing to an instance in the environment where your application is deployed. 
 
-#### Where can I see my traces in ITRB enviroments once deployed?
+#### Where can I see my traces in ITRB environments once deployed?
 Jaeger UI can be accessed in the following links: 
 * [CI Jaeger](https://translator-otel.ci.transltr.io/search)
 * [Test Jaeger](https://translator-otel.test.transltr.io/search)
