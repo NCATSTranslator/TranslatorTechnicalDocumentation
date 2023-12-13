@@ -42,7 +42,7 @@ Remember to adapt the OpenTelemetry SDK configuration in your code to use the ad
 
 This approach provides a local environment for testing OpenTelemetry traces with Jaeger without needing a remote Jaeger instance.
 
-Once ready for deployment, in the ITRB-managed environments Jaeger can be found at `jaeger.sri:6831`. This stays the same in all ITRB-managed environments, pointing to an instance in the environment where your application is deployed. 
+Once ready for deployment, in the ITRB-managed environments Jaeger can be found at `jaeger-otel-agent.sri:6831`. This stays the same in all ITRB-managed environments, pointing to an instance in the environment where your application is deployed. 
 
 #### Where can I see my traces in ITRB environments once deployed?
 Jaeger UI can be accessed in the following links: 
