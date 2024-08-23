@@ -12,6 +12,8 @@ nav:
           - Teams:
               - Overview: teams/index.md
               - Expander Agent: teams/expander-agent.md
+              - Service Provider: teams/service-provider.md
+              - Exploring Agent: teams/exploring-agent.md
           - Frequently Asked Questions: faq.md
           - License: license.md
     - Development Guide:
@@ -24,10 +26,11 @@ nav:
         - Autonomous Relay Agents:
             - Overview: architecture/ara/index.md
             - ARAX: architecture/ara/arax.md
+            - BTE: architecture/ara/bte.md
         - Knowledge Providers:
             - Overview: architecture/kp/index.md
             - RGX-KG2: architecture/kp/rtx-kg2.md
-            - Service Provider: architecture/kp/service_provider.md
+            - Service Provider: architecture/kp/service-provider.md
         - Standards and Reference Implementation:
             - Overview: architecture/sri/index.md
             - Biolink Model: "https://biolink.github.io/biolink-model/"
