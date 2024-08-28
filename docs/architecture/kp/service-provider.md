@@ -11,40 +11,40 @@ Service Provider is a Translator System Knowledge Provider created by Team Servi
 
 ### Tools and KP APIs
 
-- BioThings SDK
-  Intro: A knowledge source KP API SDK
-  Docs: https://docs.biothings.io
-  PyPI package: https://pypi.org/project/biothings
-  GitHub: BioThings API
+- **BioThings SDK**
+  - **Intro:** A knowledge source KP API SDK
+  - **Docs:** https://docs.biothings.io
+  - **PyPI package:** https://pypi.org/project/biothings
+  - **GitHub:** BioThings API
 
-- BioThings Studio
-  Intro: A web UI for managing underly data-src updates
-  GitHub: https://github.com/biothings/biothings_studio
+- **BioThings Studio**
+  - **Intro:** A web UI for managing underlying datasource updates
+  - **GitHub:** https://github.com/biothings/biothings_studio
 
-- SmartAPI: https://smart-api.info
-  Intro: Translator's API registry
-  Translator portal at SmartAPI
-  GitHub: SmartAPI
+- **SmartAPI:** https://smart-api.info
+  - **Intro:** Translator's API registry
+  - _Translator portal at SmartAPI_
+  - **GitHub:** SmartAPI
 
-- MyGene.info: https://mygene.info
-  Intro: A gene-centric knowledge KP
-  Docs: https://docs.mygene.info
-  GitHub: MyGene.info
+- **MyGene.info:** https://mygene.info
+  - **Intro:** A gene-centric knowledge KP
+  - **Docs:** https://docs.mygene.info
+  - **GitHub:** MyGene.info
 
-- MyVariant.info: https://myvariant.info
-  Intro: A genetic variant-centric knowledge KP
-  Docs: https://docs.myvariant.info
-  GitHub: MyVariant.info
+- **MyVariant.info:** https://myvariant.info
+  - **Intro:** A genetic variant-centric KP
+  - **Docs:** https://docs.myvariant.info
+  - **GitHub:** MyVariant.info
 
-- MyChem.info: https://mychem.info
-  Intro: A drug and chemical-centric knowledge KP
-  Docs: https://docs.mychem.info
-  GitHub: MyChem.info
+- **MyChem.info:** https://mychem.info
+  - **Intro:** A drug and chemical-centric KP
+  - **Docs:** https://docs.mychem.info
+  = **GitHub:** MyChem.info
 
-- MyDisease.info: https://mydisease.info
-  Intro: A disease and phenotype-centric knowledge KP
-  Docs: https://docs.mydisease.info
-  GitHub: MyDisease.info
+- **MyDisease.info:** https://mydisease.info
+  - **Intro:** A disease and phenotype-centric KP
+  - **Docs:** https://docs.mydisease.info
+  - **GitHub:** MyDisease.info
 
 All other KPs hosted at: https://biothings.ncats.io
 
