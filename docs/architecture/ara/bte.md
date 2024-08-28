@@ -60,7 +60,7 @@ curl -X POST \
 
 ## Knowledge Providers Accessed
 
-BioThings Explorer maintains a allow-list of Knowledge Providers, see [here](https://github.com/biothings/bte-server/blob/main/config/api_list.yaml).
+BioThings Explorer maintains an **`allow-list`** of Knowledge Providers, see [here](https://github.com/biothings/bte-server/blob/main/config/api_list.yaml).
 
 ## Source Code
 
