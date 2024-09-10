@@ -24,20 +24,32 @@ The following `mkdocs` commands are useful for the work:
 
 The Translator `mkdocs` documentation is hierarchically structured as follows:
 
-    mkdocs.yml    # The configuration file.
+    mkdocs.yml         # The configuration file.
     docs/
-        index.md  # the documentation homepage.
-        faq.md
-        img/      # shared images
+        index.md       # the documentation homepage.
         architecture/  # overview of the Translator architecture
             index.md
             ...
-        guide-for-developers/
+        deployment-guide/
             index.md   # specific hands-on developer documentation, tutorials directory
             ...
+        development-guide/
+            # specific hands-on developer documentation, 
+            # tutorials subdirectory, Jupyter Notebook, etc
+            index.md
+            ...
             tutorials/
-                index.md   # tutorials/cookbook pages
+                index.md   # tutorial resources
                 ...
-        about/
+        teams/
             index.md  # project details about Translator
             ...
+        faq.md        # frequently asked questions
+        glossary.md   # basic glossary of Translator buzzwords
+        license.md
+
+with some utility resources:
+
+        img/          # shared images
+        includes/     # shared site abbreviation file, etc
+        stylesheets/  # CSS styles for the site
