@@ -13,7 +13,7 @@ The second way to interact with ARAX is via the [GUI](https://arax.ncats.io/). T
 1. You can build a query graph by clicking on this icon: ![](https://www.dropbox.com/s/uhe2qtqyzei1aw7/graph.PNG?raw=1)
 2. You can paste in a `query_graph` element in a JSON TRAPI message (circumventing the need to manually POST TRAPI queries) by clicking on this icon: ![](https://www.dropbox.com/s/3gw48t4fp5ty33s/JSON.PNG?raw=1)
 3. You can enter ARAXi domain specific language commands by clicking on this icon: ![](https://www.dropbox.com/s/khh6whk095vg63c/DSL.PNG?raw=1)
-4. You can enter an ARS PK ID (to pull results from the Automated Reasoning System) after clicking on this icon: ![](https://www.dropbox.com/s/ob7ozbxtilpse6o/ID.PNG?raw=1)
+4. You can enter an ARS PK ID (to pull results from the Autonomous Relay System) after clicking on this icon: ![](https://www.dropbox.com/s/ob7ozbxtilpse6o/ID.PNG?raw=1)
 
 No matter which method is used, after submitting a query, the results can be viewed via the links on the left vertical bar under *output*: ![](https://www.dropbox.com/s/1gzovgivoszikym/Output.PNG?raw=1).
 
