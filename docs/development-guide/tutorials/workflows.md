@@ -304,4 +304,93 @@ The API response will also include details like the score of each drug-disease r
 
 ## A more complicated example
 
-Here is an example that specifies a certain KP to call, overlays with additional information, and limits the number of results.
+Here is an example that specifies a certain KP to call, overlays with additional information (Fisher Exact Test and Normalized Google Distance), scores it, and limits the number of results.
+
+```
+{
+  "workflow": [
+    {
+      "id": "fill",
+      "parameters": {
+        "allowlist": [
+          "infores:rtx-kg2"
+        ],
+        "qedge_keys": [
+          "e0"
+        ]
+      }
+    },
+    {
+      "id": "bind"
+    },
+    {
+      "id": "overlay_compute_ngd",
+      "parameters": {
+        "virtual_relation_label": "NGD1",
+        "qnode_keys": [
+          "n0",
+          "n1"
+        ]
+      }
+    },
+    {
+      "id": "overlay_fisher_exact_test",
+      "parameters": {
+        "subject_qnode_key": "n0",
+        "object_qnode_key": "n1",
+        "virtual_relation_label": "FET1"
+      }
+    },
+    {
+      "id": "complete_results"
+    },
+    {
+      "id": "score"
+    },
+    {
+      "id": "filter_results_top_n",
+      "parameters": {
+        "max_results": 10
+      }
+    }
+  ],
+  "message": {
+    "query_graph": {
+      "edges": {
+        "e0": {
+          "subject": "n1",
+          "object": "n0",
+          "predicates": [
+            "biolink:treats_or_applied_or_studied_to_treat"
+          ]
+        }
+      },
+      "nodes": {
+        "n0": {
+          "ids": [
+            "MONDO:0001475"
+          ],
+          "is_set": false,
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "MONDO:0001475"
+        },
+        "n1": {
+          "is_set": false,
+          "categories": [
+            "biolink:Drug"
+          ]
+        }
+      }
+    }
+  },
+  "submitter": "ARAX GUI",
+  "stream_progress": true,
+  "query_options": {
+    "kp_timeout": "30",
+    "prune_threshold": "50"
+  }
+}
+```
+You can see the overlain information in the result analysis support graphs.
