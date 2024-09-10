@@ -5,16 +5,14 @@ repo_url: https://github.com/NCATSTranslator/TranslatorTechnicalDocumentation
 nav:
     - Overview:
         - Introduction: index.md
+        - Development Teams: teams/index.md
+        - Frequently Asked Questions: faq.md
+        - Glossary of Terms: glossary.md
+        - License: license.md
+
+    - Development Guide:
         - Knowledge Graph Principles: architecture/biolink/knowledge_graphs.md
         - Translator Architecture: architecture/index.md
-        - Biomedical Data Translator:
-          - About: about.md
-          - Teams:
-              - Overview: teams/index.md
-              - Expander Agent: teams/expander-agent.md
-          - Frequently Asked Questions: faq.md
-          - License: license.md
-    - Development Guide:
         - Introduction: development-guide/index.md
         - Quick Start: development-guide/quickstart.md
         - User Interface: architecture/ui.md
