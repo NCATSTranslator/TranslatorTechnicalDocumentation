@@ -6,7 +6,7 @@ The repository uses the [`mkdocs`](https://www.mkdocs.org/) tooling to generate 
 
 ## Getting Started
 
-The site uses Python (suggest 3.9 or better) and mkdocs. Assuming that you have python and pip on your machine, then install some requirements (including mkdocs) as follows:
+The site uses Python (suggest 3.9 or better) and mkdocs. Assuming that you have python and pip installed on your machine, create a suitable virtual environment, then install the requirements (including mkdocs) as follows:
 
 ```shell
 pip install -r requirements.txt
