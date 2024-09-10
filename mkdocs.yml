@@ -29,7 +29,7 @@ nav:
             - BTE: architecture/ara/bte.md
         - Knowledge Providers:
             - Overview: architecture/kp/index.md
-            - RGX-KG2: architecture/kp/rtx-kg2.md
+            - RTX-KG2: architecture/kp/rtx-kg2.md
             - Service Provider: architecture/kp/service-provider.md
         - Standards and Reference Implementation:
             - Overview: architecture/sri/index.md
