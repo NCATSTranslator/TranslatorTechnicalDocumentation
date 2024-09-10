@@ -2,7 +2,7 @@
 
 [[architecture/ara/index|Back to ARAs]]
 
-* Accepts queries via [TRAPI](https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/architecture/sri/trapi/) (Translator API) format that triggers automated answering and ranking.
+* Accepts queries via [[Translator Reasoner Application Programming Interface|TRAPI]] (Translator API) format that triggers automated answering and ranking.
 * Accepts queries using ARAXi: a domain-specific language that allows users more fine-grained control on what algorithms are utilized and how when asking their questions.
 * Integrated with numerous Knowledge Sources and Knowledge Providers, with automatic (or optionally, manual) specification of what sources and providers are utilized. 
 

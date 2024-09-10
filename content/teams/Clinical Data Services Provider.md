@@ -1,4 +1,4 @@
-[Back to Teams](index.md)
+[[teams/index|Back to Teams]]
 
 Clinical Data Services Provider is the team responsible for the 
 ["COHD"](https://github.com/NCATSTranslator/Translator-All/wiki/COHD-KP), 
