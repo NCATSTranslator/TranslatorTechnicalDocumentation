@@ -1,5 +1,3 @@
-# Translator Glossary of Terms
-
 ## Translator UI: Web interface to the Translator system
 * Displays scored and ranked results and evidence, confidence, and provenance from the ARS
 * Currently only supports a select set of templated queries
