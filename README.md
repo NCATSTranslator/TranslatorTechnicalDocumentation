@@ -2,7 +2,8 @@
 
 This repository hosts templates, scripts and contents for primary technical documentation for Developers and Administrators of the [Biomedical Data Translator](https://ncats.nih.gov/translator) project [("Translator"; Fecho _et al,_ 2022)](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301) of the [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov).
 
-The repository uses the [`mkdocs`](https://www.mkdocs.org/) tooling to generate and manage an indexed compendium of the documentation for [Open Access licensed](LICENSE) hosting on its [Official Site (https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/)](https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/).
+This repository uses Quartz v4, you can read the [documentation here](https://quartz.jzhao.xyz/)
+
 
 ## Getting Started
 
@@ -41,3 +42,5 @@ The Translator `mkdocs` documentation is hierarchically structured as follows:
         about/
             index.md  # project details about Translator
             ...
+
+
