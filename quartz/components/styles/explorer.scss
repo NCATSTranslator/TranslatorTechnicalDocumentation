@@ -41,6 +41,25 @@ button#explorer {
   overflow: hidden;
 }
 
+.explorer {
+  &.desktop-only {
+    overflow-y: auto;
+  }
+  &:after {
+    pointer-events: none;
+    content: "";
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    /* transition: opacity 0.3s ease; */
+    /* background: linear-gradient(transparent 0px, var(--light)); */
+  }
+}
+
+
 #explorer-content {
   list-style: none;
   overflow: hidden;
@@ -76,7 +95,12 @@ button#explorer {
       pointer-events: all;
     }
   }
+
+  > #explorer-ul {
+    max-height: none;
+  }
 }
+
 
 svg {
   pointer-events: all;
