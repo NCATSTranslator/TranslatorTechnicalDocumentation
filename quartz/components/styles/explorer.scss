@@ -96,7 +96,7 @@ button#explorer {
     }
   }
 
-  > #explorer-ul {
+  > #explorer-ul .desktop-only{
     max-height: none;
   }
 }
