@@ -27,6 +27,8 @@ If you would like to deploy your own instance, please see the dependencies liste
 
 ## Use Cases 
 
+Please be aware that as BioLink is updated, predicates and categories may change. Similarly, as ARAX deploys new versions, the endpoint may change (eg. `v1.4` in the below), and various other small modifications may be needed in these use-cases.
+
 * one-hop query:
 
 ```
@@ -68,7 +70,7 @@ curl -X POST \
      -H  "Content-Type: application/json" \
      -d @onehop.json
 ```
-should result in this response:
+should result in something similar to this response:
 ```
 {
   "context": "https://raw.githubusercontent.com/biolink/biolink-model/master/context.jsonld",
