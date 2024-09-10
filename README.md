@@ -7,7 +7,7 @@ This repository uses Quartz v4, you can read the [documentation here](https://qu
 
 ## Getting Started
 
-The site uses Python (suggest 3.9 or better) and mkdocs. Assuming that you have python and pip on your machine, then install some requirements (including mkdocs) as follows:
+The site uses Python (suggest 3.9 or better) and mkdocs. Assuming that you have python and pip installed on your machine, create a suitable virtual environment, then install the requirements (including mkdocs) as follows:
 
 ```shell
 pip install -r requirements.txt
