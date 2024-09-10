@@ -63,7 +63,7 @@ cat <<EOF >onehop.json
 EOF
 
 curl -X POST \
-     "https://arax.ncats.io/api/arax/v1.1/query?bypass_cache=false" \
+     "https://arax.ncats.io/api/arax/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @onehop.json
