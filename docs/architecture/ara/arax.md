@@ -40,13 +40,13 @@ cat <<EOF >onehop.json
           "edges": {
             "e00": {
               "object": "n01",
-              "predicates": ["biolink:physically_interacts_with"],
+              "predicates": ["biolink:interacts_with"],
               "subject": "n00"
             }
           },
           "nodes": {
             "n00": {
-              "categories": ["biolink:ChemicalSubstance"],
+              "categories": ["biolink:ChemicalEntity"],
               "ids": ["CHEMBL.COMPOUND:CHEMBL112"]
             },
             "n01": {
@@ -364,6 +364,8 @@ should result in this response: (This utilizes a few different overlay commands 
 
 
 ## Knowledge Providers Accessed
+Currently, ARAX will query every SmartAPI registered, TRAPI compliant KP. These include:
+
 * [Clinical Data Provider](https://github.com/NCATSTranslator/NCATSTranslator.github.io/wiki/Clinical-Data-Provider)
 * [Exposure Provider](https://github.com/NCATSTranslator/NCATSTranslator.github.io/wiki/Exposure-Provider)
 * [Molecular Data Provider](https://github.com/NCATSTranslator/NCATSTranslator.github.io/wiki/Molecular-Data-Provider)
@@ -373,8 +375,8 @@ should result in this response: (This utilizes a few different overlay commands 
 * [RTX-KG2](https://smart-api.info/registry?q=00bab7d59abe031098d5cb1597f7f1c4)
 
 ## Source Code
-* The entire codebase is accessible at https://github.com/RTXteam/RTX/
+* The entire codebase is accessible at [https://github.com/RTXteam/RTX/](https://github.com/RTXteam/RTX/)
 
 ## External Documentation
-* ARAXi Domain Specific Language documentation: https://github.com/RTXteam/RTX/blob/master/code/ARAX/Documentation/DSL_Documentation.md
-* Project README: https://github.com/RTXteam/RTX/blob/master/README.md
+* ARAXi Domain Specific Language documentation: [https://github.com/RTXteam/RTX/blob/master/code/ARAX/Documentation/DSL_Documentation.md](https://github.com/RTXteam/RTX/blob/master/code/ARAX/Documentation/DSL_Documentation.md)
+* Project README: [https://github.com/RTXteam/RTX/blob/master/README.md](https://github.com/RTXteam/RTX/blob/master/README.md)
