@@ -3,17 +3,17 @@ site_url: https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/
 repo_url: https://github.com/NCATSTranslator/TranslatorTechnicalDocumentation
 
 nav:
-    - Overview:
-        - Introduction: index.md
+    - Welcome to the Biomedical Data Translator:
+        - Overview: index.md
         - Development Teams: teams/index.md
         - Frequently Asked Questions: faq.md
         - Glossary of Terms: glossary.md
         - License: license.md
 
     - Development Guide:
+        - Overview: development-guide/index.md
         - Knowledge Graph Principles: architecture/biolink/knowledge_graphs.md
         - Translator Architecture: architecture/index.md
-        - Introduction: development-guide/index.md
         - Quick Start: development-guide/quickstart.md
         - User Interface: architecture/ui.md
         - Autonomous Relay System: architecture/ars_usage.md
@@ -22,10 +22,11 @@ nav:
         - Autonomous Relay Agents:
             - Overview: architecture/ara/index.md
             - ARAX: architecture/ara/arax.md
+            - BTE: architecture/ara/bte.md
         - Knowledge Providers:
             - Overview: architecture/kp/index.md
             - RGX-KG2: architecture/kp/rtx-kg2.md
-            - Service Provider: architecture/kp/service_provider.md
+            - Service Provider: architecture/kp/service-provider.md
         - Standards and Reference Implementation:
             - Overview: architecture/sri/index.md
             - Biolink Model: "https://biolink.github.io/biolink-model/"
