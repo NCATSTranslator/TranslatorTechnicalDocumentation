@@ -4,7 +4,9 @@ The Operations and Workflow effort aims to define and standardize how Translator
 
 The goal is to create standardized operations, build reference implementations, and develop workflows that can be composed and run within the Translator ecosystem. The result is a (continually growing) set of formal definitions, tools, and language that enable developers to discover, interpret, and control Translator operations with greater clarity. 
 
-The [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner) handles the identification of which service can respond to which operation, send to the appropriate endpoints, combine results, and repeat for all operations.
+The [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner) handles the identification of which service can respond to which operation, send to the appropriate endpoints, combine responses, and repeat for all operations. Some ARAs can also handle Workflow operations. 
+
+The [Curated Query Service (CQS)](https://github.com/TranslatorSRI/CQS/tree/main) is an example of a service that leverages the Operations & Workflows. 
 
 ## Summary of operations available
 
