@@ -4,7 +4,71 @@ The Operations and Workflow effort aims to define and standardize how Translator
 
 The goal is to create standardized operations, build reference implementations, and develop workflows that can be composed and run within the Translator ecosystem. The result is a (continually growing) set of formal definitions, tools, and language that enable developers to discover, interpret, and control Translator operations with greater clarity. 
 
-## Simple example
+The [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner) handles the identification of which service can respond to which operation, send to the appropriate endpoints, combine results, and repeat for all operations.
+
+## Summary of operations available
+
+- **lookup**: Searches for relevant entities, such as drugs or diseases, in the knowledge graph based on a query. Options include specifying entity types and sources to query.
+
+- **lookup_and_score**: A combination of looking up entities and scoring the results based on relevance or another criterion. You can customize both the lookup parameters and the scoring method.
+
+- **annotate**: Adds additional information to the knowledge graph, such as annotations to nodes and edges. Options include what type of data to annotate and which parts of the graph to target.
+
+- **annotate_edges**: Annotates the edges in the knowledge graph with attributes that provide more context or meaning. You can specify which edges to annotate and the types of attributes to add.
+
+- **annotate_nodes**: Adds annotations to nodes in the knowledge graph, typically including additional attributes or categories. Options involve selecting nodes and defining the type of annotations.
+
+- **filter_results**: Filters query results based on specific criteria, removing irrelevant results. You can define filtering rules based on attributes or edge properties.
+
+- **filter_results_top_n**: Retains only the top N results in a query based on a chosen attribute or score. You can set N and select the ranking attribute.
+
+- **filter_kgraph**: Filters the knowledge graph by removing irrelevant nodes or edges based on specific criteria. You can set the filtering conditions, such as node or edge properties.
+
+- **filter_kgraph_continuous_kedge_attribute**: Filters edges in the knowledge graph based on continuous attributes, such as numerical values. Options include which attributes to filter and setting thresholds or ranges.
+
+- **filter_kgraph_discrete_kedge_attribute**: A way to filter knowledge graphs (i.e., remove nodes and edges) based on discrete attributes on edges. Options include what attributes, which edges, and whether attached nodes should also be removed.
+
+- **filter_kgraph_discrete_knode_attribute**: Filters nodes based on discrete attributes like categories or types. You can specify the attribute values to use for filtering.
+
+- **filter_kgraph_orphans**: Removes orphan nodes from the knowledge graph (nodes that are not connected to any edges). There are no additional parameters needed beyond identifying orphan nodes.
+
+- **filter_kgraph_percentile**: Filters the graph by selecting nodes or edges that fall within a specific percentile of a given attribute. Options include the percentile thresholds and the attributes to filter by.
+
+- **filter_kgraph_std_dev**: Filters the graph based on standard deviation values of an attribute. You can choose the attributes and set the standard deviation cutoff for filtering.
+
+- **filter_kgraph_top_n**: Filters the knowledge graph to retain only the top N nodes or edges based on a particular attribute. Parameters allow you to specify N and the attribute to use for ranking.
+
+- **overlay**: Adds additional data or overlays relationships onto the existing knowledge graph. Options include specifying which data to overlay and how to integrate it with the existing graph.
+
+- **overlay_compute_jaccard**: Computes the Jaccard similarity between nodes based on shared attributes or connections. You can define which attributes or connections to consider.
+
+- **overlay_compute_ngd**: Computes the Normalized Google Distance (NGD) between nodes to determine their relatedness based on web co-occurrence. This operation does not require additional parameters.
+
+- **overlay_connect_knodes**: Adds new edges between nodes that are found to be related, based on external knowledge or predefined rules. You can specify criteria for creating connections between nodes.
+
+- **overlay_fisher_exact_test**: Performs Fisher's exact test on nodes or edges to determine statistical significance in their relationships. You can choose the attributes or edges to test.
+
+- **bind**: Binds a set of data to specified nodes or edges in the graph. Parameters allow you to choose the nodes or edges to bind the data to.
+
+- **complete_results**: Fills in missing results to ensure the query returns a complete set of data. You can specify the types of results or data sources to complete from.
+
+- **enrich_results**: Enhances the query results by adding related data from external sources or expanding on the existing results. Options include which sources to use and the types of enrichment to apply.
+
+- **fill**: Adds missing nodes or edges to a query graph based on known relationships. You can define which relationships or data sources to use to fill the graph.
+
+- **restate**: Reformulates the query to improve clarity or make it compatible with available data. Options include the specific rules or criteria for restating the query.
+
+- **score**: Assigns scores to query results based on a scoring algorithm, typically to rank the relevance of results. You can configure the scoring algorithm and its parameters.
+
+- **sort_results**: Sorts the query results based on a chosen attribute. You can specify the attribute by which to sort the results.
+
+- **sort_results_edge_attribute**: Sorts query results by the attributes of edges. Options include selecting the edge attribute to use for sorting.
+
+- **sort_results_node_attribute**: Sorts query results by node attributes, such as type or relevance. You can define which node attribute to sort by.
+
+- **sort_results_score**: Sorts query results based on their computed score, ranking them in order of relevance. There are no additional parameters beyond using the score for sorting.
+
+## Simple example of a workflow query
 
 Here's a simple example for running an operation and workflow query for finding drugs that treat neutropenia. We will walk through the steps involved in defining a workflow, creating a query graph, and submitting it to the ARAX endpoint using cURL.
 
