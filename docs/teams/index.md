@@ -1,4 +1,4 @@
-# Teams
+# Translator (Phase 2) Development Teams
 
 - [Expander Agent](expander-agent.md)
 - [Exploring Agent](exploring-agent.md)
