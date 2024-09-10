@@ -12,7 +12,7 @@ TRAPI consists of two endpoints off the main server url:
 
 # The /meta_knowledge_graph Endpoint
 
-- The `/meta_knowledge_graph` endpoint responds to a GET call to return a list of the types of triples in json format that is supported by the KP or ARA. For example, if the KP has instances of triples corresponding to the type Drug-treats-Disease, the `/meta_knowledge_graph` endpoint response will include Drug-treats-Disease.
+- The `/meta_knowledge_graph` endpoint responds to a GET call to return a list of the types of triples in json format that are supported by the KP or ARA. For example, if the KP has instances of triples corresponding to the type Drug-treats-Disease, the `/meta_knowledge_graph` endpoint response will include Drug-treats-Disease.
 - The triples indicate a relationship type (`predicate`) between a subject entity type (`subject`) and an object entity type (`object`).
 - The relationship type is a selection from the [biolink predicate tree](http://tree-viz-biolink.herokuapp.com/predicates).
 - The entity type is a selection from the [biolink categories tree](http://tree-viz-biolink.herokuapp.com/categories).
