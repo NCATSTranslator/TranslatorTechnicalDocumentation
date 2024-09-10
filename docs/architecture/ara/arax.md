@@ -2,7 +2,7 @@
 
 ## ARAX Autonomous Relay Agent Page
 
-* Accepts queries via TRAPI (Translator API) format that triggers automated answering and ranking.
+* Accepts queries via [TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/blob/master/README.md) (Translator API) format that triggers automated answering and ranking.
 * Accepts queries using ARAXi: a domain-specific language that allows users more fine-grained control on what algorithms are utilized and how when asking their questions.
 * Integrated with numerous Knowledge Sources and Knowledge Providers, with automatic (or optionally, manual) specification of what sources and providers are utilized. 
 
@@ -11,7 +11,7 @@ There are two main modes for interacting with ARAX: the first is via posting TRA
 
 The second way to interact with ARAX is via the [GUI](https://arax.ncats.io/). There, you will see four different query types:
 1. You can build a query graph by clicking on this icon: ![](https://www.dropbox.com/s/uhe2qtqyzei1aw7/graph.PNG?raw=1)
-2. You can enter the value of the `query_graph` element in a TRAPI message (circumventing the need to manually POST TRAPI queries) by clicking on this icon: ![](https://www.dropbox.com/s/3gw48t4fp5ty33s/JSON.PNG?raw=1)
+2. You can paste in a `query_graph` element in a JSON TRAPI message (circumventing the need to manually POST TRAPI queries) by clicking on this icon: ![](https://www.dropbox.com/s/3gw48t4fp5ty33s/JSON.PNG?raw=1)
 3. You can enter ARAXi domain specific language commands by clicking on this icon: ![](https://www.dropbox.com/s/khh6whk095vg63c/DSL.PNG?raw=1)
 4. You can enter an ARS PK ID (to pull results from the Automated Reasoning System) after clicking on this icon: ![](https://www.dropbox.com/s/ob7ozbxtilpse6o/ID.PNG?raw=1)
 
