@@ -8,65 +8,66 @@ The [Workflow Runner](https://github.com/NCATSTranslator/workflow-runner) handle
 
 ## Summary of operations available
 
-- **lookup**: Searches for relevant entities, such as drugs or diseases, in the knowledge graph based on a query. Options include specifying entity types and sources to query.
+- **lookup**: This operation adds knodes/kedges, (complete) results, and scores (to the results). It is equivalent to the workflow fill + bind + complete_results + score. Any constraints attached to QNodes and QEdges specified in the TRAPI must be respected.
 
-- **lookup_and_score**: A combination of looking up entities and scoring the results based on relevance or another criterion. You can customize both the lookup parameters and the scoring method.
+- **lookup_and_score**: This operation adds knodes/kedges, (complete) results, and scores (to the results). It is equivalent to the workflow fill + bind + complete_results + score. Any constraints attached to QNodes and QEdges specified in the TRAPI must be respected.
 
-- **annotate**: Adds additional information to the knowledge graph, such as annotations to nodes and edges. Options include what type of data to annotate and which parts of the graph to target.
+- **annotate**: This operation adds attributes to knowledge graph elements.
 
-- **annotate_edges**: Annotates the edges in the knowledge graph with attributes that provide more context or meaning. You can specify which edges to annotate and the types of attributes to add.
+- **annotate_edges**: This operation adds attributes to knowledge graph edges.
 
-- **annotate_nodes**: Adds annotations to nodes in the knowledge graph, typically including additional attributes or categories. Options involve selecting nodes and defining the type of annotations.
+- **annotate_nodes**: This operation adds attributes to knowledge graph nodes.
 
-- **filter_results**: Filters query results based on specific criteria, removing irrelevant results. You can define filtering rules based on attributes or edge properties.
+- **bind**: This operation adds results binding kgraph elements to qgraph elements.
 
-- **filter_results_top_n**: Retains only the top N results in a query based on a chosen attribute or score. You can set N and select the ranking attribute.
+- **complete_results**: This operation combines partial results into complete results.
 
-- **filter_kgraph**: Filters the knowledge graph by removing irrelevant nodes or edges based on specific criteria. You can set the filtering conditions, such as node or edge properties.
+- **enrich_results**: Create new results by applying enrichment analysis to existing results. In particular, combines results by transforming a qnode into a set, formed of knodes that share a property or relation more often than expected by chance.
 
-- **filter_kgraph_continuous_kedge_attribute**: Filters edges in the knowledge graph based on continuous attributes, such as numerical values. Options include which attributes to filter and setting thresholds or ranges.
+- **fill**: This operation adds knodes and kedges. Any constraints attached to QNodes and QEdges specified in the TRAPI must be respected.
 
-- **filter_kgraph_discrete_kedge_attribute**: A way to filter knowledge graphs (i.e., remove nodes and edges) based on discrete attributes on edges. Options include what attributes, which edges, and whether attached nodes should also be removed.
+- **filter_kgraph**: This operation removes kgraph elements (nodes and/or edges).
 
-- **filter_kgraph_discrete_knode_attribute**: Filters nodes based on discrete attributes like categories or types. You can specify the attribute values to use for filtering.
+- **filter_kgraph_continuous_kedge_attribute**: This operation removes kgraph edges based on the value of a continuous edge attribute. Edges without the given attribute are left alone.
 
-- **filter_kgraph_orphans**: Removes orphan nodes from the knowledge graph (nodes that are not connected to any edges). There are no additional parameters needed beyond identifying orphan nodes.
+- **filter_kgraph_discrete_kedge_attribute**: This operation removes kgraph edges which have a discrete attribute containing the specified value. Edges without the given attribute are left alone.
 
-- **filter_kgraph_percentile**: Filters the graph by selecting nodes or edges that fall within a specific percentile of a given attribute. Options include the percentile thresholds and the attributes to filter by.
+- **filter_kgraph_discrete_knode_attribute**: This operation removes kgraph nodes which have a discrete attribute containing the specified value. Edges connecting to the removed nodes will also be removed.
 
-- **filter_kgraph_std_dev**: Filters the graph based on standard deviation values of an attribute. You can choose the attributes and set the standard deviation cutoff for filtering.
+- **filter_kgraph_orphans**: This operation removes kgraph elements that are not referenced by any results.
 
-- **filter_kgraph_top_n**: Filters the knowledge graph to retain only the top N nodes or edges based on a particular attribute. Parameters allow you to specify N and the attribute to use for ranking.
+- **filter_kgraph_percentile**: This operation removes kgraph edges that have attribute values below/above the given percentile.
 
-- **overlay**: Adds additional data or overlays relationships onto the existing knowledge graph. Options include specifying which data to overlay and how to integrate it with the existing graph.
+- **filter_kgraph_std_dev**: This operation removes kgraph edges that have attribute values below/above the mean +/- n standard deviations.
 
-- **overlay_compute_jaccard**: Computes the Jaccard similarity between nodes based on shared attributes or connections. You can define which attributes or connections to consider.
+- **filter_kgraph_top_n**: This operation removes all but the top N knowledge graph edges based on a specified edge attribute.
 
-- **overlay_compute_ngd**: Computes the Normalized Google Distance (NGD) between nodes to determine their relatedness based on web co-occurrence. This operation does not require additional parameters.
+- **filter_results**: This operation removes query results.
 
-- **overlay_connect_knodes**: Adds new edges between nodes that are found to be related, based on external knowledge or predefined rules. You can specify criteria for creating connections between nodes.
+- **filter_results_top_n**: This operation removes all but the top N results based on a result attribute.
 
-- **overlay_fisher_exact_test**: Performs Fisher's exact test on nodes or edges to determine statistical significance in their relationships. You can choose the attributes or edges to test.
+- **overlay**: This operation adds edges to the knowledge graph that did not exist before by leveraging new relationships or data.
 
-- **bind**: Binds a set of data to specified nodes or edges in the graph. Parameters allow you to choose the nodes or edges to bind the data to.
+- **overlay_compute_jaccard**: This operation computes the Jaccard similarity coefficient between nodes, adding the result as an edge attribute in the knowledge graph.
 
-- **complete_results**: Fills in missing results to ensure the query returns a complete set of data. You can specify the types of results or data sources to complete from.
+- **overlay_compute_ngd**: This operation adds NGD (Normalized Google Distance) values as edge attributes in the knowledge graph for pairs of nodes.
 
-- **enrich_results**: Enhances the query results by adding related data from external sources or expanding on the existing results. Options include which sources to use and the types of enrichment to apply.
+- **overlay_connect_knodes**: This operation adds edges connecting knodes that were not previously connected in the kgraph, adding all possible kedges containing node bindings to both the subject and object knodes.
 
-- **fill**: Adds missing nodes or edges to a query graph based on known relationships. You can define which relationships or data sources to use to fill the graph.
+- **overlay_fisher_exact_test**: This operation computes Fisher's Exact Test p-values for connections between nodes and adds this information as an edge attribute to the knowledge graph.
 
-- **restate**: Reformulates the query to improve clarity or make it compatible with available data. Options include the specific rules or criteria for restating the query.
+- **restate**: This operation modifies the query graph.
 
-- **score**: Assigns scores to query results based on a scoring algorithm, typically to rank the relevance of results. You can configure the scoring algorithm and its parameters.
+- **score**: This operation adds scores to results.
 
-- **sort_results**: Sorts the query results based on a chosen attribute. You can specify the attribute by which to sort the results.
+- **sort_results**: This operation allows the TRAPI server to sort the elements of the list of results.
 
-- **sort_results_edge_attribute**: Sorts query results by the attributes of edges. Options include selecting the edge attribute to use for sorting.
+- **sort_results_edge_attribute**: This operation sorts the results by a given edge attribute.
 
-- **sort_results_node_attribute**: Sorts query results by node attributes, such as type or relevance. You can define which node attribute to sort by.
+- **sort_results_node_attribute**: This operation sorts the results by a given node attribute.
 
-- **sort_results_score**: Sorts query results based on their computed score, ranking them in order of relevance. There are no additional parameters beyond using the score for sorting.
+- **sort_results_score**: This operation sorts the results by the result score.
+
 
 ## Simple example of a workflow query
 
@@ -300,3 +301,7 @@ In the `knowledge_graph` section, you will see edges connecting drugs (e.g., CHE
 ### Step 5: Explore and Interpret Results
 
 The API response will also include details like the score of each drug-disease relationship, specific sentences from publications, and more. You can use this information to interpret which drugs are most relevant to neutropenia based on the scoring.
+
+## A more complicated example
+
+Here is an example that specifies a certain KP to call, overlays with additional information, and limits the number of results.
