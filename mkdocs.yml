@@ -3,7 +3,7 @@ site_url: https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/
 repo_url: https://github.com/NCATSTranslator/TranslatorTechnicalDocumentation
 
 nav:
-    - Welcome to the Biomedical Data Translator:
+    - Welcome to Translator:
         - Overview: index.md
         - Development Teams: teams/index.md
         - Frequently Asked Questions: faq.md
