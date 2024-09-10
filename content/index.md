@@ -56,20 +56,9 @@ drug-induced liver injury, and many others.
 
 ### Consortium Funding
 
-**Translator Phase 2 'Development' funding:** NCATS Intramural Funding ZIA TR000276-05; NCATS Contract #75N95021P00636; Health & Human Services OT2TR003434; OT2TR003436; OT2TR003430; OT2TR003433; OT2TR003437; OT2TR003443; OT2TR003445; OT2TR003422; OT2TR003441; OT2TR003450; OT2TR003428; OT2TR003448; OT2TR003427; OT2TR003435; OT2TR003449
+**Translator Phase 2 'Development' funding:** NCATS Intramural Funding ZIA TR000276-05; NCATS Contract <label>#</label>75N95021P00636; Health & Human Services OT2TR003434; OT2TR003436; OT2TR003430; OT2TR003433; OT2TR003437; OT2TR003443; OT2TR003445; OT2TR003422; OT2TR003441; OT2TR003450; OT2TR003428; OT2TR003448; OT2TR003427; OT2TR003435; OT2TR003449
 
 **Translator Phase 1 'Feasibility' funding:** OT3TR002026, OT3TR002020, OT3TR002025, OT3TR002019, OT3TR002027, OT2TR002517, OT2TR002514, OT2TR002515, OT2TR002584, OT2TR002520.
-
-###  Licensing
-
-This site hosts the official technical documentation for Translator. Key sections of the documentation are:
-
-- [[About|About the Biomedical Data Translator]]: general information about the Biomedical Data Translator ("Translator") project.
-- [[Knowledge Graphs]]: Knowledge Graphs - the core scientific principle behind Translator.
-- [[architecture/index|Translator Architecture]]: overview of the Translator knowledge integration platform.
-- [[development-guide/index|Software Development Guide]]: guidelines for Translator software development, including tutorials.
-- [[deployment-guide/index|System Deployment Guide]]: guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
-- [[FAQ|Frequently Asked Questions]]
 
 ##  Licensing
 
@@ -79,7 +68,7 @@ In this spirit, **_this_** document repository is  published under the [[License
 
 Note, however, that the system components developed by different Translator teams may have other distinct specific licensing. 
 
-## References
+### References
 
 1. Austin CP, Colvis, CM, Southall NT. **Deconstructing the Translational Tower of Babel.** _Clin Transl Sci_, 2019;12(2):85. [doi:10.1111/cts.12595](https://doi.org/10.1111/cts.12595). [PMID:30412342](https://pubmed.ncbi.nlm.nih.gov/30412342/).
 2. The Biomedical Data Translator Consortium. **Toward a Universal Biomedical Data Translator.** _Clin Transl Sci_, 2019a. [doi:10.1111/cts.12591](https://doi.org/10.1111/cts.12591). [PMID:30412337](https://pubmed.ncbi.nlm.nih.gov/30412337/).
