@@ -2,7 +2,7 @@
 
 [[architecture/ara/index|Back to ARAs]]
 
-* Accepts queries via TRAPI (Translator API) format that triggers automated answering and ranking.
+* Accepts queries via [TRAPI](https://ncatstranslator.github.io/TranslatorTechnicalDocumentation/architecture/sri/trapi/) (Translator API) format that triggers automated answering and ranking.
 * Accepts queries using ARAXi: a domain-specific language that allows users more fine-grained control on what algorithms are utilized and how when asking their questions.
 * Integrated with numerous Knowledge Sources and Knowledge Providers, with automatic (or optionally, manual) specification of what sources and providers are utilized. 
 
@@ -11,9 +11,9 @@ There are two main modes for interacting with ARAX: the first is via posting TRA
 
 The second way to interact with ARAX is via the [GUI](https://arax.ncats.io/). There, you will see four different query types:
 1. You can build a query graph by clicking on this icon: ![](https://www.dropbox.com/s/uhe2qtqyzei1aw7/graph.PNG?raw=1)
-2. You can enter the value of the `query_graph` element in a TRAPI message (circumventing the need to manually POST TRAPI queries) by clicking on this icon: ![](https://www.dropbox.com/s/3gw48t4fp5ty33s/JSON.PNG?raw=1)
+2. You can paste in a `query_graph` element in a JSON TRAPI message (circumventing the need to manually POST TRAPI queries) by clicking on this icon: ![](https://www.dropbox.com/s/3gw48t4fp5ty33s/JSON.PNG?raw=1)
 3. You can enter ARAXi domain specific language commands by clicking on this icon: ![](https://www.dropbox.com/s/khh6whk095vg63c/DSL.PNG?raw=1)
-4. You can enter an ARS PK ID (to pull results from the Automated Reasoning System) after clicking on this icon: ![](https://www.dropbox.com/s/ob7ozbxtilpse6o/ID.PNG?raw=1)
+4. You can enter an ARS PK ID (to pull results from the Autonomous Relay System) after clicking on this icon: ![](https://www.dropbox.com/s/ob7ozbxtilpse6o/ID.PNG?raw=1)
 
 No matter which method is used, after submitting a query, the results can be viewed via the links on the left vertical bar under *output*: ![](https://www.dropbox.com/s/1gzovgivoszikym/Output.PNG?raw=1).
 
@@ -26,6 +26,8 @@ ARAX is registered in Smart API [here](http://smart-api.info/registry?q=arax).
 If you would like to deploy your own instance, please see the dependencies listed [[more info about this knowledge graph, called KG2, is available [[RTX-KG2|here]]), and the [deployment wiki](https://github.com/RTXteam/RTX/wiki/Deployment-info|[https://github.com/RTXteam/RTX#installation-and-dependencies]]. 
 
 ## Use Cases 
+
+Please be aware that as BioLink is updated, predicates and categories may change. Similarly, as ARAX deploys new versions, the endpoint may change (eg. `v1.4` in the below), and various other small modifications may be needed in these use-cases.
 
 * one-hop query:
 
@@ -40,13 +42,13 @@ cat <<EOF >onehop.json
           "edges": {
             "e00": {
               "object": "n01",
-              "predicates": ["biolink:physically_interacts_with"],
+              "predicates": ["biolink:interacts_with"],
               "subject": "n00"
             }
           },
           "nodes": {
             "n00": {
-              "categories": ["biolink:ChemicalSubstance"],
+              "categories": ["biolink:ChemicalEntity"],
               "ids": ["CHEMBL.COMPOUND:CHEMBL112"]
             },
             "n01": {
@@ -63,12 +65,12 @@ cat <<EOF >onehop.json
 EOF
 
 curl -X POST \
-     "https://arax.ncats.io/api/arax/v1.1/query?bypass_cache=false" \
+     "https://arax.ncats.io/api/arax/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @onehop.json
 ```
-should result in this response:
+should result in something similar to this response:
 ```
 {
   "context": "https://raw.githubusercontent.com/biolink/biolink-model/master/context.jsonld",
@@ -364,6 +366,8 @@ should result in this response: (This utilizes a few different overlay commands 
 
 
 ## Knowledge Providers Accessed
+Currently, ARAX will query every SmartAPI registered, TRAPI compliant KP. These include:
+
 * [Clinical Data Provider](https://github.com/NCATSTranslator/NCATSTranslator.github.io/wiki/Clinical-Data-Provider)
 * [Exposure Provider](https://github.com/NCATSTranslator/NCATSTranslator.github.io/wiki/Exposure-Provider)
 * [Molecular Data Provider](https://github.com/NCATSTranslator/NCATSTranslator.github.io/wiki/Molecular-Data-Provider)
@@ -373,8 +377,8 @@ should result in this response: (This utilizes a few different overlay commands 
 * [RTX-KG2](https://smart-api.info/registry?q=00bab7d59abe031098d5cb1597f7f1c4)
 
 ## Source Code
-* The entire codebase is accessible at https://github.com/RTXteam/RTX/
+* The entire codebase is accessible at [https://github.com/RTXteam/RTX/](https://github.com/RTXteam/RTX/)
 
 ## External Documentation
-* ARAXi Domain Specific Language documentation: https://github.com/RTXteam/RTX/blob/master/code/ARAX/Documentation/DSL_Documentation
-* Project README: https://github.com/RTXteam/RTX/blob/master/README
+* ARAXi Domain Specific Language documentation: [https://github.com/RTXteam/RTX/blob/master/code/ARAX/Documentation/DSL_Documentation.md](https://github.com/RTXteam/RTX/blob/master/code/ARAX/Documentation/DSL_Documentation.md)
+* Project README: [https://github.com/RTXteam/RTX/blob/master/README.md](https://github.com/RTXteam/RTX/blob/master/README.md)
