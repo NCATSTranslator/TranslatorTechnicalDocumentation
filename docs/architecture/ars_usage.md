@@ -24,7 +24,7 @@ Access the public deployment at [https://ars-prod.transltr.io](https://ars-prod.
 Example query to submit to the ARS at [https://ars-prod.transltr.io/ars/api/submit](https://ars-prod.transltr.io/ars/api/submit):
 
 ```
-curl -X POST "https://ars.transltr.io/ars/api/submit" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{
+curl -X POST "https://ars-prod.transltr.io/ars/api/submit" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{
   \"message\": {
     \"query_graph\": {
       \"edges\": {
