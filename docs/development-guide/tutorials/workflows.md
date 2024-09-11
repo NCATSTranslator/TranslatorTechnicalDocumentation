@@ -150,7 +150,7 @@ Once the workflow is saved, use the following cURL command to send the request t
 
 ```bash
 curl -X POST \
-     "https://arax.ncats.io/api/arax/v1.4/query?bypass_cache=false" \
+     "https://arax.transltr.io/api/arax/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @workflow.json
