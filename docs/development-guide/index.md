@@ -12,7 +12,7 @@ This section of the Technical Documentation provides several resources for devel
 - [Tutorials](tutorials/index.md)
 - [Guidance for Testing](../architecture/sri/testing/index.md)
 
-An overview of the Translator platform is provided in the [Architecture overview page](index.md).  Briefly, the system is composed of the following components:
+An overview of the Translator platform is provided in the [Architecture overview page](../architecture/index.md).  Briefly, the system is composed of the following components:
 
 1. [User Interface (UI)](../architecture/ui.md)
 2. [Autonomous Relay System (ARS)](../architecture/ars_usage.md)
