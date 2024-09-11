@@ -76,8 +76,9 @@ For additional details about ingested data source see [Catalog of MolePro knowle
 
 # Source Code
 
-[![MolePro](https://img.shields.io/github/stars/broadinstitute/molecular-data-provider?label=molecular-data-provider&style=social)](https://github.com/broadinstitute/molecular-data-provider)
+[MolePro GitHub](https://github.com/broadinstitute/molecular-data-provider)
 
 # External Documentation
 
 [Additional MolePro documentation in GitHub](https://github.com/broadinstitute/molecular-data-provider)
+
