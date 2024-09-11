@@ -1,8 +1,6 @@
-![image](../img/translator-banner.jpg)
-
 # Translator Architecture
 
-The Translator system is comprised of five main components, shown in the diagram below 
+The Translator platform consists of five main components, shown in the diagram below 
 ([Fecho et al. 2022](../index.md#references)). Knowledge Providers (KPs) contribute domain-specific, high-value
 information abstracted from one or more underlying ‘knowledge sources’. Autonomous Relay Agents (ARAs) build upon the 
 knowledge contributed by KPs by way of reasoning and inference across KPs. The Autonomous Relay System (ARS) functions
