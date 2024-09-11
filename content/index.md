@@ -15,7 +15,7 @@ translational researchers. A fundamental tenet of the Translator program is open
 patient data, and open team science.
 
 - This overview page (and related links), presenting an overview of the Biomedical Data Translator consortium and its platform.
-- [Knowledge Graphs](architecture/biolink/knowledge_graphs.md): Knowledge Graphs - the core scientific principle behind Translator.
+- [[Knowledge Graphs]]: Knowledge Graphs - the core scientific principle behind Translator.
 - [Translator Architecture](architecture/index.md): overview of the Translator knowledge integration platform.
 - [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
 - [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.

@@ -6,9 +6,9 @@ title: Tutorial / Cookbook / How to's
 # Tutorials
 
 1. [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
-1. [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
-1. [Registering a TRAPI service](../../architecture/registry.md#adding-an-api-to-the-translator-smartapi-registry)
-1. [[Workflows]]
+2. [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
+3. [[The Translator SmartAPI Registry#Adding an API to the Translator SmartAPI Registry|Registering a TRAPI service]] 
+4. [[Workflows]]
 
 # Purpose of this page (work-in-progress)
 

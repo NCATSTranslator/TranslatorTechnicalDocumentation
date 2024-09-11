@@ -11,7 +11,7 @@ This section of the Technical Documentation provides several resources for devel
     - [Getting started with Biolink](https://biolink.github.io/biolink-model/guidelines/using-the-modeling-language.html)
     - [Working with the model (tutorial)](https://biolink.github.io/biolink-model/guidelines/working-with-the-model.html)
 - [[Developer Cookbook]]
-- [[tutorials/index|Tutorials]]
+- [[development-guide/tutorials/index|Tutorials]]
 - [[../architecture/sri/testing/index|Testing Resources]]
 - [[FAQ|Frequently Asked Questions]]
 
