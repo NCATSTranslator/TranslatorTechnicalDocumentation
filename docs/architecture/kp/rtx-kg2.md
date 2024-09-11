@@ -70,7 +70,7 @@ cat <<EOF >onehop.json
 EOF
 
 curl -X POST \
-     "https://arax.ncats.io/api/rtxkg2/v1.4/query?bypass_cache=false" \
+     "https://kg2.transltr.io/api/rtxkg2/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @onehop.json
