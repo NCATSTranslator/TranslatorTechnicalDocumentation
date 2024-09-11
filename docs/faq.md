@@ -9,7 +9,7 @@ Here are two ways to convert from natural language to a CURIE:
 
 
 ### How do I compute the Normalized Google Distance (NGD) between two concepts
-The endpoint [https://arax.transltr.io/api/arax/v1.4/ui/#/PubmedMeshNgd/pubmed_mesh_ngd](https://araxtransltr.io/api/arax/v1.4/ui/#/PubmedMeshNgd/pubmed_mesh_ngd) takes two natural language inputs (terms occurring in UMLS) and returns the NGD between them.
+The endpoint [https://arax.transltr.io/api/arax/v1.4/ui/#/PubmedMeshNgd/pubmed_mesh_ngd](https://arax.transltr.io/api/arax/v1.4/ui/#/PubmedMeshNgd/pubmed_mesh_ngd) takes two natural language inputs (terms occurring in UMLS) and returns the NGD between them.
 
 
 ### How can I quickly view a TRAPI response?
