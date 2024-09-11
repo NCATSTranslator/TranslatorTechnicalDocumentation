@@ -4,3 +4,5 @@
 - [Exploring Agent](exploring-agent.md)
 - [Service Provider](service-provider.md)
 - [Clinical Data Services Provider](clinical-data.md)
+- [Multiomics Provider](mutiomics-provider.md)
+- [Genetics Data Services Provider](genetics-data.md)
