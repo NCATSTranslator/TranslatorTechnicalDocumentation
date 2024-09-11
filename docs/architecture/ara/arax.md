@@ -7,9 +7,9 @@
 * Integrated with numerous Knowledge Sources and Knowledge Providers, with automatic (or optionally, manual) specification of what sources and providers are utilized. 
 
 ## Technical User Guide to ARAX
-There are two main modes for interacting with ARAX: the first is via posting TRAPI messages to the ARAX [API](https://arax.ncats.io/api/arax/v1.0/ui/). Examples of doing this are included [here](https://github.com/RTXteam/RTX/tree/master/code/ARAX/Examples).
+There are two main modes for interacting with ARAX: the first is via posting TRAPI messages to the ARAX [API](https://arax.transltr.io/api/arax/v1.4/ui/). Examples of doing this are included [here](https://github.com/RTXteam/RTX/tree/master/code/ARAX/Examples).
 
-The second way to interact with ARAX is via the [GUI](https://arax.ncats.io/). There, you will see four different query types:
+The second way to interact with ARAX is via the [GUI](https://arax.transltr.io/). There, you will see four different query types:
 1. You can build a query graph by clicking on this icon: ![](https://www.dropbox.com/s/uhe2qtqyzei1aw7/graph.PNG?raw=1)
 2. You can paste in a `query_graph` element in a JSON TRAPI message (circumventing the need to manually POST TRAPI queries) by clicking on this icon: ![](https://www.dropbox.com/s/3gw48t4fp5ty33s/JSON.PNG?raw=1)
 3. You can enter ARAXi domain specific language commands by clicking on this icon: ![](https://www.dropbox.com/s/khh6whk095vg63c/DSL.PNG?raw=1)
@@ -65,7 +65,7 @@ cat <<EOF >onehop.json
 EOF
 
 curl -X POST \
-     "https://arax.ncats.io/api/arax/v1.4/query?bypass_cache=false" \
+     "https://arax.transltr.io/api/arax/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @onehop.json
@@ -76,7 +76,7 @@ should result in something similar to this response:
   "context": "https://raw.githubusercontent.com/biolink/biolink-model/master/context.jsonld",
   "datetime": "2021-05-10 11:56:19",
   "description": "Normal completion",
-  "id": "https://arax.ncats.io/api/arax/v1.1/response/9182",
+  "id": "https://arax.transltr.io/api/arax/v1.4/response/9182",
   "logs": [
     {
       "code": "",
@@ -234,7 +234,7 @@ cat <<EOF >kitchensink.json
 EOF
 
 curl -X POST \
-     "https://arax.ncats.io/api/arax/v1.1/query?bypass_cache=false" \
+     "https://https://arax.transltr.io/api/arax/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @kitchensink.json
