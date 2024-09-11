@@ -62,7 +62,7 @@ Results of the query can be found in the ARS messages: https://ars-prod.transltr
 
 The ARAX web interface can also be used to consult the result of your query: 
 
-1. Go to https://arax.ncats.io
+1. Go to [https://arax.transltr.io/](https://arax.transltr.io/)
 2. Go to the **`<id>`** tab (in **Query**)
 3. Copy the run ID previously obtained in the text box
 4. Click on **`Load`** to see the detailed results of your query

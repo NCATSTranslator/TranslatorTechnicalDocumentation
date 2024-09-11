@@ -26,7 +26,9 @@ The [**Biomedical Data Translator**](https://ncats.nih.gov/translator)  program 
 Fecho _et al._ 2022; Unni _et al._  2022](index.md#references)). The **Biomedical Data Translator ("Translator") Consortium** 
 is working collaboratively to realize the vision of the Translator program. 
 
-The **Translator Consortium** is currently comprised of [~215 team members and 27 institutions](teams/index.md). The program is [funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism and an NIH contract awarded to support development of a Translator user interface (UI)](#consortium-funding).
+Phase 2 "Development" focused activities of the **Translator Consortium** engaged [~215 team members and 27 institutions](https://github.com/NCATSTranslator/Translator-All/wiki). 
+
+The program is [funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism and an NIH contract awarded to support development of a Translator user interface (UI)](#consortium-funding).
 
 An overview of the Translator timeline, in the context of key milestones and award funding from program inception through September 2022, is depicted below.
 
