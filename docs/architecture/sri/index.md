@@ -31,5 +31,5 @@
 |Shared Knowledge Graphs|[Shared Knowledge Graphs](https://github.com/NCATSTranslator/Translator-All/wiki/SRI-Shared-Knowledge-Graphs)||
 | SRI Reference KG                           | | [TranslatorSRI/reference-kg](https://github.com/TranslatorSRI/reference-kg)                        |
 | TRAPI and biolink Validator                || [NCATSTranslator/reasoner-validator](https://github.com/NCATSTranslator/reasoner-validator)                               |
-| SRI one-hop testing harness                || [TranslatorSRI/SRI_testing](https://github.com/TranslatorSRI/SRI_testing)                                                 |
+| SRI Translator Testing                || [Translator Testing](./testing/index.md)                                                 |
 | Ontology Service                           |[Ontology Service](https://github.com/NCATSTranslator/Translator-All/wiki/SRI-Ontology-Service)||
