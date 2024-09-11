@@ -11,33 +11,33 @@ nav:
 
     - Development Guide:
         - Overview: development-guide/index.md
-        - Knowledge Graph Principles: architecture/biolink/knowledge_graphs.md
-        - Translator Architecture: architecture/index.md
         - Quick Start: development-guide/quickstart.md
-        - User Interface: architecture/ui.md
-        - Autonomous Relay System: architecture/ars_usage.md
-        - Workflow Runner: architecture/workflows.md
-        - Translator Registry: architecture/registry.md
-        - Autonomous Relay Agents:
-            - Overview: architecture/ara/index.md
-            - ARAX: architecture/ara/arax.md
-            - BTE: architecture/ara/bte.md
-        - Knowledge Providers:
-            - Overview: architecture/kp/index.md
-            - RTX-KG2: architecture/kp/rtx-kg2.md
-            - Service Provider: architecture/kp/service-provider.md
-        - Standards and Reference Implementation:
-            - Overview: architecture/sri/index.md
-            - Biolink Model: "https://biolink.github.io/biolink-model/"
-            - Translator Reasoner API (TRAPI): architecture/sri/trapi.md
-            - Evidence, Provenance & Confidence Metadata: architecture/sri/epc.md
-        - Testing:
-            - Overview: architecture/sri/testing/index.md
-            - SRI Testing: architecture/sri/testing/sri_testing.md
-        - Tutorials:
-            - Overview: development-guide/tutorials/index.md
-            - Workflow Tutorial: development-guide/tutorials/workflows.md
-        - Cookbook: development-guide/cookbook.md
+        - Tutorials: development-guide/tutorials/index.md
+        - Knowledge Graph Principles: architecture/biolink/knowledge_graphs.md
+        - Translator Architecture:
+          - Overview: architecture/index.md
+          - User Interface: architecture/ui.md
+          - Autonomous Relay System: architecture/ars_usage.md
+          - Workflow Runner: architecture/workflows.md
+          - Translator Registry: architecture/registry.md
+          - Autonomous Relay Agents:
+              - Overview: architecture/ara/index.md
+              - ARAX: architecture/ara/arax.md
+              - BTE: architecture/ara/bte.md
+          - Knowledge Providers:
+              - Overview: architecture/kp/index.md
+              - RTX-KG2: architecture/kp/rtx-kg2.md
+              - Service Provider: architecture/kp/service-provider.md
+          - Standards and Reference Implementation:
+              - Overview: architecture/sri/index.md
+              - Biolink Model: "https://biolink.github.io/biolink-model/"
+              - Translator Reasoner API (TRAPI): architecture/sri/trapi.md
+              - Evidence, Provenance & Confidence Metadata: architecture/sri/epc.md
+          - Testing:
+              - Overview: architecture/sri/testing/index.md
+              - SRI Testing: architecture/sri/testing/sri_testing.md
+
+        - Consortium Development Guidelines: development-guide/tutorials/consortium_development_guidelines.md
     - Deployment Guide:
         - Introduction: deployment-guide/index.md
         - Continuous Integration for Translator: deployment-guide/ci.md
