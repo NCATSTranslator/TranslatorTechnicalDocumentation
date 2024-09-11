@@ -12,7 +12,10 @@ nav:
     - Development Guide:
         - Overview: development-guide/index.md
         - Quick Start: development-guide/quickstart.md
-        - Tutorials: development-guide/tutorials/index.md
+        - Tutorials:
+          - Index: development-guide/tutorials/index.md
+          - Component Builder's Roadmap: development-guide/tutorials/component_builders_roadmap.md
+          - Working with Workflows: development-guide/tutorials/workflows.md
         - Knowledge Graph Principles: architecture/biolink/knowledge_graphs.md
         - Translator Architecture:
           - Overview: architecture/index.md
@@ -26,6 +29,9 @@ nav:
               - BTE: architecture/ara/bte.md
           - Knowledge Providers:
               - Overview: architecture/kp/index.md
+              - Connections Provider: architecture/kp/chp-data.md
+              - Genetics Data Provider: architecture/kp/genetics-data.md
+              - Molecular Data Provider: architecture/kp/molecular-data.md
               - RTX-KG2: architecture/kp/rtx-kg2.md
               - Service Provider: architecture/kp/service-provider.md
           - Standards and Reference Implementation:
@@ -35,8 +41,7 @@ nav:
               - Evidence, Provenance & Confidence Metadata: architecture/sri/epc.md
           - Testing:
               - Overview: architecture/sri/testing/index.md
-              - SRI Testing: architecture/sri/testing/sri_testing.md
-
+              - SRI Testing: architecture/sri/testing/sri_testing_infrastructure.md
         - Consortium Development Guidelines: development-guide/tutorials/consortium_development_guidelines.md
     - Deployment Guide:
         - Introduction: deployment-guide/index.md
