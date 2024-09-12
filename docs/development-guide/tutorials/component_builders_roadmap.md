@@ -11,9 +11,9 @@ The purpose of this document is to provide a concrete one-stop, step-by-step roa
 # Resources
 
 1. Turnkey Options for Knowledge Provider creation:
-    2. [BioThings Service Provider](../../architecture/kp/service-provider.md)
-    3. [PLOVER](https://github.com/RTXteam/PloverDB)
-    4. [Plater](https://github.com/TranslatorSRI/Plater)
+    - [BioThings Service Provider](../../architecture/kp/service-provider.md)
+    - [PLOVER](https://github.com/RTXteam/PloverDB)
+    - [Plater](https://github.com/TranslatorSRI/Plater)
 5. [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
 6. [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
 7. [Specifying Workflows](workflows.md)
