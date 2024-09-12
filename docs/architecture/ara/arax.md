@@ -234,7 +234,7 @@ cat <<EOF >kitchensink.json
 EOF
 
 curl -X POST \
-     "https://https://arax.transltr.io/api/arax/v1.4/query?bypass_cache=false" \
+     "https://arax.transltr.io/api/arax/v1.4/query?bypass_cache=false" \
      -H  "accept: application/json" \
      -H  "Content-Type: application/json" \
      -d @kitchensink.json
