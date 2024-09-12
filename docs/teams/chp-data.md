@@ -8,9 +8,16 @@ CHP is the team responsible for the
 
 ## CHP Team Members:
 
-- Eugene Santos - Principal Investigator (PI)
-- Joseph Gormley - Co-PI
-- Eugene Hinderer - Bioinformatician
-- Chase Yakaboski - Lead Software Developer, Computational Analyst
-- Gregory Hyde (gregory.m.hyde.th@dartmouth.edu) - Computational Analyst - (contact with questions)
-- Anthony Ragazzi - Data Staging
+- Eugene Santos Jr - PI (Dartmouth)
+- Joseph Gormley – Co PI (Tufts)
+- Eugene Hinderer – Bioinformaticist (Tufts)
+- Tom Zisk – Developer (Tufts)
+- Dan Corkill – AI Research Scientist (Tufts)
+- Keumjoo Kim – Researcher (Dartmouth)
+- Gregory Hyde – Graduate Assistant (Dartmouth)
+- Anthony Ragazzi - Graduate Assistant (Dartmouth)
+
+## Team Contacts
+Dr. Eugene Santos (PI): Eugene.Santos.Jr@dartmouth.edu
+
+Joseph Gormley (Co-PI): jgormley@tuftsmedicalcenter.org
