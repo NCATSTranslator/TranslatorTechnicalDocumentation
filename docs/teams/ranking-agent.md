@@ -6,4 +6,4 @@ Ranking Agent is the team responsible for the ["ARAGORN"](../architecture/ara/ar
 
 ## Ranking Agent PIs:
 
-- Chris Bizon: bizon@renci.org
+- Alex Tropsha: alex\_tropsha@unc.edu
