@@ -17,6 +17,19 @@ The SRI Testing Infrastructure includes all components dealing with the automate
 - [Benchmarks Test Runner](https://github.com/TranslatorSRI/Benchmarks) - Quality Assurance Testing
 - (Coming Soon) [Performance Test Runner]() - Quality Assurance Testing
 
+## Test Expectations
+- Pass/Fail Tests
+  - TopAnswer: The expected curie result is in the top 30 results.
+  - Acceptable: The expected curie result is in the top 50% of results.
+  - BadButForgivable: The expected curie result is either in the bottom 50% of results or not present.
+  - NeverShow: The expected curie result is not present in the results.
+- TRAPI Validation
+  - The entire response message passes the current version of TRAPI.
+- Benchmarks
+  - Given a set of "ground-truth" results for a given set of input queries, calculate the ratio of overlap between ground-truth and a response message results within a top-k range.
+- Performance
+  - Run successively heavier load tests against the system to see how many concurrent users can send queries while returning consistent results.
+
 ## Automated Pipeline
 - A CronJob spins up a Docker Image of the Test Harness
 - Test Harness downloads the Tests Repo and grabs the specified "Test Suite" based on the CronJob command
