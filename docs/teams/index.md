@@ -6,4 +6,5 @@
 - [Exploring Agent](exploring-agent.md)
 - [Genetics Data Services Provider](genetics-data.md)
 - [Multiomics Provider](multiomics-provider.md)
+- [Ranking Agent](ranking-agent.md)
 - [Service Provider](service-provider.md)
