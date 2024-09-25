@@ -90,7 +90,7 @@ In this fashion, a user can precisely specify what sort of workflow they desire.
 Each Translator component is expected to implement a set of operations that it can perform. This is done via 
 the OpenAPI specification utilizing the `x-trapi` extension. Directions on how to implement this can be found
 [here](https://github.com/NCATSTranslator/OperationsAndWorkflows/wiki/How-to-%22do%22-operations#advertising-operations),
- with a real-world example [here](https://arax.ncats.io/test/api/arax/v1.2/openapi.json).
+ with a real-world example [here](https://arax.transltr.io/api/arax/v1.4/openapi.json).
 
 # Implementing operations
 Please see the [Guide for developers](../development-guide/tutorials/workflows.md) for developer details about how 
