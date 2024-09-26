@@ -8,14 +8,17 @@ Even with Phase 2 project teams, already familiar with the platform, the mainten
 
 The purpose of this document is to provide a concrete one-stop, step-by-step road map about component design and implementation which serves all the above development needs.
 
-# Resources
+## Resources
 
-1. Turnkey Options for Knowledge Provider creation:
-    - [BioThings SDK](/docs/data-contributor-guide/biothings-sdk.md) 
-    - [Plater](/docs/data-contributor-guide/plater.md)
-    - [PLOVER](/docs/data-contributor-guide/plover.md)
-5. [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
-6. [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
-7. [Specifying Workflows](workflows.md)
-8. [Deploying a Translator Component](../../deployment-guide/index.md)
-9. [Registering a TRAPI service](../../architecture/registry.md#adding-an-api-to-the-translator-smartapi-registry)
+For data owners who would like to make their data accessible within Translator as Knowledge Providers, there are several turnkey options to consider:
+* [BioThings SDK](biothings-sdk.md) 
+* [Plater](plater.md)
+* [PLOVER](plover.md)
+
+To better understand the various standards and component facets, the following topics may be reviewed:
+
+* [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
+* [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
+* [Specifying Workflows](workflows.md)
+* [Deploying a Translator Component](../../deployment-guide/index.md)
+* [Registering a TRAPI service](../../architecture/registry.md#adding-an-api-to-the-translator-smartapi-registry)
