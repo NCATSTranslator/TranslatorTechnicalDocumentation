@@ -11,11 +11,12 @@ The purpose of this document is to provide a concrete one-stop, step-by-step roa
 ## Resources
 
 For data owners who would like to make their data accessible within Translator as Knowledge Providers, there are several turnkey options to consider:
-* [BioThings SDK](biothings-sdk.md) 
-* [Plater](plater.md)
-* [PLOVER](plover.md)
 
-To better understand the various standards and component facets, the following topics may be reviewed:
+* [BioThings SDK](biothings-sdk.md): good for directly wrapping external 3rd party online databases that have non-TRAPI compliant web service API's.
+* [Plater](https://github.com/TranslatorSRI/Plater): good for wrapping a local Neo4j database loaded with Biolink Model compliant knowledge graph(s).
+* [PLOVER](plover.md): serves _in-memory_ hosted Biolink Model compliant datasets, without the complication of maintaining a backend graph database.
+
+To better understand the various standards and component facets, or perhaps, roll-your-own Translator component from scratch, the following topics should be reviewed:
 
 * [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
 * [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
