@@ -8,14 +8,18 @@ Even with Phase 2 project teams, already familiar with the platform, the mainten
 
 The purpose of this document is to provide a concrete one-stop, step-by-step road map about component design and implementation which serves all the above development needs.
 
-# Resources
+## Resources
 
-1. Turnkey Options for Knowledge Provider creation:
-    - [BioThings Service Provider](../../architecture/kp/service-provider.md)
-    - [PLOVER](https://github.com/RTXteam/PloverDB)
-    - [Plater](https://github.com/TranslatorSRI/Plater)
-5. [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
-6. [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
-7. [Specifying Workflows](workflows.md)
-8. [Deploying a Translator Component](../../deployment-guide/index.md)
-9. [Registering a TRAPI service](../../architecture/registry.md#adding-an-api-to-the-translator-smartapi-registry)
+For data owners who would like to make their data accessible within Translator as Knowledge Providers, there are several turnkey options to consider:
+
+* [BioThings SDK](biothings-sdk.md): good for directly wrapping external 3rd party online databases that have non-TRAPI compliant web service API's.
+* [Plater](https://github.com/TranslatorSRI/Plater): good for wrapping a local Neo4j database loaded with Biolink Model compliant knowledge graph(s).
+* [PLOVER](plover.md): serves _in-memory_ hosted Biolink Model compliant datasets, without the complication of maintaining a backend graph database.
+
+To better understand the various standards and component facets, or perhaps, roll-your-own Translator component from scratch, the following topics should be reviewed:
+
+* [Biolink Model](https://biolink.github.io/biolink-model/working-with-the-model/)
+* [Implementing TRAPI](https://github.com/NCATSTranslator/ReasonerAPI/tree/master/ImplementationGuidance)
+* [Specifying Workflows](workflows.md)
+* [Deploying a Translator Component](../../deployment-guide/index.md)
+* [Registering a TRAPI service](../../architecture/registry.md#adding-an-api-to-the-translator-smartapi-registry)
