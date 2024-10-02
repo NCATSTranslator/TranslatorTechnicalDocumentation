@@ -19,7 +19,20 @@ This site hosts the official technical documentation for Translator. Key section
 - [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
 - [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
 
-## About the Biomedical Data Translator
+## Overview of Translator Functionalities, Access Options, and Applications
+
+Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview, with details included in other sections.
+
+1. "Lookup" queries refer to queries that ask Translator to essentially find "facts" or highly curated knowledge that typically takes the form of a simple "one-hop" answer path. An example might be "albuterol treats asthma".
+2. "Inferred" queries ask Translator to suggest an answer to a question that has varying degrees of confidence in the results. These inferences are derived from multiple approaches, including rule-based approaches, probabilistic models, and curated workflow paths that subject matter experts hypothesize as having the potential to derive novel results. "Inferred" queries can yield one-hop answer paths, but they are typically multi-hop answer paths. For example, a natural language query that asks "what chemicals may increase the activity of the gene/protein SCN1A?" might yield an inferred answer path that suggests "ranolazine causes an increased activity or abundance of the gene/protein MTOR, which causes an increased activity or abundance of the gene/protein SCN1A".
+3. "Pathfinder" queries ask Translator to find paths that connect two biomedical entities, for instance, a chemical exposure and an adverse outcome (i.e., an adverse outcome pathway). Translator uses a variety of approaches, including combinations of "lookup" and "inferred queries to derive answers. As such, "pathfinder" queries typically yield complex multi-hop answer paths.
+4. "Input_set" queries differ from the other types of queries in that users ask Translator to find a relationship between multiple user-contributed input entities (e.g., phenotypes) and another entity type (e.g., gene). This query functionality differs from a BATCH query, in which multiple input entities are entered by users, with Translator returning independent results for each input entity. The functionality also differs from an AND query, in which multiple entities are entered by users, with Translator returning results for those entities that are shared by all of the input entities. Rather, the "input_set" functionalities operates more as an OR query, in which multiple entities are entered by users, with Translator returning results for entities that are shared by many but not all of the input entities. 
+
+Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
+disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease,
+drug-induced liver injury, and many others. Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb).
+
+## About the Biomedical Data Translator Program
 
 The [**Biomedical Data Translator**](https://ncats.nih.gov/translator)  program was launched by the
 [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov) in Fall of 2016. ([Austin et al. 2019; BDTC 2919a/b;
@@ -29,10 +42,6 @@ is working collaboratively to realize the vision of the Translator program.
 Phase 2 "Development" focused activities of the **Translator Consortium** engaged [~215 team members and 27 institutions](https://github.com/NCATSTranslator/Translator-All/wiki). 
 
 The program is [funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism and an NIH contract awarded to support development of a Translator user interface (UI)](#consortium-funding).
-
-Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
-disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease,
-drug-induced liver injury, and many others. Scientific end users can access Translator via the [Translator user interface](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb).
 
 ### Key Programmatic Priorities
 
