@@ -12,7 +12,7 @@ This site hosts the official technical documentation for the Biomedical Data Tra
 
 ## Vision for the Translator Program
 
-The vision of the Translator program is to accelerate translational science "_through an informatics platform that 
+The vision for the Translator program is to accelerate translational science "_through an informatics platform that 
 enables interrogation of relationships across the full spectrum of data types_"
 ([Austin _et al._ 2019](https://doi.org/10.1111/cts.12595), [BDTC 2019a](https://doi.org/10.1111/cts.12591),
 [BDTC 2019b](https://doi.org/10.1111/cts.12592), [Fecho _et al._ 2022](https://doi.org/10.1111/cts.13301),
