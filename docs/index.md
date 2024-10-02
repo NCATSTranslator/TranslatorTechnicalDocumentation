@@ -29,8 +29,7 @@ Scientific end users can access Translator via the [Translator user interface (U
 4. "Input_set" queries differ from the other types of queries in that users ask Translator to find a relationship between multiple user-contributed input entities (e.g., phenotypes) and another entity type (e.g., gene). This query functionality differs from a BATCH query, in which multiple input entities are entered by users, with Translator returning independent results for each input entity. The functionality also differs from an AND query, in which multiple entities are entered by users, with Translator returning results for those entities that are shared by all of the input entities. Rather, the "input_set" functionalities operates more as an OR query, in which multiple entities are entered by users, with Translator returning results for entities that are shared by many but not all of the input entities. 
 
 Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
-disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease,
-drug-induced liver injury, and many others. Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb).
+disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, drug-induced liver injury, and many others.
 
 ## About the Biomedical Data Translator Program
 
