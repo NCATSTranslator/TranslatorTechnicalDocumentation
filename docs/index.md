@@ -19,7 +19,7 @@ This site hosts the official technical documentation for Translator. Key section
 - [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
 - [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
 
-## Overview of Translator Functionalities, Access Options, and Applications
+## Overview of Translator Access Options, Functionalities, and Applications
 
 Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview, with details included in other sections.
 
