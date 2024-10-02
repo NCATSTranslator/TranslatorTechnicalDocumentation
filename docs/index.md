@@ -1,7 +1,18 @@
 ![image](img/translator-banner.jpg)
 
 # Welcome to the Biomedical Data Translator - Technical Documentation Site 
-The vision of the Biomedical Data Translator ("Translator") program is to accelerate translational science "_through an informatics platform that 
+
+This site hosts the official technical documentation for the Biomedical Data Translator ("Translator") program. Key sections of the documentation are:
+
+- This overview page (and related links), presenting an overview of the Biomedical Data Translator consortium and its platform.
+- [Knowledge Graphs](architecture/biolink/knowledge_graphs.md): Knowledge Graphs - the core scientific principle behind Translator.
+- [Translator Architecture](architecture/index.md): overview of the Translator knowledge integration platform.
+- [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
+- [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
+
+## Translator Vision
+
+The vision of the Translator program is to accelerate translational science "_through an informatics platform that 
 enables interrogation of relationships across the full spectrum of data types_"
 ([Austin _et al._ 2019](https://doi.org/10.1111/cts.12595), [BDTC 2019a](https://doi.org/10.1111/cts.12591),
 [BDTC 2019b](https://doi.org/10.1111/cts.12592), [Fecho _et al._ 2022](https://doi.org/10.1111/cts.13301),
@@ -11,17 +22,7 @@ as possible, using a ‘knowledge graph’–based architecture, and allow them 
 translational researchers. A fundamental tenet of the Translator program is open data, including open (de-identified) 
 patient data, and open team science.
 
-This site hosts the official technical documentation for Translator. Key sections of the documentation are:
-
-- This overview page (and related links), presenting an overview of the Biomedical Data Translator consortium and its platform.
-- [Knowledge Graphs](architecture/biolink/knowledge_graphs.md): Knowledge Graphs - the core scientific principle behind Translator.
-- [Translator Architecture](architecture/index.md): overview of the Translator knowledge integration platform.
-- [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
-- [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
-
-## Overview of Translator Access Options, Functionalities, and Applications
-
-Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
+## Overview of the Translator System
 
 Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview, with details included in other sections.
 
@@ -31,7 +32,9 @@ Translator currently supports four main types of queries, with full evidence, pr
 4. "Input_set" queries differ from the other types of queries in that users ask Translator to find a shared relationship between multiple user-contributed input entities (e.g., phenotypes) and another entity type (e.g., gene). This query functionality differs from a BATCH query, in which multiple input entities are entered by users, with Translator returning independent results for each input entity. The functionality also differs from an AND query, in which multiple input entities are entered by users, with Translator returning results for only those entities that are shared by all of the input entities. Rather, the "input_set" functionality operates more as an OR query, in which multiple input entities are entered by users, with Translator returning results for entities that are shared by some, but not all, of the input entities. For instance, a user may ask "what genes are related to one or more of phenotypes?"
 
 Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
-disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, drug-induced liver injury, and many others.
+disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, drug-induced liver injury, primary ciliary dyskinesia, cyclic vomiting syndrome, and many others. (Please see the abbreviated References list for additional examples and details.)
+
+Translational scientists can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
 
 ## About the Biomedical Data Translator Program
 
