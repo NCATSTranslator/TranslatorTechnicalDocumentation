@@ -19,7 +19,7 @@ enables interrogation of relationships across the full spectrum of data types_"
 [other references](#references)). The goal is to build the infrastructure required to support and 
 facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets
 as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by
-translational researchers. A fundamental tenet of the Translator program is open data, including open (de-identified) 
+translational scientists in an effort to derive new insights and knowledge. A fundamental tenet of the Translator program is open data, including open (de-identified) 
 patient data, and open team science.
 
 ## Overview of the Translator System
