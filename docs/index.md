@@ -10,7 +10,7 @@ This site hosts the official technical documentation for the Biomedical Data Tra
 - [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
 - [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
 
-## Translator Vision
+## Vision for the Translator Program
 
 The vision of the Translator program is to accelerate translational science "_through an informatics platform that 
 enables interrogation of relationships across the full spectrum of data types_"
