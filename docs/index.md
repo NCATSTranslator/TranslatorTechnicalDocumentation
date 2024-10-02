@@ -36,7 +36,7 @@ disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, P
 
 Translational scientists can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
 
-## About the Biomedical Data Translator Program
+## About the Translator Program
 
 The [**Biomedical Data Translator**](https://ncats.nih.gov/translator)  program was launched by the
 [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov) in Fall of 2016. ([Austin et al. 2019; BDTC 2919a/b;
