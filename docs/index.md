@@ -30,15 +30,9 @@ Phase 2 "Development" focused activities of the **Translator Consortium** engage
 
 The program is [funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism and an NIH contract awarded to support development of a Translator user interface (UI)](#consortium-funding).
 
-An overview of the Translator timeline, in the context of key milestones and award funding from program inception through September 2022, is depicted below.
-
-![image](https://user-images.githubusercontent.com/26254388/174347625-c20cc7b1-134b-4a19-ab21-72c4ad4d2f89.png)
-
-Taken from Fecho _et al._ 2022, Supplementary Figure 1
-
 Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
 disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease,
-drug-induced liver injury, and many others.
+drug-induced liver injury, and many others. Scientific end users can access Translator via the [Translator user interface](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb).
 
 ### Key Programmatic Priorities
 
