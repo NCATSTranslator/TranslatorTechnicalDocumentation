@@ -21,7 +21,9 @@ This site hosts the official technical documentation for Translator. Key section
 
 ## Overview of Translator Access Options, Functionalities, and Applications
 
-Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers can test the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview, with details included in other sections.
+Scientific end users can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
+
+Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview, with details included in other sections.
 
 1. "Lookup" queries refer to queries that ask Translator to essentially find "facts" or highly curated knowledge that typically takes the form of a simple "one-hop" answer path. An example might be "albuterol treats asthma".
 2. "Inferred" queries ask Translator to suggest an answer to a question that has varying degrees of confidence in the results. These inferences are derived from multiple approaches, including rule-based approaches, probabilistic models, and curated workflow paths that subject matter experts hypothesize as having the potential to derive novel results. "Inferred" queries can yield one-hop answer paths, but they are typically multi-hop answer paths. For example, a natural language query that asks "what chemicals may increase the activity of the gene/protein SCN1A?" might yield an inferred answer path that suggests "ranolazine causes an increased activity or abundance of the gene/protein MTOR, which causes an increased activity or abundance of the gene/protein SCN1A".
