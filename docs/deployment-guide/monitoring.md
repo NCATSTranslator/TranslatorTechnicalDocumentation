@@ -35,12 +35,17 @@ Translator tools should send telemetry data to shared backend applications deplo
 
 Translator applications (clients) should configure their kubernetes deployments to send telemetry data to one of the following, and it should work for CI, test, and prod.
 
-HTTP
-jaeger-otel-collector:4318
+The namespace of the collector must be specified (.sri) for applications that aren't deployed to the sri namespace.
 
-gRPC
-jaeger-otel-collector:4317
+For some instrumentation libraries, when using the HTTP protocol, it may be necessary to append "/v1/traces" to the collector endpoint.
 
+#### HTTP
+http://jaeger-otel-collector.sri:4318
+
+#### gRPC
+http://jaeger-otel-collector.sri:4317
+
+#### Jaeger UI
 To view telemetry data, the Jaeger UI can be accessed with the following links: 
 * [CI Jaeger](https://translator-otel.ci.transltr.io/search)
 * [Test Jaeger](https://translator-otel.test.transltr.io/search)
