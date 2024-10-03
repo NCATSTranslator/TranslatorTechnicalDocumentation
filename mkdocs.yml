@@ -45,7 +45,6 @@ nav:
         - Consortium Development Guidelines: development-guide/tutorials/consortium_development_guidelines.md
     - Deployment Guide:
         - Introduction: deployment-guide/index.md
-        - Continuous Integration for Translator: deployment-guide/ci.md
         - Production Deployment: deployment-guide/deployment.md
         - Monitoring: deployment-guide/monitoring.md
 
