@@ -72,11 +72,9 @@ The program is [funded primarily through a National Institutes of Health (NIH) O
 
 ###  Licensing
 
-The Translator Consortium makes every effort to draw only from openly available, public datasets. The program's leadership has also brokered licensing agreements with certain data owners such as DrugBank. However, it isis intended to evolve into a global public good through open source and access licensing.
+The Translator Consortium makes every effort to draw only from openly available, public datasets. The Translator program's leadership has also brokered licensing agreements with certain data owners such as DrugBank. Note, however, that the system components developed by different Translator teams may have other distinct specific licensing. 
 
-In this spirit, **_this_** document repository is  published under the [Creative Commons CC0 1.0 Universal License](license.md)
-
-Note, however, that the system components developed by different Translator teams may have other distinct specific licensing. 
+**_This_** document repository is published under the [Creative Commons CC0 1.0 Universal License](license.md)
 
 ### References
 
