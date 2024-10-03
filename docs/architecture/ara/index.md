@@ -8,7 +8,7 @@ Translator "Autonomous Relay Agents" (ARAs) build build upon the knowledge contr
 
 - [Autonomous Relay Agent usage tutorials](../../development-guide/tutorials/index.md)
 
-## Existing Translator ARA's
+## Existing Translator ARAs
 
 | Team                                                                                  | Name                                                               | Documentation                                                                                                | Github Repository                                                               |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
