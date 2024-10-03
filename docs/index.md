@@ -24,7 +24,9 @@ patient data, and open team science.
 
 ## Overview of the Translator System
 
-Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview, with details included in other sections.
+The Translator System is both federated and hierarchical. A schematic is provided on the architechute page. In brief, a user query to the Translator user interface (UI) goes to the Translator "Autonomous Relay Service (ARS)", which then transmits the query in machine language to several Translor "Autonomous Relay Agents (ARAs)", who then transmit the machine language query to numerous Translator "Knowledge Providers (KPs)", who then return their answers to the original query, in whole or in part, back to the ARAs, who then compile results and reason over them to derive answers to the user's original query, send them back to the ARS, which then merges, scores, and adds annotation to the results returned from all ARAs before returning them to the UI for user display and interrogation.
+
+Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview of each query type, with details included in other sections.
 
 1. "Lookup" queries refer to queries that ask Translator to essentially find "facts" or highly curated knowledge that typically take the form of a simple "one-hop" answer path. For instance, in response to a natural language query that asks "what drugs may treat asthma?", Translator may return an anser that states "albuterol treats asthma".
 2. "Inferred" queries ask Translator to suggest an answer to a question that has varying degrees of confidence in the results. These inferences are derived from multiple reasoning algorithms and chains, including rule-based approaches, probabilistic models, and curated workflow paths that subject matter experts hypothesize as having the potential to derive novel results. "Inferred" queries can yield one-hop answer paths, but they are typically multi-hop answer paths. For example, in response to a natural language query that asks "what chemicals may increase the activity of the gene/protein SCN1A?", Translator might yield an inferred answer that suggests ranolazine, but in the form of an inferred answer path that states "ranolazine causes an increased activity or abundance of the gene/protein MTOR, which causes an increased activity or abundance of the gene/protein SCN1A".
@@ -34,7 +36,7 @@ Translator currently supports four main types of queries, with full evidence, pr
 Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
 disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, drug-induced liver injury, primary ciliary dyskinesia, cyclic vomiting syndrome, and many others. (Please see the abbreviated References list for additional examples and details.)
 
-Translational scientists can access Translator via the [Translator user interface (UI)](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
+Translational scientists can access Translator via the [Translator UI](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
 
 ## About the Translator Program
 
@@ -70,7 +72,7 @@ The program is [funded primarily through a National Institutes of Health (NIH) O
 
 ###  Licensing
 
-Translator is intended to evolve into a global public good through open source and access licensing.
+The Translator Consortium makes every effort to draw only from openly available, public datasets. The program's leadership has also brokered licensing agreements with certain data owners such as DrugBank. However, it isis intended to evolve into a global public good through open source and access licensing.
 
 In this spirit, **_this_** document repository is  published under the [Creative Commons CC0 1.0 Universal License](license.md)
 
