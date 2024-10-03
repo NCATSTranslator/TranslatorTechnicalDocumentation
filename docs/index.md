@@ -1,17 +1,8 @@
 ![image](img/translator-banner.jpg)
 
 # Welcome to the Biomedical Data Translator - Technical Documentation Site 
-The vision of the Biomedical Data Translator ("Translator") program is to accelerate translational science "_through an informatics platform that 
-enables interrogation of relationships across the full spectrum of data types_"
-([Austin _et al._ 2019](https://doi.org/10.1111/cts.12595), [BDTC 2019a](https://doi.org/10.1111/cts.12591),
-[BDTC 2019b](https://doi.org/10.1111/cts.12592), [Fecho _et al._ 2022](https://doi.org/10.1111/cts.13301),
-[other references](#references)). The goal is to build the infrastructure required to support and 
-facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets
-as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by
-translational researchers. A fundamental tenet of the Translator program is open data, including open (de-identified) 
-patient data, and open team science.
 
-This site hosts the official technical documentation for Translator. Key sections of the documentation are:
+This site hosts the official technical documentation for the Biomedical Data Translator ("Translator") program. Key sections of the documentation are:
 
 - This overview page (and related links), presenting an overview of the Biomedical Data Translator consortium and its platform.
 - [Knowledge Graphs](architecture/biolink/knowledge_graphs.md): Knowledge Graphs - the core scientific principle behind Translator.
@@ -19,7 +10,35 @@ This site hosts the official technical documentation for Translator. Key section
 - [Software Development Guide](development-guide/index.md): guidelines for Translator software development, including tutorials.
 - [System Deployment Guide](deployment-guide/index.md): guidelines for Translator systems administration, including continuous integration testing, production deployment and monitoring.
 
-## About the Biomedical Data Translator
+## Vision for the Translator Program
+
+The vision for the Translator program is to accelerate translational science "_through an informatics platform that 
+enables interrogation of relationships across the full spectrum of data types_"
+([Austin _et al._ 2019](https://doi.org/10.1111/cts.12595), [BDTC 2019a](https://doi.org/10.1111/cts.12591),
+[BDTC 2019b](https://doi.org/10.1111/cts.12592), [Fecho _et al._ 2022](https://doi.org/10.1111/cts.13301),
+[other references](#references)). The goal is to build the infrastructure required to support and 
+facilitate data-driven translational research on a large scale. The fundamental aim is to integrate as many datasets
+as possible, using a ‘knowledge graph’–based architecture, and allow them to be cross-queried and reasoned over by
+translational scientists in an effort to derive new insights and knowledge. A fundamental tenet of the Translator program is open data, including open (de-identified) 
+patient data, and open team science.
+
+## Overview of the Translator System
+
+The Translator System is both federated and hierarchical. A schematic is provided on the architecture page. In brief, a user query's to the Translator user interface (UI) gets transmitted to the Translator "Autonomous Relay Service (ARS)", which then transmits the query in machine language to several Translor "Autonomous Relay Agents (ARAs)", who then transmit the machine-language query to numerous Translator "Knowledge Providers (KPs)", who then return their answers to the original query, in whole or in part, back to the ARAs, who then compile results and reason over them to derive answers to the user's original query, and then send them back to the ARS, which then merges for results from all ARAs, scores and ranks them, and adds annotations before returning the full result set back to the UI for user display and interrogation of the supporting evidence, confidence in results, and related provenance.
+
+Translator currently supports four main types of queries, with full evidence, providence, and confidence returned with query results. Here, we provide a brief high-level overview of each query type, with details included in other sections.
+
+1. "Lookup" queries refer to queries that ask Translator to essentially find "facts" or highly curated knowledge that typically take the form of a simple "one-hop" answer path. For instance, in response to a natural language query that asks "what drugs may treat asthma?", Translator may return an anser that states "albuterol treats asthma".
+2. "Inferred" queries ask Translator to suggest an answer to a question that has varying degrees of confidence in the results. These inferences are derived from multiple reasoning algorithms and chains, including rule-based approaches, probabilistic models, and curated workflow paths that subject matter experts hypothesize as having the potential to derive novel results. "Inferred" queries can yield one-hop answer paths, but they are typically multi-hop answer paths. For example, in response to a natural language query that asks "what chemicals may increase the activity of the gene/protein SCN1A?", Translator might yield an inferred answer that suggests ranolazine, but in the form of an inferred answer path that states "ranolazine causes an increased activity or abundance of the gene/protein MTOR, which causes an increased activity or abundance of the gene/protein SCN1A".
+3. "Pathfinder" queries ask Translator to find paths that connect two biomedical entities, for instance, a chemical exposure and an adverse outcome. Translator uses a variety of approaches, including combinations of "lookup" and "inferred" queries to derive answers to "pathfinder" queries. As such, these queries typically yield complex multi-hop answer paths. For instance, in natural language, a user might ask "what biological mechanisms might explain an observed relationship between exposure to polybrominated diphenyl ethers and cardiovascular disease?"
+4. "Input_set" queries differ from the other types of queries in that users ask Translator to find a shared relationship between multiple user-contributed input entities (e.g., phenotypes) and another entity type (e.g., gene). This query functionality differs from a BATCH query, in which multiple input entities are entered by users, with Translator returning independent results for each input entity. The functionality also differs from an AND query, in which multiple input entities are entered by users, with Translator returning results for only those entities that are shared by all of the input entities. Rather, the "input_set" functionality operates more as an OR query, in which multiple input entities are entered by users, with Translator returning results for entities that are shared by some, but not all, of the input entities. For instance, a user may ask "what genes are related to one or more of these unusual and presumably unrelated phenotypes?"
+
+Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
+disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease, drug-induced liver injury, primary ciliary dyskinesia, cyclic vomiting syndrome, and many others. (Please see the abbreviated References list for additional examples and details.)
+
+Translational scientists can access Translator via the [Translator UI](https://ui.transltr.io/). Additionally, developers or anyone with skills in Python can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb). 
+
+## About the Translator Program
 
 The [**Biomedical Data Translator**](https://ncats.nih.gov/translator)  program was launched by the
 [National Center for Advancing Translational Sciences ("NCATS")](https://ncats.nih.gov) in Fall of 2016. ([Austin et al. 2019; BDTC 2919a/b;
@@ -29,16 +48,6 @@ is working collaboratively to realize the vision of the Translator program.
 Phase 2 "Development" focused activities of the **Translator Consortium** engaged [~215 team members and 27 institutions](https://github.com/NCATSTranslator/Translator-All/wiki). 
 
 The program is [funded primarily through a National Institutes of Health (NIH) Other Transaction Awards (OTA) mechanism and an NIH contract awarded to support development of a Translator user interface (UI)](#consortium-funding).
-
-An overview of the Translator timeline, in the context of key milestones and award funding from program inception through September 2022, is depicted below.
-
-![image](https://user-images.githubusercontent.com/26254388/174347625-c20cc7b1-134b-4a19-ab21-72c4ad4d2f89.png)
-
-Taken from Fecho _et al._ 2022, Supplementary Figure 1
-
-Translator is currently being used to promote serendipitous discovery and augment human reasoning in a variety of
-disease spaces, including Fanconi anemia, systemic sclerosis, cystic fibrosis, Parkinson’s disease,
-drug-induced liver injury, and many others.
 
 ### Key Programmatic Priorities
 
@@ -63,11 +72,9 @@ drug-induced liver injury, and many others.
 
 ###  Licensing
 
-Translator is intended to evolve into a global public good through open source and access licensing.
+The Translator Consortium makes every effort to draw only from openly available, public datasets. The Translator program's leadership also has brokered licensing agreements with certain data owners such as DrugBank. Note, however, that the system components developed by different Translator teams may have other distinct specific licensing. 
 
-In this spirit, **_this_** document repository is  published under the [Creative Commons CC0 1.0 Universal License](license.md)
-
-Note, however, that the system components developed by different Translator teams may have other distinct specific licensing. 
+**_This_** document repository is published under the [Creative Commons CC0 1.0 Universal License](license.md)
 
 ### References
 

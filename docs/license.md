@@ -1,6 +1,6 @@
 # Creative Commons Legal Code
 
-The License covering this documentation repository only (not all software components of the Translator system, which may each have their own applicable licensing) is the one here below.
+The License covering this documentation repository only (not all software components of the Translator system, which may each have their own applicable licensing) is the one here below. The Translator Consortium makes every effort to draw only from openly available, public datasets. The Translator program's leadership also has brokered licensing agreements with certain data owners such as DrugBank. Note, however, that the system components developed by different Translator teams may have other distinct specific licensing.
 
 ## CC0 1.0 Universal
 

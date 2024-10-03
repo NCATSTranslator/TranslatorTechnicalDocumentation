@@ -5,8 +5,7 @@ The Translator platform consists of five main components, shown in the diagram b
 information abstracted from one or more underlying ‘knowledge sources’. Autonomous Relay Agents (ARAs) build upon the 
 knowledge contributed by KPs by way of reasoning and inference across KPs. The Autonomous Relay System (ARS) functions
 as a central relay station and broadcasts user queries to the broader Translator
-ecosystem and, in turn, compiles results. A user interface (UI) is under development and intended to serve as a public UI to the Translator system.
-Finally, a Standards and Reference Implementation (SRI) Component provides services and community-based collaboration
+ecosystem and, in turn, compiles results. A [Translator UI](https://ui.transltr.io/) is under development and intended to serve as the public interface to the Translator system. Finally, a Standards and Reference Implementation (SRI) Component, while not directly contributing to the Translator architecture, provides services and community-based collaboration
 guidance related to the development, adoption, and implementation of the standards needed to achieve the overall
 implementation goals of the Translator system.
 
@@ -34,7 +33,7 @@ ibuprofen. Translator also provided answers that are correct but not terribly in
 user intent such as caffeine (an adjuvant included in certain pain medication). Also included among Translator answers
 to the example query are answers such as naltrexone, an opioid antagonist, which may not be expected by users. In support of naltrexone, Translator
 provided evidence and provenance indicating that naltrexone indeed may be used to treat chronic pain, as highlighted
-below. Translator evidence and provenance included ranked answers with scores, primary and secondary knowledge sources
+below in a screenshot from an experimental UI. Translator evidence and provenance included ranked answers with scores, primary and secondary knowledge sources
 behind any assertions, PubMedCentral or PubMed identifiers, and links to abstracts, etc. 
 
 This sort of serendipitous discovery, or unexpected insight, represents the type of scientific discovery that

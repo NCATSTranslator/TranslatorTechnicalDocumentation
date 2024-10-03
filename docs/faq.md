@@ -4,7 +4,7 @@
 Check out our [introduction to knowledge graphs](architecture/biolink/knowledge_graphs.md)?
 
 ### How can I start playing with Translator?
-Translator is generally accessible to researchers via the [Translator Web portal](https://ui.transltr.io/). Python-savvy data scientists can try out the ["Hello Translator" Jupyter Notebook](development-guide/HelloTranslator.ipynb).
+Translator is accessible to translational science end users via the [Translator user interface](https://ui.transltr.io/). Python-savvy data scientists can try out the [“Hello Translator” Jupyter Notebook](development-guide/HelloTranslator.ipynb).
 
 ### How can I develop software to use and/or contribute to Translator?
 We composed a [set of tutorials](development-guide/tutorials/index.md) for you.
