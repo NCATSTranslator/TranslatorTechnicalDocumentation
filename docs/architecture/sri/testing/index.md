@@ -1,3 +1,4 @@
+[Back to SRI](../index.md)
 # Testing within Translator
 
 The Translator project is first and foremost, an initiative to create a novel complex software system to process biomedical knowledge. Testing of such software may be envisioned and implemented at several distinct levels (enumerated from high-level through low-level testing):
@@ -6,7 +7,7 @@ The Translator project is first and foremost, an initiative to create a novel co
 * **[Quality Assurance Testing](#quality-assurance-testing):** again, with Translator, which is a biomedical (scientific) knowledge navigation, integration and interpretation system, "quality" refers to the scientific completeness, precision and credibility of the semantically encoded results. Tests for "Quality Assurance" may be devised to the query request/response of the system. This kind of testing takes a variety of forms and scopes, and may be known as "smoke testing", "benchmark testing", "pass/fail testing", "quantitative testing", etc.
 * **[User Interface Testing ("UI")](#user-interface-testing):** a software system is only ultimately as useful as the quality, fitness-of-purpose and performance of the human-machine interface. User experience testing and related methodology achieves such testing objectives, in addition to the "Quality Assurance" testing (above) which is directly applied through the UI.
 * **[Continuous integration / Development Operations Testing](#continuous-integration-testing):** as distinct components of a complex multi-component system are deployed into a common (often, containerized) environment to run as an integrated system, unit and component integration tests may be run  automatically to assess compatibility and function of the software component code and its dependencies within the context of the common environment.
-* **[System-level Testing](#system-level-testing):** Translator has evolved into a loosely-coupled web services-integrated system with shared communication syntax/semantics (i.e. TRAPI) and semantics (Biolink Model) standards for interoperability. System level testing validates component compliance with such interoperability standards. In Translator, components are also checked for their integrity of basic knowledge graph navigation performance (e.g. with the [SRI_Testing harness](sri_testing.md)).
+* **[System-level Testing](#system-level-testing):** Translator has evolved into a loosely-coupled web services-integrated system with shared communication syntax/semantics (i.e. TRAPI) and semantics (Biolink Model) standards for interoperability. System level testing validates component compliance with such interoperability standards. In Translator, components are also checked for their integrity of basic knowledge graph navigation performance.
 * **[Unit Tests](#unit-testing):** code testing harnesses of granular tests embedded within a given project using well understood "best practices" applied in a computer language specific manner.
 
 The details for each level of testing are as follows:
@@ -19,7 +20,7 @@ T.B.A. (T.Beck)
 
 ## Quality Assurance Testing
 
-Quality Assurance Testing within Translator is being systematically designed and implemented within a [Translator Testing Framework](https://github.com/NCATSTranslator/TranslatorTesting) which includes a [back-end catalog of testing resources](https://github.com/NCATSTranslator/Tests) of test resources ("assets", "cases", "suites", etc.) which are imported by a Test Documentation Application and which are structured according to a formal [Testing Model Schema](https://github.com/TranslatorSRI/TranslatorTestingModel). 
+Quality Assurance Testing within Translator is being systematically designed and implemented within a [Translator Testing Infrastructure](./sri_testing_infrastructure.md) which includes a [back-end catalog of testing resources](https://github.com/NCATSTranslator/Tests) of test resources ("assets", "cases", "suites", etc.) which are imported by a Test Documentation Application and which are structured according to a formal [Testing Model Schema](https://github.com/TranslatorSRI/TranslatorTestingModel). 
 
 An automated [Test Harness executing a diverse set of Test Runners](https://github.com/TranslatorSRI/TestHarness) is specified, with test runs and results managed by a [Test Manager](https://github.com/TranslatorSRI/TestManager) system wrapping a test results database with service API and "information radiator" UI access.
 
@@ -37,8 +38,6 @@ This level of testing also includes various kinds of system monitoring using [en
 
 The [Reasoner Validator](https://github.com/NCATSTranslator/reasoner-validator) projects cover system-level standards compliance testing for the [Translator Reasoner Application Programming Interface (TRAPI)](https://github.com/NCATSTranslator/ReasonerAPI) and validates compliance of data flows to the [Biolink Model](https://github.com/biolink/biolink-model).  
  
-One level above the **reasoner-validator** is [SRI Testing](sri_testing.md) which attempts validation of the semantic sensitivity and specificity of knowledge graph queries, alongside compliance with TRAPI and Biolink Model standards.
-
 The tools of this System-Level testing may be run on an ad hoc basis by developers to test their compliance with Translator standards, and may also be included as a part of the Continuous Integration and the Quality Assurance levels of testing (see above)
 
 ## Unit Testing
